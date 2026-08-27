@@ -1,0 +1,192 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link [ref=e5] [cursor=pointer]:
+      - /url: https://hris.dlhk.arkamaya.net/dashboard
+    - navigation [ref=e7]:
+      - generic [ref=e8]:
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - button "" [ref=e11] [cursor=pointer]:
+              - generic [ref=e12]: 
+          - listitem [ref=e13]:
+            - link "UPT Pengelolaan Sampah Kota Bandung" [ref=e14] [cursor=pointer]:
+              - /url: https://hris.dlhk.arkamaya.net/
+        - list [ref=e15]:
+          - listitem [ref=e16]:
+            - link "ARK 1423123" [ref=e17] [cursor=pointer]:
+              - /url: javascript:;
+              - text: ARK
+              - superscript [ref=e18]: "1423123"
+          - listitem [ref=e19]:
+            - link "profile-image" [expanded] [ref=e20] [cursor=pointer]:
+              - /url: javascript:;
+              - img "profile-image" [ref=e21]
+            - text:   
+  - list [ref=e25]:
+    - listitem: Navigasi
+    - listitem [ref=e26]:
+      - link " Personalia " [ref=e27] [cursor=pointer]:
+        - /url: javascript:void(0);
+        - generic [ref=e28]: 
+        - text: Personalia
+        - generic [ref=e29]: 
+      - list [ref=e30]:
+        - listitem [ref=e31]:
+          - link "Dasbor Personalia" [ref=e32] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/dashboard
+        - listitem [ref=e33]:
+          - link "Dasbor KPI" [ref=e34] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/dashboard_kpi
+        - listitem [ref=e35]:
+          - link "Dasbor Kubikasi" [ref=e36] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/waste_volume
+        - listitem [ref=e37]:
+          - link "Data Pegawai" [ref=e38] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/employee
+        - listitem [ref=e39]:
+          - link "Jabatan" [ref=e40] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/position
+        - listitem [ref=e41]:
+          - link "Golongan" [ref=e42] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/role
+        - listitem [ref=e43]:
+          - link "Area Kerja" [ref=e44] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/work_unit
+        - listitem [ref=e45]:
+          - link "Penggajian" [ref=e46] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/payroll
+        - listitem [ref=e47]:
+          - link "Berita" [ref=e48] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/announce
+        - listitem [ref=e49]:
+          - link "Warning Letter" [ref=e50] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/warningletter
+        - listitem [ref=e51]:
+          - link "Kegiatan Perusahaan" [ref=e52] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/activity
+        - listitem [ref=e53]:
+          - link "Unit Kerja" [ref=e54] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/bagian
+        - listitem [ref=e55]:
+          - link "Tunjangan" [ref=e56] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/allowance
+        - listitem [ref=e57]:
+          - link "Surat Perintah Lembur" [ref=e58] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/spl
+    - listitem [ref=e59]:
+      - link " Layanan Mandiri " [ref=e60] [cursor=pointer]:
+        - /url: javascript:void(0);
+        - generic [ref=e61]: 
+        - text: Layanan Mandiri
+        - generic [ref=e62]: 
+    - listitem [ref=e63]:
+      - link " Proyek & Tugas " [ref=e64] [cursor=pointer]:
+        - /url: javascript:void(0);
+        - generic [ref=e65]: 
+        - text: Proyek & Tugas
+        - generic [ref=e66]: 
+    - listitem [ref=e67]:
+      - link " Pengaturan " [ref=e68] [cursor=pointer]:
+        - /url: javascript:void(0);
+        - generic [ref=e69]: 
+        - text: Pengaturan
+        - generic [ref=e70]: 
+    - listitem [ref=e71]:
+      - link " Laporan " [ref=e72] [cursor=pointer]:
+        - /url: javascript:void(0);
+        - generic [ref=e73]: 
+        - text: Laporan
+        - generic [ref=e74]: 
+  - generic [ref=e75]:
+    - generic [ref=e77]:
+      - generic [ref=e80]:
+        - heading "Kubikasi" [level=4] [ref=e81]
+        - list [ref=e82]:
+          - listitem [ref=e83]: Personalia
+          - listitem [ref=e84]: / Kubikasi
+      - generic [ref=e88]:
+        - generic [ref=e89]:
+          - generic [ref=e90]:
+            - heading "Dashboard Ringkas Kubikasi" [level=4] [ref=e91]
+            - generic [ref=e92]: Grafik area kerja berdasarkan data bulan Agustus 2026.
+          - generic [ref=e93]:
+            - textbox "mm/yyyy" [ref=e95]: 08/2026
+            - button "Sembunyikan Dashboard" [ref=e96] [cursor=pointer]
+        - generic [ref=e98]:
+          - generic [ref=e100]:
+            - generic [ref=e101]: Tren Volume Bulanan
+            - generic [ref=e152]:
+              - generic [ref=e154]
+              - table [ref=e165]
+          - generic [ref=e104]:
+            - generic [ref=e105]: Kontribusi Volume per Area Kerja
+            - generic [ref=e172]: Belum ada data kontribusi area kerja.
+          - generic [ref=e108]:
+            - generic [ref=e109]: Distribusi P1-P4 per Area Kerja
+            - generic [ref=e173]: Belum ada data distribusi periode.
+      - button " Upload Kubikasi" [ref=e113] [cursor=pointer]:
+        - generic [ref=e114]: 
+        - text: Upload Kubikasi
+      - generic [ref=e118]:
+        - generic [ref=e119]:
+          - generic [ref=e122]:
+            - text: Per
+            - combobox "Per Baris" [ref=e123]:
+              - option "25" [selected]
+              - option "50"
+              - option "100"
+              - option "200"
+              - option "All"
+            - text: Baris
+          - generic [ref=e126]:
+            - text: Cari
+            - searchbox "Cari" [ref=e127]
+        - grid [ref=e130]:
+          - rowgroup [ref=e174]:
+            - row "2026 SWK Karees Gaspul 11 4 2275 8.26 8.26 0 0 16.52 2026-06-09 06:05:32" [ref=e175]:
+              - gridcell "2026" [ref=e176]
+              - gridcell "SWK Karees Gaspul" [ref=e177]
+              - gridcell "11" [ref=e179]
+              - gridcell "4" [ref=e180]
+              - gridcell "2275" [ref=e181]
+              - gridcell "8.26" [ref=e182]
+              - gridcell "8.26" [ref=e183]
+              - gridcell "0" [ref=e184]
+              - gridcell "0" [ref=e185]
+              - gridcell "16.52" [ref=e186]
+              - gridcell "2026-06-09 06:05:32" [ref=e187]
+          - rowgroup [ref=e131]:
+            - row "Bulan Bagian Jumlah Area Kerja Gaspul Distant P1 P2 P3 P4 Total Update Terakhir" [ref=e132]:
+              - columnheader "Bulan" [ref=e133]
+              - columnheader "Bagian" [ref=e134]
+              - columnheader "Jumlah Area Kerja" [ref=e135]
+              - columnheader "Gaspul" [ref=e136]
+              - columnheader "Distant" [ref=e137]
+              - columnheader "P1" [ref=e138]
+              - columnheader "P2" [ref=e139]
+              - columnheader "P3" [ref=e140]
+              - columnheader "P4" [ref=e141]
+              - columnheader "Total" [ref=e142]
+              - columnheader "Update Terakhir" [ref=e143]
+        - generic [ref=e145]:
+          - status [ref=e147]: Menampilkan 1 - 1 dari 1 baris
+          - list [ref=e189]:
+            - listitem:
+              - link "Awal" [ref=e190]:
+                - /url: "#"
+            - listitem:
+              - link "Mundur" [ref=e191]:
+                - /url: "#"
+            - listitem:
+              - link "1" [ref=e192]:
+                - /url: "#"
+            - listitem:
+              - link "Maju" [ref=e193]:
+                - /url: "#"
+            - listitem:
+              - link "Akhir" [ref=e194]:
+                - /url: "#"
+    - contentinfo [ref=e149]:
+      - text: © 2017
+      - link "Personalia.id" [ref=e150] [cursor=pointer]:
+        - /url: https://www.personalia.id

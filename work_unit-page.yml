@@ -1,0 +1,224 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link [ref=e5] [cursor=pointer]:
+      - /url: https://hris.dlhk.arkamaya.net/dashboard
+    - navigation [ref=e7]:
+      - generic [ref=e8]:
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - button "" [ref=e11] [cursor=pointer]
+          - listitem [ref=e13]:
+            - link "UPT Pengelolaan Sampah Kota Bandung" [ref=e14] [cursor=pointer]:
+              - /url: https://hris.dlhk.arkamaya.net/
+        - list [ref=e15]:
+          - listitem [ref=e16]:
+            - link "ARK 1423123" [ref=e17] [cursor=pointer]:
+              - /url: javascript:;
+          - listitem [ref=e19]:
+            - link "profile-image" [expanded] [ref=e20] [cursor=pointer]:
+              - /url: javascript:;
+            - text:   
+  - list [ref=e25]:
+    - listitem: Navigasi
+    - listitem [ref=e26]:
+      - link " Personalia " [ref=e27] [cursor=pointer]:
+        - /url: javascript:void(0);
+        - generic [ref=e28]: 
+        - text: Personalia
+        - generic [ref=e29]: 
+      - list [ref=e30]:
+        - listitem [ref=e31]:
+          - link "Dasbor Personalia" [ref=e32] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/dashboard
+        - listitem [ref=e33]:
+          - link "Dasbor KPI" [ref=e34] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/dashboard_kpi
+        - listitem [ref=e35]:
+          - link "Dasbor Kubikasi" [ref=e36] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/waste_volume
+        - listitem [ref=e37]:
+          - link "Data Pegawai" [ref=e38] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/employee
+        - listitem [ref=e39]:
+          - link "Jabatan" [ref=e40] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/position
+        - listitem [ref=e41]:
+          - link "Golongan" [ref=e42] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/role
+        - listitem [ref=e43]:
+          - link "Area Kerja" [ref=e44] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/work_unit
+        - listitem [ref=e45]:
+          - link "Penggajian" [ref=e46] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/payroll
+        - listitem [ref=e47]:
+          - link "Berita" [ref=e48] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/announce
+        - listitem [ref=e49]:
+          - link "Warning Letter" [ref=e50] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/warningletter
+        - listitem [ref=e51]:
+          - link "Kegiatan Perusahaan" [ref=e52] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/activity
+        - listitem [ref=e53]:
+          - link "Unit Kerja" [ref=e54] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/bagian
+        - listitem [ref=e55]:
+          - link "Tunjangan" [ref=e56] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/allowance
+        - listitem [ref=e57]:
+          - link "Surat Perintah Lembur" [ref=e58] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/spl
+    - listitem [ref=e59]:
+      - link " Layanan Mandiri " [ref=e60] [cursor=pointer]:
+        - /url: javascript:void(0);
+        - generic [ref=e61]: 
+        - text: Layanan Mandiri
+        - generic [ref=e62]: 
+    - listitem [ref=e63]:
+      - link " Proyek & Tugas " [ref=e64] [cursor=pointer]:
+        - /url: javascript:void(0);
+        - generic [ref=e65]: 
+        - text: Proyek & Tugas
+        - generic [ref=e66]: 
+    - listitem [ref=e67]:
+      - link " Pengaturan " [ref=e68] [cursor=pointer]:
+        - /url: javascript:void(0);
+        - generic [ref=e69]: 
+        - text: Pengaturan
+        - generic [ref=e70]: 
+    - listitem [ref=e71]:
+      - link " Laporan " [ref=e72] [cursor=pointer]:
+        - /url: javascript:void(0);
+        - generic [ref=e73]: 
+        - text: Laporan
+        - generic [ref=e74]: 
+  - generic [ref=e75]:
+    - generic [ref=e77]:
+      - generic [ref=e80]:
+        - heading "Area Kerja" [level=4] [ref=e81]
+        - list [ref=e82]:
+          - listitem [ref=e83]: Personalia
+          - listitem [ref=e84]: / Area Kerja
+      - button " Buat Area Kerja" [ref=e88] [cursor=pointer]:
+        - generic [ref=e89]: 
+        - text: Buat Area Kerja
+      - generic [ref=e93]:
+        - generic [ref=e94]:
+          - generic [ref=e97]:
+            - text: Per
+            - combobox "Per Baris" [ref=e98]
+            - text: Baris
+          - generic [ref=e101]:
+            - text: Cari
+            - searchbox "Cari" [ref=e102]
+        - grid [ref=e105]:
+          - rowgroup [ref=e122]:
+            - row "(BSI) TPS SADANG SERANG Jl. Sadang Tengah No.6 Sekeloa Coblong -6.890418678293644 107.62522727251053 - 9" [ref=e123]
+            - row "(MALEER) SWK Karees dan SWK Kordoba (Staf) Jl. Maleer Indah II -6.926712666437744 107.63828741795359 - 25" [ref=e131]
+            - row "Bidang Teknik Gang Kina Gg. Kina No.12, Pasir Kaliki, Kec. Cicendo, Kota Bandung, Jawa Barat 40171 -6.908395260886541 107.60253778603675 - 2" [ref=e139]
+            - row "BJ1A Jl.Rajawali Timur No 28 (Aura CCTV Security) -6.916111839881956 107.58781097591884 HENDRAWAN 18" [ref=e147]
+            - row "BJ2A Halte trans metro pasundan-Mayapada -6.919382796800296 107.5917412340641 MOCHAMAD GANJAR NURHADI 19" [ref=e155]
+            - row "BJ3A Jl.Babatan (TPS 3R Kebon Jeruk Beriman) -6.9186255711931794 107.6011145186759 EDI RAHMAT 19" [ref=e163]
+            - row "BJ4A Jl.Pajajaran (Alfamart) -6.906894545164614 107.59960303784764 DADDY KORNELIS AL KHATTAB 15" [ref=e171]
+            - row "BJ5A Jl.Dr.Rajiman (Depan Dinas Pendidikan Prov Jabar) -6.904211355936435 107.60025115054815 ACHMAD SUTISNA 18" [ref=e179]
+            - row "BJ5B Gg.Kina (PDK) -6.908483016951145 107.60257601737976 AGUNG JULIAN HAMDANI 13" [ref=e187]
+            - row "BJ6A Jl.Sukajadi (Pasar Bison) -6.892422322979781 107.59705542156627 TAPIP HIDAYAT 17" [ref=e195]
+            - row "BJ7A Jl.Sukajadi (Taman Angklung) -6.877951782316691 107.59605222141936 ASEP UDIN 17" [ref=e203]
+            - row "BJ8A Jl. RAJAWALI BARAT (SPBU RAJAWALI) -6.91279271401791 107.5748450051543 ABAR SURJAMIN 16" [ref=e211]
+            - row "BJ9A Jl.dr. djunjunan (depan toko quran cordoba) -6.899541098043545 107.59509941253384 JENI ARIPIN 11" [ref=e219]
+            - row "CB10A Jl.A.Yani (Pasar Kosambi) -6.919888900986708 107.62203032559081 WAWAN SETIAWAN 22" [ref=e227]
+            - row "CB11A Jl.Wastukencana (Mesjid Al Ukhuwah) -6.9105117889328875 107.60882025129293 TEDI SURYADI 20" [ref=e235]
+            - row "CB11B Jl.Dr.Ir.Sukarno (Plaza cikapundung river spot) -6.920172297798727 107.60885797640672 ACA SURYANA 16" [ref=e243]
+            - row "CB1A Jl.Cihampelas (Basecamp Cilur) -6.885137987419917 107.60452683486024 ROMI ROMANSYAH 15" [ref=e251]
+            - row "CB2A Jl.SILIWANGI (Arya Kitchen) -6.88501851559846 107.60882787418424 ENJANG 14" [ref=e259]
+            - row "CB3A Jl.Ir.H.Juanda (Apotek kf 687 Dago UNPAD) -6.882786220135607 107.6152213956684 UNDANG HIDAYAT 22" [ref=e267]
+            - row "CB3B Cikapayang Dago Park -6.898687991984348 107.61247824615195 YANTO TIANTO 12" [ref=e275]
+            - row "CB4A Jl.A.Yani (Gateway Cicadas) -6.907253442010863 107.64576788612429 RIDWAN APANDI 17" [ref=e283]
+            - row "CB5A JL. Phh. Mustofa (Depan Hotel Posters) -6.8988399054811635 107.63837734701116 A. DEDE 16" [ref=e291]
+            - row "CB5B Jl.Surapati (Masjid Pusdai) -6.900161520183552 107.62594346561211 DATIM ABDUL MUKHLIS 13" [ref=e299]
+            - row "CB6A Jl. SUPRATMAN ALFAMART -6.901384664271789 107.62671590094268 UTIS SUTISNA 14" [ref=e307]
+            - row "CB7A Jl.Tronojoyo ( Taman Tugu Fahombo) -6.901425674790415 107.61574597039866 - 22" [ref=e315]
+            - row "CB7B Jl.Lombok (KFC Riau BDG) -6.906220061154273 107.62116507134249 ELAN RUSLAN 17" [ref=e323]
+            - row "CB8A Jl. Ranggagading - Taman Radio -6.902572838173835 107.61084763657878 IKI KUSWANDI 19" [ref=e331]
+            - row "CB9A Jl. Belitung (Kantor Kesehatan Kodiklat TNI-AD) -6.911513984483699 107.61633251154176 YUDI RAHMADAN 17" [ref=e339]
+            - row "GG. Kina - SWK Bojonegara - -6.908187153572468 107.60308182337349 - 12" [ref=e347]
+            - row "Jl. Balong Gede (area parkir Alfamart) - -6.9264740527903035 107.60702744513712 - 2" [ref=e355]
+            - row "KA1A Jl. Ibrahim Adjie (BTM Center) -6.911571959620387 107.6436858599595 - 17" [ref=e363]
+            - row "KA2A JL.IBRAHIM ADJIE(POLSEK KIRCON) -6.926664303182957 107.64473771009744 JESI WARDIYANA HENDRIX 20" [ref=e371]
+            - row "KA3A Jl. Dalem Kaum (Wisma Bandung Juara) (SHIFT A) -6.922666500255309 107.60708256295847 HENDRA HARI PURNAMA 20" [ref=e379]
+            - row "KA3B Jl. Dalem Kaum (Wisma Bandung Juara) (SHIFT B) -6.922667133402375 107.6070891544481 USEP ISKANDAR 13" [ref=e387]
+            - row "KA3C Jl. Alun-Alun Timur (area) -6.921978468210904 107.60757113095345 - 13" [ref=e395]
+            - row "KA4A Jl. Ibu Inggit Garnasih No.58 (sebelah bank bri,kcp kebon kelapa) -6.931801687426653 107.60572837304126 PERI SANDRIA 17" [ref=e403]
+            - row "KA4B Jl. Ibu Inggit Garnasih (gema computer accesoris) -6.931661532888023 107.60540035259946 RUKMANA 13" [ref=e411]
+            - row "KA5A Jl. Lodaya No. 22 (Gedung pssi) -6.930402272802817 107.62026794133588 WILGAT IKA 20" [ref=e419]
+            - row "KA6A Jl.Cianjur(DiciptabintarBdg) -6.916860717315489 107.63341200195303 ASEP RUSTANDI 18" [ref=e427]
+            - row "KA6B Jl.Cianjur(DiciptabintarBdg) (SHIFT B) -6.915978581770933 107.63364035822585 RAMDAN JUHARI 12" [ref=e435]
+            - row "KA7A Jl. Buah Batu (Depan Kampus ISBI) -6.942788084294591 107.62817536844774 TANTAN SURYANA 19" [ref=e443]
+            - row "Kantor Pusat Jl. Surapati No.126 -6.898161477997748 107.63370372354984 - 187" [ref=e451]
+            - row "Kantor Pusat (pindah) Kantor Pusat -6.898159480902973 107.63370037078857 - 25" [ref=e459]
+            - row "Kantor Test - - - - 0" [ref=e467]
+            - row "KO1A Jl.Terusan Buah Batu (Gerbang Tol Buah Batu) -6.952437542400732 107.63794073128702 AGUS FAUZAN 22" [ref=e475]
+            - row "KO2A Jl.Ibrahim Adjie ( Jl.Terusan Kiaracondong SAMSAT) -6.945642617855233 107.6419007267673 USEP SUPRIATNA 19" [ref=e483]
+            - row "KO3A JL.Ciwastra (SPBU Pertamina 34-40211) -6.956155953721267 107.65546539816975 CECEP HIDAYAT 10" [ref=e491]
+            - row "KO4A Jl.Raya Derwati (Taman Derwati) -6.964798651910815 107.68126349989079 RUSLAN 13" [ref=e499]
+            - row "KO5A JL.RANCANUMPANG GBLA -6.966482863354184 107.70551696681787 EDI JUNAEDI 7" [ref=e507]
+            - row "KO6A Jl.Gerbang Biru (Gerbang Biru Utama) GBLA -6.956678078131414 107.71081707745745 YUSMAN 11" [ref=e515]
+            - row "Koprasi Sadang serang Koprasi Sadang serang -6.891809925938378 107.62918089335227 - 4" [ref=e523]
+            - row "PDU CICABE PDU -6.8982399130355345 107.66294862837873 - 5" [ref=e531]
+            - row "Pengelolaan Sampah-Babakan sari Bidang Pengelolaan Sampah Babakan Sari -6.922366862066847 107.64965165697677 - 36" [ref=e539]
+            - row "PK2 Rumah Dinas (rumdin) -6.950341253820871 107.6017380434195 - 101" [ref=e547]
+            - row "PRH Arjuna PRH Arjuna -6.912167966078087 107.58923625733821 - 0" [ref=e555]
+            - row "Rumah Dika Testing untuk lokasi kerja -6.834890583027636 107.58564129280052 - 0" [ref=e563]
+            - row "SWK Cibeunying - Sadang Serang JL. SADANG SERANG NO 10 -6.891154620330919 107.62605346272537 - 95" [ref=e571]
+            - row "SWK Kordoba dan SWK Karees Jl. Maleer Indah II -6.926713130221011 107.63828570259386 - 119" [ref=e579]
+            - row "SWK Tegalega - Caringin Jl. Caringin, Kec. Bandung Kulon, Kota Bandung, Jawa Barat 40212 -6.937801481346553 107.56847290322185 - 118" [ref=e587]
+            - row "SWK Ubermanik - Pasir Impun JL. Pasir Impun, Kec. Mandalajati, Kota Bandung, Jawa Barat 40195 -6.89115628344155 107.67905384302139 - 59" [ref=e595]
+            - row "Taman Tegalega Taman Tegalega -6.936347227828167 107.60557892459488 - 5" [ref=e603]
+            - row "TD Suci TD Suci -6.900934103123705 107.64527946710587 - 2" [ref=e611]
+            - row "TG1A JL. PANJUNAN (Hotel Grand Tulip) -6.929892903743526 107.59738999997889 ACEP DARMAWAN 16" [ref=e619]
+            - row "TG2A JL.Jamika (Samping Buryam Pak Ade) -6.921838687395936 107.58585443028525 AHMAD MUHAMAD 16" [ref=e627]
+            - row "TG3A JL.Bojong Raya (Matabak Jayaraga) -6.927468426092832 107.56770279761824 SAEPULOH 13" [ref=e635]
+            - row "TG4A Jl.Soekarno Hatta (Dishub Kota Bandung) -6.946437446345046 107.59333848953247 NIZAR GINANJAR 19" [ref=e643]
+            - row "TG5A JL.Moh.Toha ( PT.Inti Persero) -6.939142624581507 107.60637792129077 AEP SURYANA 19" [ref=e651]
+            - row "TG6A JL.Peta (Warteg Bahari Pos Gatur ) -6.936913953109172 107.59514040249115 BUDIYONO 15" [ref=e659]
+            - row "TG7A JL.Leuwi Panjang ( SD Muhammadiyah 5) -6.940174268348617 107.59658544010867 EMPI SOPIAN 11" [ref=e667]
+            - row "TG7B Jl. Kopo (Depan Kantor Pospay) -6.944696412369036 107.59041505512587 TIA HARYANI RIANTI 9" [ref=e675]
+            - row "TG8A Jl.Astana Anyar NO.39 ( Amary Family Reflexology -6.9224473199721555 107.59859969465599 AEP SAEPUDIN 14" [ref=e683]
+            - row "TG9A Jl.holis (Depan Mesjid Al Muhsinin No.402) -6.93805692933258 107.56972022789898 YADI SURYADI 11" [ref=e691]
+            - row "Tidak Ada - -4.065209931586096 106.4612825876145 - 324" [ref=e699]
+            - row "TPA Jelekong TPA jelekong -7.031802059502386 107.66941130161285 - 5" [ref=e707]
+            - row "TPA Sarimukti TPA Sarimukti -6.797090428817907 107.35016372054815 - 4" [ref=e715]
+            - row "TPS PASIR LUYU PENGELOLAAN SAMPAH -6.949009276773523 107.6215994313054 - 1" [ref=e723]
+            - row "TPS Cibatu TPS Cibatu antapani -6.91581128720731 107.66547654342014 - 2" [ref=e731]
+            - row "TPS Ciwastra TPS Ciwastra -6.962074124958518 107.66603289172053 - 2" [ref=e739]
+            - row "TPS GEDE BAGE GEDE BAGE -6.961276302840362 107.71441119353192 - 1" [ref=e747]
+            - row "TPS Indramayu jl. Indramayu Antapani -6.917613446924029 107.65748620033264 - 4" [ref=e755]
+            - row "TPS Kobana TPS Tegalega -6.933167576858836 107.60642139061116 - 0" [ref=e763]
+            - row "UB1A Jl.Kaum Wetan ( Alun-Alun Ubermanik) -6.913781270278694 107.70122052949772 DENDI SETIADI 21" [ref=e771]
+            - row "UB2A Jl.Soekarno Hatta (RM Riung Panyileukan) -6.93632375294616 107.70024071680382 AGUS RAMDANI 15" [ref=e779]
+            - row "UB3A Jl.A.H.Nasution ( LAPAS Kelas 1 Sukamiskin) -6.904994204797282 107.67551716725019 DODI KURNIWA 20" [ref=e787]
+            - row "UB4A Jl.Terusan Jakarta (TPS Subang) -6.912570394844312 107.65519418473936 PRIATNA 18" [ref=e795]
+            - 'row "UB5A Jl.A.H.Nasution { SD 172 ANDIR (andir kidul)} -6.913816444979958 107.69553065299988 RUSNA MUSTOFA 15" [ref=e803]'
+            - row "UB6B Jl.Alun-Alun Utara ( Sekretariat Persatuan Pensiunan Telkom) -6.913304126862302 107.70143497970587 SUHERMAN 15" [ref=e811]
+            - row "Wil. Bandung Barat Wil. Bandung Barat -6.937167430564823 107.56818291355984 - 3" [ref=e819]
+            - row "Wil. Bandung Selatan dan Pelsus sekelimus -6.949369753453175 107.63669804912897 - 2" [ref=e827]
+            - row "Wil.Bandung Timur Wil.Bandung Timur -6.8908853361631595 107.67947012622969 - 1" [ref=e835]
+            - row "Wil.Bandung Utara Wil.Bandung Utara -6.890737383049383 107.6270340537137 - 2" [ref=e843]
+          - rowgroup [ref=e106]:
+            - row "Nama Deskripsi Latitude Longitude Kepala Zona Jumlah Pegawai" [ref=e107]
+        - generic [ref=e115]:
+          - status [ref=e117]: Menampilkan 1 - 25 dari 91 baris
+          - list [ref=e852]:
+            - listitem
+            - listitem
+            - listitem
+            - listitem
+            - listitem
+            - listitem
+            - listitem
+            - listitem
+    - contentinfo [ref=e119]:
+      - text: © 2017
+      - link "Personalia.id" [ref=e120] [cursor=pointer]:
+        - /url: https://www.personalia.id

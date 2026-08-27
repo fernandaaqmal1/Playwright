@@ -1,0 +1,3 @@
+[     313ms] [ERROR] Loading the script 'https://www.googletagmanager.com/gtag/js?id=G-FFH1158H9W' violates the following Content Security Policy directive: "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://maps.googleapis.com/ *.tawk.to cdn.jsdelivr.net". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The action has been blocked. @ https://hris.wit.arkamaya.net/employee:0
+[     381ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://embed.tawk.to/5754f89a8e99d8cc69804773/1h7uidgpd:0
+[   12827ms] [LOG] https://hris.wit.arkamaya.net/employee/download_excel @ https://hris.wit.arkamaya.net/jsapp/employee.js?v=20260806113029:370

@@ -1,0 +1,3 @@
+[     145ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://hris.dlhk.arkamaya.net/login:0
+[   87581ms] [LOG] masuk1 @ https://hris.dlhk.arkamaya.net/jsapp/login.js:3
+[   87585ms] [LOG] masuk2 @ https://hris.dlhk.arkamaya.net/jsapp/login.js:7

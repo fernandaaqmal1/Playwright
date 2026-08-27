@@ -1,0 +1,6 @@
+[     500ms] Unexpected token ','
+[    1221ms] [WARNING] Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading @ https://maps.googleapis.com/maps/api/js?key=AIzaSyC2RD6LA72_zz5MfI8gL-W5sa2JXBRW5RQ&callback=initMap:328
+[    1410ms] Uncaught (in promise) InvalidValueError: initMap is not a function
+    at _.Kl (https://maps.googleapis.com/maps/api/js?key=AIzaSyC2RD6LA72_zz5MfI8gL-W5sa2JXBRW5RQ&callback=initMap:204:122)
+    at Yga (https://maps.googleapis.com/maps/api/js?key=AIzaSyC2RD6LA72_zz5MfI8gL-W5sa2JXBRW5RQ&callback=initMap:333:104)
+    at <anonymous> (https://maps.googleapis.com/maps/api/js?key=AIzaSyC2RD6LA72_zz5MfI8gL-W5sa2JXBRW5RQ&callback=initMap:332:139)

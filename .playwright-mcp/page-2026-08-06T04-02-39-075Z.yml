@@ -1,0 +1,24 @@
+- generic [ref=e7]:
+  - generic [ref=e8]:
+    - link [ref=e9] [cursor=pointer]:
+      - /url: https://dev-hr-tintin.wit.id
+    - heading [level=5]
+  - generic [ref=e11]:
+    - generic [ref=e12]:
+      - textbox "Email / Nomor Induk Karyawan" [ref=e15]
+      - generic [ref=e17]:
+        - textbox "Kata Sandi" [ref=e18]
+        - generic [ref=e20] [cursor=pointer]: 
+      - button "Masuk" [ref=e23] [cursor=pointer]
+      - link " Lupa Kata Sandi" [ref=e26] [cursor=pointer]:
+        - /url: https://hris.wit.arkamaya.net/forgot_password
+        - generic [ref=e27]: 
+        - text: Lupa Kata Sandi
+    - paragraph [ref=e30]: © 2026
+    - generic [ref=e31]:
+      - link "Play Store" [ref=e33] [cursor=pointer]:
+        - /url: https://play.google.com/store/apps/details?id=com.personalia.wit.tintin&pcampaignid=web_share
+        - img "Play Store" [ref=e34]
+      - link "App Store" [ref=e36] [cursor=pointer]:
+        - /url: ""
+        - img "App Store" [ref=e37]

@@ -1,0 +1,659 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link [ref=e5] [cursor=pointer]:
+        - /url: https://hris.dlhk.arkamaya.net/dashboard
+      - navigation [ref=e7]:
+        - generic [ref=e8]:
+          - list [ref=e9]:
+            - listitem [ref=e10]:
+              - button "" [ref=e11] [cursor=pointer]:
+                - generic [ref=e12]: 
+            - listitem [ref=e13]:
+              - link "UPT Pengelolaan Sampah Kota Bandung" [ref=e14] [cursor=pointer]:
+                - /url: https://hris.dlhk.arkamaya.net/
+          - list [ref=e15]:
+            - listitem [ref=e16]:
+              - link "ARK 1423123" [ref=e17] [cursor=pointer]:
+                - /url: javascript:;
+                - text: ARK
+                - superscript [ref=e18]: "1423123"
+            - listitem [ref=e19]:
+              - link "profile-image" [expanded] [ref=e20] [cursor=pointer]:
+                - /url: javascript:;
+                - img "profile-image" [ref=e21]
+              - text:   
+    - list [ref=e26]:
+      - listitem: Navigasi
+      - listitem [ref=e27]:
+        - link " Personalia " [ref=e28] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - generic [ref=e29]: 
+          - text: Personalia
+          - generic [ref=e30]: 
+      - listitem [ref=e31]:
+        - link " Layanan Mandiri " [ref=e32] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - generic [ref=e33]: 
+          - text: Layanan Mandiri
+          - generic [ref=e34]: 
+      - listitem [ref=e35]:
+        - link " Proyek & Tugas " [ref=e36] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - generic [ref=e37]: 
+          - text: Proyek & Tugas
+          - generic [ref=e38]: 
+      - listitem [ref=e39]:
+        - link " Pengaturan " [ref=e40] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - generic [ref=e41]: 
+          - text: Pengaturan
+          - generic [ref=e42]: 
+      - listitem [ref=e43]:
+        - link " Laporan " [ref=e44] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - generic [ref=e45]: 
+          - text: Laporan
+          - generic [ref=e46]: 
+        - list [ref=e47]:
+          - listitem [ref=e48]:
+            - link "Laporan Foto" [ref=e49] [cursor=pointer]:
+              - /url: https://hris.dlhk.arkamaya.net/report_photo
+          - listitem [ref=e50]:
+            - link "Laporan Potongan" [ref=e51] [cursor=pointer]:
+              - /url: https://hris.dlhk.arkamaya.net/report_potongan
+    - generic [ref=e52]:
+      - generic [ref=e54]:
+        - generic [ref=e58]:
+          - generic [ref=e59]:
+            - heading "Laporan Pemotongan" [level=4] [ref=e60]
+            - paragraph [ref=e61]: "Periode: 21/07/2026 - 20/08/2026 | Semua Unit Kerja | Semua Area Kerja | Search: - | Hanya Kena Potongan: Tidak"
+          - generic [ref=e62]:
+            - button " Filter" [ref=e63] [cursor=pointer]:
+              - generic [ref=e64]: 
+              - text: Filter
+            - button " Manual TB" [ref=e65] [cursor=pointer]:
+              - generic [ref=e66]: 
+              - text: Manual TB
+            - button " Download Excel" [ref=e67] [cursor=pointer]:
+              - generic [ref=e68]: 
+              - text: Download Excel
+        - generic [ref=e69]:
+          - generic [ref=e71]:
+            - heading "Total Pegawai" [level=4] [ref=e72]
+            - generic [ref=e73]: "1699"
+          - generic [ref=e75]:
+            - heading "Pegawai Kena Potongan" [level=4] [ref=e76]
+            - generic [ref=e77]: "0"
+          - generic [ref=e79]:
+            - heading "Total Akumulasi Potongan" [level=4] [ref=e80]
+            - generic [ref=e81]: 0%
+          - generic [ref=e83]:
+            - heading "Rata-rata Potongan" [level=4] [ref=e84]
+            - generic [ref=e85]: 0%
+          - generic [ref=e87]:
+            - heading "Total TB" [level=4] [ref=e88]
+            - generic [ref=e89]: "0"
+          - generic [ref=e91]:
+            - heading "Total Luar Area" [level=4] [ref=e92]
+            - generic [ref=e93]: "0"
+        - generic [ref=e96]:
+          - heading "Total Jam Keterlambatan" [level=4] [ref=e97]
+          - generic [ref=e98]: 0 jam 0 menit
+        - generic [ref=e101]:
+          - generic [ref=e102]:
+            - generic [ref=e103]:
+              - generic [ref=e104]: Cari Nama / No Reg
+              - generic [ref=e105]:
+                - textbox "Cari nama atau no reg" [ref=e106]
+                - button "Cari" [ref=e108] [cursor=pointer]
+            - generic [ref=e109]:
+              - generic [ref=e110]: Filter Tambahan
+              - generic [ref=e111]:
+                - checkbox "Hanya yang kena potongan" [ref=e112] [cursor=pointer]
+                - generic [ref=e113] [cursor=pointer]: Hanya yang kena potongan
+            - button "Reset Search" [ref=e117] [cursor=pointer]
+          - generic [ref=e118]:
+            - generic [ref=e122]:
+              - text: Per
+              - combobox "Per Baris" [ref=e123]:
+                - option "10"
+                - option "25" [selected]
+                - option "50"
+                - option "100"
+                - option "All"
+              - text: Baris
+            - grid [ref=e127]:
+              - rowgroup [ref=e128]:
+                - row "1 1819 1 032020 07051998 A ZAENAL MUTAQIN SWK Kordoba Gaspul KO4A 0 jam 0 menit 0% 0 0% 0 0% Tidak Ada Potongan 0%  Detail" [ref=e129]:
+                  - gridcell "1" [ref=e130]
+                  - gridcell "1819 1 032020 07051998" [ref=e131]
+                  - gridcell "A ZAENAL MUTAQIN" [ref=e132]
+                  - gridcell "SWK Kordoba Gaspul" [ref=e133]
+                  - gridcell "KO4A" [ref=e134]
+                  - gridcell "0 jam 0 menit" [ref=e135]
+                  - gridcell "0%" [ref=e136]
+                  - gridcell "0" [ref=e137]
+                  - gridcell "0%" [ref=e138]
+                  - gridcell "0" [ref=e139]
+                  - gridcell "0%" [ref=e140]
+                  - gridcell "Tidak Ada Potongan" [ref=e141]
+                  - gridcell "0%" [ref=e142]:
+                    - strong [ref=e143]: 0%
+                  - gridcell " Detail" [ref=e144]:
+                    - button " Detail" [ref=e145] [cursor=pointer]:
+                      - generic [ref=e146]: 
+                      - text: Detail
+                - row "2 0062 1 102020 12041986 A. DEDE SWK Cibeunying Gaspul CB5A 0 jam 0 menit 0% 0 0% 0 0% Tidak Ada Potongan 0%  Detail" [ref=e147]:
+                  - gridcell "2" [ref=e148]
+                  - gridcell "0062 1 102020 12041986" [ref=e149]
+                  - gridcell "A. DEDE" [ref=e150]
+                  - gridcell "SWK Cibeunying Gaspul" [ref=e151]
+                  - gridcell "CB5A" [ref=e152]
+                  - gridcell "0 jam 0 menit" [ref=e153]
+                  - gridcell "0%" [ref=e154]
+                  - gridcell "0" [ref=e155]
+                  - gridcell "0%" [ref=e156]
+                  - gridcell "0" [ref=e157]
+                  - gridcell "0%" [ref=e158]
+                  - gridcell "Tidak Ada Potongan" [ref=e159]
+                  - gridcell "0%" [ref=e160]:
+                    - strong [ref=e161]: 0%
+                  - gridcell " Detail" [ref=e162]:
+                    - button " Detail" [ref=e163] [cursor=pointer]:
+                      - generic [ref=e164]: 
+                      - text: Detail
+                - row "3 0522 1 102021 12011983 A.I. HADIANTO SWK Kordoba (MALEER) SWK Karees dan SWK Kordoba (Staf) 0 jam 0 menit 0% 0 0% 0 0% Tidak Ada Potongan 0%  Detail" [ref=e165]:
+                  - gridcell "3" [ref=e166]
+                  - gridcell "0522 1 102021 12011983" [ref=e167]
+                  - gridcell "A.I. HADIANTO" [ref=e168]
+                  - gridcell "SWK Kordoba" [ref=e169]
+                  - gridcell "(MALEER) SWK Karees dan SWK Kordoba (Staf)" [ref=e170]
+                  - gridcell "0 jam 0 menit" [ref=e171]
+                  - gridcell "0%" [ref=e172]
+                  - gridcell "0" [ref=e173]
+                  - gridcell "0%" [ref=e174]
+                  - gridcell "0" [ref=e175]
+                  - gridcell "0%" [ref=e176]
+                  - gridcell "Tidak Ada Potongan" [ref=e177]
+                  - gridcell "0%" [ref=e178]:
+                    - strong [ref=e179]: 0%
+                  - gridcell " Detail" [ref=e180]:
+                    - button " Detail" [ref=e181] [cursor=pointer]:
+                      - generic [ref=e182]: 
+                      - text: Detail
+                - row "4 1002 1 102020 10021971 AAN SWK Karees Gaspul KA3A 0 jam 0 menit 0% 0 0% 0 0% Tidak Ada Potongan 0%  Detail" [ref=e183]:
+                  - gridcell "4" [ref=e184]
+                  - gridcell "1002 1 102020 10021971" [ref=e185]
+                  - gridcell "AAN" [ref=e186]
+                  - gridcell "SWK Karees Gaspul" [ref=e187]
+                  - gridcell "KA3A" [ref=e188]
+                  - gridcell "0 jam 0 menit" [ref=e189]
+                  - gridcell "0%" [ref=e190]
+                  - gridcell "0" [ref=e191]
+                  - gridcell "0%" [ref=e192]
+                  - gridcell "0" [ref=e193]
+                  - gridcell "0%" [ref=e194]
+                  - gridcell "Tidak Ada Potongan" [ref=e195]
+                  - gridcell "0%" [ref=e196]:
+                    - strong [ref=e197]: 0%
+                  - gridcell " Detail" [ref=e198]:
+                    - button " Detail" [ref=e199] [cursor=pointer]:
+                      - generic [ref=e200]: 
+                      - text: Detail
+                - row "5 0160 1 102021 25051978 AAN SETIAWAN Pengelolaan Komersial & Kemitraan PK2 0 jam 0 menit 0% 0 0% 0 0% Tidak Ada Potongan 0%  Detail" [ref=e201]:
+                  - gridcell "5" [ref=e202]
+                  - gridcell "0160 1 102021 25051978" [ref=e203]
+                  - gridcell "AAN SETIAWAN" [ref=e204]
+                  - gridcell "Pengelolaan Komersial & Kemitraan" [ref=e205]
+                  - gridcell "PK2" [ref=e206]
+                  - gridcell "0 jam 0 menit" [ref=e207]
+                  - gridcell "0%" [ref=e208]
+                  - gridcell "0" [ref=e209]
+                  - gridcell "0%" [ref=e210]
+                  - gridcell "0" [ref=e211]
+                  - gridcell "0%" [ref=e212]
+                  - gridcell "Tidak Ada Potongan" [ref=e213]
+                  - gridcell "0%" [ref=e214]:
+                    - strong [ref=e215]: 0%
+                  - gridcell " Detail" [ref=e216]:
+                    - button " Detail" [ref=e217] [cursor=pointer]:
+                      - generic [ref=e218]: 
+                      - text: Detail
+                - row "6 0228 1 102021 06071969 AAN SUPIAN SWK Bojonegara SWK Tegalega - Caringin 0 jam 0 menit 0% 0 0% 0 0% Tidak Ada Potongan 0%  Detail" [ref=e219]:
+                  - gridcell "6" [ref=e220]
+                  - gridcell "0228 1 102021 06071969" [ref=e221]
+                  - gridcell "AAN SUPIAN" [ref=e222]
+                  - gridcell "SWK Bojonegara" [ref=e223]
+                  - gridcell "SWK Tegalega - Caringin" [ref=e224]
+                  - gridcell "0 jam 0 menit" [ref=e225]
+                  - gridcell "0%" [ref=e226]
+                  - gridcell "0" [ref=e227]
+                  - gridcell "0%" [ref=e228]
+                  - gridcell "0" [ref=e229]
+                  - gridcell "0%" [ref=e230]
+                  - gridcell "Tidak Ada Potongan" [ref=e231]
+                  - gridcell "0%" [ref=e232]:
+                    - strong [ref=e233]: 0%
+                  - gridcell " Detail" [ref=e234]:
+                    - button " Detail" [ref=e235] [cursor=pointer]:
+                      - generic [ref=e236]: 
+                      - text: Detail
+                - row "7 1850 1 032022 18101988 AANG HERMAWAN SWK Cibeunying Gaspul TGLG 01 0 jam 0 menit 0% 0 0% 0 0% Tidak Ada Potongan 0%  Detail" [ref=e237]:
+                  - gridcell "7" [ref=e238]
+                  - gridcell "1850 1 032022 18101988" [ref=e239]
+                  - gridcell "AANG HERMAWAN" [ref=e240]
+                  - gridcell "SWK Cibeunying Gaspul" [ref=e241]
+                  - gridcell "TGLG 01" [ref=e242]
+                  - gridcell "0 jam 0 menit" [ref=e243]
+                  - gridcell "0%" [ref=e244]
+                  - gridcell "0" [ref=e245]
+                  - gridcell "0%" [ref=e246]
+                  - gridcell "0" [ref=e247]
+                  - gridcell "0%" [ref=e248]
+                  - gridcell "Tidak Ada Potongan" [ref=e249]
+                  - gridcell "0%" [ref=e250]:
+                    - strong [ref=e251]: 0%
+                  - gridcell " Detail" [ref=e252]:
+                    - button " Detail" [ref=e253] [cursor=pointer]:
+                      - generic [ref=e254]: 
+                      - text: Detail
+                - row "8 0063 1 102020 25121975 ABAR SURJAMIN SWK Bojonegara Gaspul BJ8A 0 jam 0 menit 0% 0 0% 0 0% Tidak Ada Potongan 0%  Detail" [ref=e255]:
+                  - gridcell "8" [ref=e256]
+                  - gridcell "0063 1 102020 25121975" [ref=e257]
+                  - gridcell "ABAR SURJAMIN" [ref=e258]
+                  - gridcell "SWK Bojonegara Gaspul" [ref=e259]
+                  - gridcell "BJ8A" [ref=e260]
+                  - gridcell "0 jam 0 menit" [ref=e261]
+                  - gridcell "0%" [ref=e262]
+                  - gridcell "0" [ref=e263]
+                  - gridcell "0%" [ref=e264]
+                  - gridcell "0" [ref=e265]
+                  - gridcell "0%" [ref=e266]
+                  - gridcell "Tidak Ada Potongan" [ref=e267]
+                  - gridcell "0%" [ref=e268]:
+                    - strong [ref=e269]: 0%
+                  - gridcell " Detail" [ref=e270]:
+                    - button " Detail" [ref=e271] [cursor=pointer]:
+                      - generic [ref=e272]: 
+                      - text: Detail
+                - row "9 0461 1 102021 27091981 ABDUL DAHLAN Pengelolaan Komersial & Kemitraan PK2 0 jam 0 menit 0% 0 0% 0 0% Tidak Ada Potongan 0%  Detail" [ref=e273]:
+                  - gridcell "9" [ref=e274]
+                  - gridcell "0461 1 102021 27091981" [ref=e275]
+                  - gridcell "ABDUL DAHLAN" [ref=e276]
+                  - gridcell "Pengelolaan Komersial & Kemitraan" [ref=e277]
+                  - gridcell "PK2" [ref=e278]
+                  - gridcell "0 jam 0 menit" [ref=e279]
+                  - gridcell "0%" [ref=e280]
+                  - gridcell "0" [ref=e281]
+                  - gridcell "0%" [ref=e282]
+                  - gridcell "0" [ref=e283]
+                  - gridcell "0%" [ref=e284]
+                  - gridcell "Tidak Ada Potongan" [ref=e285]
+                  - gridcell "0%" [ref=e286]:
+                    - strong [ref=e287]: 0%
+                  - gridcell " Detail" [ref=e288]:
+                    - button " Detail" [ref=e289] [cursor=pointer]:
+                      - generic [ref=e290]: 
+                      - text: Detail
+                - row "10 0320 1 102021 08071980 ABDUL GOFUR SWK Karees SWK Kordoba dan SWK Karees 0 jam 0 menit 0% 0 0% 0 0% Tidak Ada Potongan 0%  Detail" [ref=e291]:
+                  - gridcell "10" [ref=e292]
+                  - gridcell "0320 1 102021 08071980" [ref=e293]
+                  - gridcell "ABDUL GOFUR" [ref=e294]
+                  - gridcell "SWK Karees" [ref=e295]
+                  - gridcell "SWK Kordoba dan SWK Karees" [ref=e296]
+                  - gridcell "0 jam 0 menit" [ref=e297]
+                  - gridcell "0%" [ref=e298]
+                  - gridcell "0" [ref=e299]
+                  - gridcell "0%" [ref=e300]
+                  - gridcell "0" [ref=e301]
+                  - gridcell "0%" [ref=e302]
+                  - gridcell "Tidak Ada Potongan" [ref=e303]
+                  - gridcell "0%" [ref=e304]:
+                    - strong [ref=e305]: 0%
+                  - gridcell " Detail" [ref=e306]:
+                    - button " Detail" [ref=e307] [cursor=pointer]:
+                      - generic [ref=e308]: 
+                      - text: Detail
+                - row "11 0718 1 102021 21071987 ABDUL HOLIKIN SWK Kordoba SWK Kordoba dan SWK Karees 0 jam 0 menit 0% 0 0% 0 0% Tidak Ada Potongan 0%  Detail" [ref=e309]:
+                  - gridcell "11" [ref=e310]
+                  - gridcell "0718 1 102021 21071987" [ref=e311]
+                  - gridcell "ABDUL HOLIKIN" [ref=e312]
+                  - gridcell "SWK Kordoba" [ref=e313]
+                  - gridcell "SWK Kordoba dan SWK Karees" [ref=e314]
+                  - gridcell "0 jam 0 menit" [ref=e315]
+                  - gridcell "0%" [ref=e316]
+                  - gridcell "0" [ref=e317]
+                  - gridcell "0%" [ref=e318]
+                  - gridcell "0" [ref=e319]
+                  - gridcell "0%" [ref=e320]
+                  - gridcell "Tidak Ada Potongan" [ref=e321]
+                  - gridcell "0%" [ref=e322]:
+                    - strong [ref=e323]: 0%
+                  - gridcell " Detail" [ref=e324]:
+                    - button " Detail" [ref=e325] [cursor=pointer]:
+                      - generic [ref=e326]: 
+                      - text: Detail
+                - row "12 0460 1 102021 27051993 ABDUL RACHMAN Pengolahan Sampah Pengelolaan Sampah-Babakan sari 0 jam 0 menit 0% 0 0% 0 0% Tidak Ada Potongan 0%  Detail" [ref=e327]:
+                  - gridcell "12" [ref=e328]
+                  - gridcell "0460 1 102021 27051993" [ref=e329]
+                  - gridcell "ABDUL RACHMAN" [ref=e330]
+                  - gridcell "Pengolahan Sampah" [ref=e331]
+                  - gridcell "Pengelolaan Sampah-Babakan sari" [ref=e332]
+                  - gridcell "0 jam 0 menit" [ref=e333]
+                  - gridcell "0%" [ref=e334]
+                  - gridcell "0" [ref=e335]
+                  - gridcell "0%" [ref=e336]
+                  - gridcell "0" [ref=e337]
+                  - gridcell "0%" [ref=e338]
+                  - gridcell "Tidak Ada Potongan" [ref=e339]
+                  - gridcell "0%" [ref=e340]:
+                    - strong [ref=e341]: 0%
+                  - gridcell " Detail" [ref=e342]:
+                    - button " Detail" [ref=e343] [cursor=pointer]:
+                      - generic [ref=e344]: 
+                      - text: Detail
+                - row "13 0122 1 032020 28071996 ABDUL RIDWAN ROCHMAN Humas & Sistem Informasi Kantor Pusat 0 jam 0 menit 0% 0 0% 0 0% Tidak Ada Potongan 0%  Detail" [ref=e345]:
+                  - gridcell "13" [ref=e346]
+                  - gridcell "0122 1 032020 28071996" [ref=e347]
+                  - gridcell "ABDUL RIDWAN ROCHMAN" [ref=e348]
+                  - gridcell "Humas & Sistem Informasi" [ref=e349]
+                  - gridcell "Kantor Pusat" [ref=e350]
+                  - gridcell "0 jam 0 menit" [ref=e351]
+                  - gridcell "0%" [ref=e352]
+                  - gridcell "0" [ref=e353]
+                  - gridcell "0%" [ref=e354]
+                  - gridcell "0" [ref=e355]
+                  - gridcell "0%" [ref=e356]
+                  - gridcell "Tidak Ada Potongan" [ref=e357]
+                  - gridcell "0%" [ref=e358]:
+                    - strong [ref=e359]: 0%
+                  - gridcell " Detail" [ref=e360]:
+                    - button " Detail" [ref=e361] [cursor=pointer]:
+                      - generic [ref=e362]: 
+                      - text: Detail
+                - row "14 0186 1 102021 07071972 ABDUL ROHMAN, S.Sos Pengelolaan Pelanggan Kantor Pusat 0 jam 0 menit 0% 0 0% 0 0% Tidak Ada Potongan 0%  Detail" [ref=e363]:
+                  - gridcell "14" [ref=e364]
+                  - gridcell "0186 1 102021 07071972" [ref=e365]
+                  - gridcell "ABDUL ROHMAN, S.Sos" [ref=e366]
+                  - gridcell "Pengelolaan Pelanggan" [ref=e367]
+                  - gridcell "Kantor Pusat" [ref=e368]
+                  - gridcell "0 jam 0 menit" [ref=e369]
+                  - gridcell "0%" [ref=e370]
+                  - gridcell "0" [ref=e371]
+                  - gridcell "0%" [ref=e372]
+                  - gridcell "0" [ref=e373]
+                  - gridcell "0%" [ref=e374]
+                  - gridcell "Tidak Ada Potongan" [ref=e375]
+                  - gridcell "0%" [ref=e376]:
+                    - strong [ref=e377]: 0%
+                  - gridcell " Detail" [ref=e378]:
+                    - button " Detail" [ref=e379] [cursor=pointer]:
+                      - generic [ref=e380]: 
+                      - text: Detail
+                - row "15 0064 1 102020 15011974 ACA SURYANA SWK Cibeunying Gaspul CB11B 0 jam 0 menit 0% 0 0% 0 0% Tidak Ada Potongan 0%  Detail" [ref=e381]:
+                  - gridcell "15" [ref=e382]
+                  - gridcell "0064 1 102020 15011974" [ref=e383]
+                  - gridcell "ACA SURYANA" [ref=e384]
+                  - gridcell "SWK Cibeunying Gaspul" [ref=e385]
+                  - gridcell "CB11B" [ref=e386]
+                  - gridcell "0 jam 0 menit" [ref=e387]
+                  - gridcell "0%" [ref=e388]
+                  - gridcell "0" [ref=e389]
+                  - gridcell "0%" [ref=e390]
+                  - gridcell "0" [ref=e391]
+                  - gridcell "0%" [ref=e392]
+                  - gridcell "Tidak Ada Potongan" [ref=e393]
+                  - gridcell "0%" [ref=e394]:
+                    - strong [ref=e395]: 0%
+                  - gridcell " Detail" [ref=e396]:
+                    - button " Detail" [ref=e397] [cursor=pointer]:
+                      - generic [ref=e398]: 
+                      - text: Detail
+                - row "16 1004 1 102020 13031972 ACE SUMIRTA SWK Ubermanik Gaspul UB5A 0 jam 0 menit 0% 0 0% 0 0% Tidak Ada Potongan 0%  Detail" [ref=e399]:
+                  - gridcell "16" [ref=e400]
+                  - gridcell "1004 1 102020 13031972" [ref=e401]
+                  - gridcell "ACE SUMIRTA" [ref=e402]
+                  - gridcell "SWK Ubermanik Gaspul" [ref=e403]
+                  - gridcell "UB5A" [ref=e404]
+                  - gridcell "0 jam 0 menit" [ref=e405]
+                  - gridcell "0%" [ref=e406]
+                  - gridcell "0" [ref=e407]
+                  - gridcell "0%" [ref=e408]
+                  - gridcell "0" [ref=e409]
+                  - gridcell "0%" [ref=e410]
+                  - gridcell "Tidak Ada Potongan" [ref=e411]
+                  - gridcell "0%" [ref=e412]:
+                    - strong [ref=e413]: 0%
+                  - gridcell " Detail" [ref=e414]:
+                    - button " Detail" [ref=e415] [cursor=pointer]:
+                      - generic [ref=e416]: 
+                      - text: Detail
+                - row "17 0438 1 102021 13101968 ACENG MULYADI Logistik/Kendaraan SWK Tegalega - Caringin 0 jam 0 menit 0% 0 0% 0 0% Tidak Ada Potongan 0%  Detail" [ref=e417]:
+                  - gridcell "17" [ref=e418]
+                  - gridcell "0438 1 102021 13101968" [ref=e419]
+                  - gridcell "ACENG MULYADI" [ref=e420]
+                  - gridcell "Logistik/Kendaraan" [ref=e421]
+                  - gridcell "SWK Tegalega - Caringin" [ref=e422]
+                  - gridcell "0 jam 0 menit" [ref=e423]
+                  - gridcell "0%" [ref=e424]
+                  - gridcell "0" [ref=e425]
+                  - gridcell "0%" [ref=e426]
+                  - gridcell "0" [ref=e427]
+                  - gridcell "0%" [ref=e428]
+                  - gridcell "Tidak Ada Potongan" [ref=e429]
+                  - gridcell "0%" [ref=e430]:
+                    - strong [ref=e431]: 0%
+                  - gridcell " Detail" [ref=e432]:
+                    - button " Detail" [ref=e433] [cursor=pointer]:
+                      - generic [ref=e434]: 
+                      - text: Detail
+                - row "18 0065 1 102020 19041971 ACEP DARMAWAN SWK Tegallega Gaspul TG5A 0 jam 0 menit 0% 0 0% 0 0% Tidak Ada Potongan 0%  Detail" [ref=e435]:
+                  - gridcell "18" [ref=e436]
+                  - gridcell "0065 1 102020 19041971" [ref=e437]
+                  - gridcell "ACEP DARMAWAN" [ref=e438]
+                  - gridcell "SWK Tegallega Gaspul" [ref=e439]
+                  - gridcell "TG5A" [ref=e440]
+                  - gridcell "0 jam 0 menit" [ref=e441]
+                  - gridcell "0%" [ref=e442]
+                  - gridcell "0" [ref=e443]
+                  - gridcell "0%" [ref=e444]
+                  - gridcell "0" [ref=e445]
+                  - gridcell "0%" [ref=e446]
+                  - gridcell "Tidak Ada Potongan" [ref=e447]
+                  - gridcell "0%" [ref=e448]:
+                    - strong [ref=e449]: 0%
+                  - gridcell " Detail" [ref=e450]:
+                    - button " Detail" [ref=e451] [cursor=pointer]:
+                      - generic [ref=e452]: 
+                      - text: Detail
+                - row "19 0764 1 102021 04011999 ACEP NEDIANA RAMDANI SWK Cibeunying SWK Cibeunying - Sadang Serang 0 jam 0 menit 0% 0 0% 0 0% Tidak Ada Potongan 0%  Detail" [ref=e453]:
+                  - gridcell "19" [ref=e454]
+                  - gridcell "0764 1 102021 04011999" [ref=e455]
+                  - gridcell "ACEP NEDIANA RAMDANI" [ref=e456]
+                  - gridcell "SWK Cibeunying" [ref=e457]
+                  - gridcell "SWK Cibeunying - Sadang Serang" [ref=e458]
+                  - gridcell "0 jam 0 menit" [ref=e459]
+                  - gridcell "0%" [ref=e460]
+                  - gridcell "0" [ref=e461]
+                  - gridcell "0%" [ref=e462]
+                  - gridcell "0" [ref=e463]
+                  - gridcell "0%" [ref=e464]
+                  - gridcell "Tidak Ada Potongan" [ref=e465]
+                  - gridcell "0%" [ref=e466]:
+                    - strong [ref=e467]: 0%
+                  - gridcell " Detail" [ref=e468]:
+                    - button " Detail" [ref=e469] [cursor=pointer]:
+                      - generic [ref=e470]: 
+                      - text: Detail
+                - row "20 1674 1 032020 13061988 ACEP RAHMAN SWK Cibeunying Gaspul CB2A 0 jam 0 menit 0% 0 0% 0 0% Tidak Ada Potongan 0%  Detail" [ref=e471]:
+                  - gridcell "20" [ref=e472]
+                  - gridcell "1674 1 032020 13061988" [ref=e473]
+                  - gridcell "ACEP RAHMAN" [ref=e474]
+                  - gridcell "SWK Cibeunying Gaspul" [ref=e475]
+                  - gridcell "CB2A" [ref=e476]
+                  - gridcell "0 jam 0 menit" [ref=e477]
+                  - gridcell "0%" [ref=e478]
+                  - gridcell "0" [ref=e479]
+                  - gridcell "0%" [ref=e480]
+                  - gridcell "0" [ref=e481]
+                  - gridcell "0%" [ref=e482]
+                  - gridcell "Tidak Ada Potongan" [ref=e483]
+                  - gridcell "0%" [ref=e484]:
+                    - strong [ref=e485]: 0%
+                  - gridcell " Detail" [ref=e486]:
+                    - button " Detail" [ref=e487] [cursor=pointer]:
+                      - generic [ref=e488]: 
+                      - text: Detail
+                - row "21 1400 1 102020 04081997 ACEP ROHMAN SWK Karees Gaspul KA3C 0 jam 0 menit 0% 0 0% 0 0% Tidak Ada Potongan 0%  Detail" [ref=e489]:
+                  - gridcell "21" [ref=e490]
+                  - gridcell "1400 1 102020 04081997" [ref=e491]
+                  - gridcell "ACEP ROHMAN" [ref=e492]
+                  - gridcell "SWK Karees Gaspul" [ref=e493]
+                  - gridcell "KA3C" [ref=e494]
+                  - gridcell "0 jam 0 menit" [ref=e495]
+                  - gridcell "0%" [ref=e496]
+                  - gridcell "0" [ref=e497]
+                  - gridcell "0%" [ref=e498]
+                  - gridcell "0" [ref=e499]
+                  - gridcell "0%" [ref=e500]
+                  - gridcell "Tidak Ada Potongan" [ref=e501]
+                  - gridcell "0%" [ref=e502]:
+                    - strong [ref=e503]: 0%
+                  - gridcell " Detail" [ref=e504]:
+                    - button " Detail" [ref=e505] [cursor=pointer]:
+                      - generic [ref=e506]: 
+                      - text: Detail
+                - row "22 0782 1 102021 02071979 ACEP RUSMANA SWK Karees SWK Kordoba dan SWK Karees 0 jam 0 menit 0% 0 0% 0 0% Tidak Ada Potongan 0%  Detail" [ref=e507]:
+                  - gridcell "22" [ref=e508]
+                  - gridcell "0782 1 102021 02071979" [ref=e509]
+                  - gridcell "ACEP RUSMANA" [ref=e510]
+                  - gridcell "SWK Karees" [ref=e511]
+                  - gridcell "SWK Kordoba dan SWK Karees" [ref=e512]
+                  - gridcell "0 jam 0 menit" [ref=e513]
+                  - gridcell "0%" [ref=e514]
+                  - gridcell "0" [ref=e515]
+                  - gridcell "0%" [ref=e516]
+                  - gridcell "0" [ref=e517]
+                  - gridcell "0%" [ref=e518]
+                  - gridcell "Tidak Ada Potongan" [ref=e519]
+                  - gridcell "0%" [ref=e520]:
+                    - strong [ref=e521]: 0%
+                  - gridcell " Detail" [ref=e522]:
+                    - button " Detail" [ref=e523] [cursor=pointer]:
+                      - generic [ref=e524]: 
+                      - text: Detail
+                - row "23 0319 1 102021 10071977 ACEP RUSNANDAR SWK Karees SWK Kordoba dan SWK Karees 0 jam 0 menit 0% 0 0% 0 0% Tidak Ada Potongan 0%  Detail" [ref=e525]:
+                  - gridcell "23" [ref=e526]
+                  - gridcell "0319 1 102021 10071977" [ref=e527]
+                  - gridcell "ACEP RUSNANDAR" [ref=e528]
+                  - gridcell "SWK Karees" [ref=e529]
+                  - gridcell "SWK Kordoba dan SWK Karees" [ref=e530]
+                  - gridcell "0 jam 0 menit" [ref=e531]
+                  - gridcell "0%" [ref=e532]
+                  - gridcell "0" [ref=e533]
+                  - gridcell "0%" [ref=e534]
+                  - gridcell "0" [ref=e535]
+                  - gridcell "0%" [ref=e536]
+                  - gridcell "Tidak Ada Potongan" [ref=e537]
+                  - gridcell "0%" [ref=e538]:
+                    - strong [ref=e539]: 0%
+                  - gridcell " Detail" [ref=e540]:
+                    - button " Detail" [ref=e541] [cursor=pointer]:
+                      - generic [ref=e542]: 
+                      - text: Detail
+                - row "24 1401 1 102020 07071997 ACEP SONI SWK Bojonegara Gaspul BJ2A 0 jam 0 menit 0% 0 0% 0 0% Tidak Ada Potongan 0%  Detail" [ref=e543]:
+                  - gridcell "24" [ref=e544]
+                  - gridcell "1401 1 102020 07071997" [ref=e545]
+                  - gridcell "ACEP SONI" [ref=e546]
+                  - gridcell "SWK Bojonegara Gaspul" [ref=e547]
+                  - gridcell "BJ2A" [ref=e548]
+                  - gridcell "0 jam 0 menit" [ref=e549]
+                  - gridcell "0%" [ref=e550]
+                  - gridcell "0" [ref=e551]
+                  - gridcell "0%" [ref=e552]
+                  - gridcell "0" [ref=e553]
+                  - gridcell "0%" [ref=e554]
+                  - gridcell "Tidak Ada Potongan" [ref=e555]
+                  - gridcell "0%" [ref=e556]:
+                    - strong [ref=e557]: 0%
+                  - gridcell " Detail" [ref=e558]:
+                    - button " Detail" [ref=e559] [cursor=pointer]:
+                      - generic [ref=e560]: 
+                      - text: Detail
+                - row "25 0439 1 102021 07121987 ACEP SUGIANTO Pengelolaan Pelanggan Kantor Pusat 0 jam 0 menit 0% 0 0% 0 0% Tidak Ada Potongan 0%  Detail" [ref=e561]:
+                  - gridcell "25" [ref=e562]
+                  - gridcell "0439 1 102021 07121987" [ref=e563]
+                  - gridcell "ACEP SUGIANTO" [ref=e564]
+                  - gridcell "Pengelolaan Pelanggan" [ref=e565]
+                  - gridcell "Kantor Pusat" [ref=e566]
+                  - gridcell "0 jam 0 menit" [ref=e567]
+                  - gridcell "0%" [ref=e568]
+                  - gridcell "0" [ref=e569]
+                  - gridcell "0%" [ref=e570]
+                  - gridcell "0" [ref=e571]
+                  - gridcell "0%" [ref=e572]
+                  - gridcell "Tidak Ada Potongan" [ref=e573]
+                  - gridcell "0%" [ref=e574]:
+                    - strong [ref=e575]: 0%
+                  - gridcell " Detail" [ref=e576]:
+                    - button " Detail" [ref=e577] [cursor=pointer]:
+                      - generic [ref=e578]: 
+                      - text: Detail
+              - rowgroup [ref=e579]:
+                - row "No No Reg Nama Pegawai Unit Kerja Area Kerja Total Jam Terlambat Potongan Terlambat (%) Jumlah Luar Area Potongan Luar Area (%) Jumlah TB Potongan TB (%) Potongan / Keterangan Total Potongan (%) Action" [ref=e580]:
+                  - columnheader "No" [ref=e581]
+                  - columnheader "No Reg" [ref=e582]
+                  - columnheader "Nama Pegawai" [ref=e583]
+                  - columnheader "Unit Kerja" [ref=e584]
+                  - columnheader "Area Kerja" [ref=e585]
+                  - columnheader "Total Jam Terlambat" [ref=e586]
+                  - columnheader "Potongan Terlambat (%)" [ref=e587]
+                  - columnheader "Jumlah Luar Area" [ref=e588]
+                  - columnheader "Potongan Luar Area (%)" [ref=e589]
+                  - columnheader "Jumlah TB" [ref=e590]
+                  - columnheader "Potongan TB (%)" [ref=e591]
+                  - columnheader "Potongan / Keterangan" [ref=e592]
+                  - columnheader "Total Potongan (%)" [ref=e593]
+                  - columnheader "Action" [ref=e594]
+            - generic [ref=e595]:
+              - status [ref=e597]: Menampilkan 1 - 25 dari 1,699 baris
+              - list [ref=e600]:
+                - listitem:
+                  - link "Awal" [ref=e601]:
+                    - /url: "#"
+                - listitem:
+                  - link "Mundur" [ref=e602]:
+                    - /url: "#"
+                - listitem:
+                  - link "1" [ref=e603]:
+                    - /url: "#"
+                - listitem:
+                  - link "2" [ref=e604] [cursor=pointer]:
+                    - /url: "#"
+                - listitem:
+                  - link "3" [ref=e605] [cursor=pointer]:
+                    - /url: "#"
+                - listitem:
+                  - link "4" [ref=e606] [cursor=pointer]:
+                    - /url: "#"
+                - listitem:
+                  - link "5" [ref=e607] [cursor=pointer]:
+                    - /url: "#"
+                - listitem:
+                  - link "…" [ref=e608]:
+                    - /url: "#"
+                - listitem:
+                  - link "68" [ref=e609] [cursor=pointer]:
+                    - /url: "#"
+                - listitem:
+                  - link "Maju" [ref=e610] [cursor=pointer]:
+                    - /url: "#"
+                - listitem:
+                  - link "Akhir" [ref=e611] [cursor=pointer]:
+                    - /url: "#"
+      - contentinfo [ref=e612]:
+        - text: © 2017
+        - link "Personalia.id" [ref=e613] [cursor=pointer]:
+          - /url: https://www.personalia.id
+  - text:    

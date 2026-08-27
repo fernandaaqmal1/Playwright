@@ -1,0 +1,24 @@
+- generic [ref=e8]:
+  - link [ref=e10] [cursor=pointer]:
+    - /url: "#"
+  - generic [ref=e12]:
+    - alert [ref=e13]:
+      - button [ref=e14] [cursor=pointer]: ×
+      - strong [ref=e15]: Perhatian.
+      - text: Anda harus login terlebih dahulu untuk mengakses halaman tersebut
+    - generic [ref=e16]:
+      - textbox "NIK" [ref=e19]
+      - textbox "Kata Sandi" [ref=e22]
+      - button "Masuk" [ref=e25] [cursor=pointer]
+      - generic [ref=e28]:
+        - checkbox "Saya Setuju, Syarat dan Kententuan " [checked] [ref=e29] [cursor=pointer]
+        - generic [ref=e30] [cursor=pointer]:
+          - text: Saya Setuju,
+          - link "Syarat dan Kententuan" [ref=e31]:
+            - /url: https://hris.dlhk.arkamaya.net/login/kebijakan_privasi
+          - text: 
+      - link " Lupa Kata Sandi" [ref=e34] [cursor=pointer]:
+        - /url: https://hris.dlhk.arkamaya.net/forgot_password
+        - generic [ref=e35]: 
+        - text: Lupa Kata Sandi
+    - paragraph [ref=e38]: © 2017 - 2026

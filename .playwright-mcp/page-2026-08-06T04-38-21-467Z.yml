@@ -1,0 +1,332 @@
+- generic [ref=e2]:
+  - text:      
+  - generic [ref=e3]:
+    - link [ref=e5] [cursor=pointer]:
+      - /url: https://hris.wit.arkamaya.net/dashboard
+    - navigation [ref=e7]:
+      - generic [ref=e8]:
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - button "" [ref=e11] [cursor=pointer]:
+              - generic [ref=e12]: 
+          - listitem [ref=e13]:
+            - link "LAHANS" [ref=e14] [cursor=pointer]:
+              - /url: https://hris.wit.arkamaya.net/
+            - generic [ref=e15]: "Status : AKTIF"
+        - list [ref=e16]:
+          - listitem [ref=e17]:
+            - generic [ref=e18]:
+              - heading [level=4]
+          - listitem [ref=e19]:
+            - link " 0" [ref=e20] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e21]: 
+              - generic [ref=e22]: "0"
+          - listitem [ref=e23]:
+            - link "ASRI DWI ANDINI Compensation & Benefit Supervisor" [ref=e24] [cursor=pointer]:
+              - /url: javascript:;
+              - text: ASRI DWI ANDINI
+              - superscript [ref=e25]: Compensation & Benefit Supervisor
+          - listitem [ref=e26]:
+            - link "profile-image" [expanded] [ref=e27] [cursor=pointer]:
+              - /url: javascript:;
+              - img "profile-image" [ref=e28]
+            - text:   
+  - list [ref=e33]:
+    - listitem: Navigasi
+    - listitem [ref=e34]:
+      - link " Personalia " [ref=e35] [cursor=pointer]:
+        - /url: javascript:void(0);
+        - generic [ref=e36]: 
+        - text: Personalia
+        - generic [ref=e37]: 
+      - list [ref=e38]:
+        - listitem [ref=e39]:
+          - link "Dasbor Personalia" [ref=e40] [cursor=pointer]:
+            - /url: https://hris.wit.arkamaya.net/dashboard
+        - listitem [ref=e41]:
+          - link "Data Pegawai" [ref=e42] [cursor=pointer]:
+            - /url: https://hris.wit.arkamaya.net/employee
+        - listitem [ref=e43]:
+          - link "Jabatan" [ref=e44] [cursor=pointer]:
+            - /url: https://hris.wit.arkamaya.net/position
+        - listitem [ref=e45]:
+          - link "Golongan" [ref=e46] [cursor=pointer]:
+            - /url: https://hris.wit.arkamaya.net/role
+        - listitem [ref=e47]:
+          - link "Area Kerja" [ref=e48] [cursor=pointer]:
+            - /url: https://hris.wit.arkamaya.net/work_unit
+        - listitem [ref=e49]:
+          - link "Penggajian" [ref=e50] [cursor=pointer]:
+            - /url: https://hris.wit.arkamaya.net/payroll
+        - listitem [ref=e51]:
+          - link "THR" [ref=e52] [cursor=pointer]:
+            - /url: https://hris.wit.arkamaya.net/thr
+    - listitem [ref=e53]:
+      - link " Layanan Mandiri " [ref=e54] [cursor=pointer]:
+        - /url: javascript:void(0);
+        - generic [ref=e55]: 
+        - text: Layanan Mandiri
+        - generic [ref=e56]: 
+    - listitem [ref=e57]:
+      - link " Laporan " [ref=e58] [cursor=pointer]:
+        - /url: javascript:void(0);
+        - generic [ref=e59]: 
+        - text: Laporan
+        - generic [ref=e60]: 
+    - listitem [ref=e61]:
+      - link " Pengaturan " [ref=e62] [cursor=pointer]:
+        - /url: javascript:void(0);
+        - generic [ref=e63]: 
+        - text: Pengaturan
+        - generic [ref=e64]: 
+  - generic [ref=e66]:
+    - generic [ref=e67]:
+      - generic [ref=e70]:
+        - heading "Data Pegawai" [level=4] [ref=e71]
+        - list [ref=e72]:
+          - listitem [ref=e73]: Personalia
+          - listitem [ref=e74]: / Data Pegawai
+      - generic [ref=e76]:
+        - generic [ref=e77]:
+          - button " Buat Pegawai" [ref=e78] [cursor=pointer]:
+            - generic [ref=e79]: 
+            - text: Buat Pegawai
+          - button "Permintaan Perubahan Data" [ref=e80] [cursor=pointer]
+          - link "Upload Pegawai" [ref=e81] [cursor=pointer]:
+            - /url: https://hris.wit.arkamaya.net/employee/upload_employee
+        - generic [ref=e82]:
+          - generic [ref=e84]:
+            - textbox "Cari" [ref=e85]
+            - text: 
+          - generic [ref=e86]:
+            - button "Filter" [ref=e87] [cursor=pointer]
+            - button "Tunggu " [disabled] [ref=e342]:
+              - text: Tunggu
+              - generic [ref=e343]: 
+      - separator [ref=e89]
+      - generic [ref=e91]:
+        - generic [ref=e93]:
+          - link "" [ref=e95] [cursor=pointer]:
+            - /url: "#"
+            - heading "" [level=3] [ref=e96]:
+              - generic [ref=e97]: 
+          - generic [ref=e99]:
+            - img "AAN AGUSTIAN" [ref=e101]
+            - generic [ref=e102]:
+              - heading "AAN AGUSTIAN" [level=4] [ref=e103]:
+                - link "AAN AGUSTIAN" [ref=e104] [cursor=pointer]:
+                  - /url: https://hris.wit.arkamaya.net/employee/id/2347
+              - paragraph [ref=e105]: Driver
+        - generic [ref=e107]:
+          - link "" [ref=e109] [cursor=pointer]:
+            - /url: "#"
+            - heading "" [level=3] [ref=e110]:
+              - generic [ref=e111]: 
+          - generic [ref=e113]:
+            - img "AANG SAEFUL ANWAR" [ref=e115]
+            - generic [ref=e116]:
+              - heading "AANG SAEFUL ANWAR" [level=4] [ref=e117]:
+                - link "AANG SAEFUL ANWAR" [ref=e118] [cursor=pointer]:
+                  - /url: https://hris.wit.arkamaya.net/employee/id/2365
+              - paragraph [ref=e119]: Area Sales Promotion Supervisor
+        - generic [ref=e121]:
+          - link "" [ref=e123] [cursor=pointer]:
+            - /url: "#"
+            - heading "" [level=3] [ref=e124]:
+              - generic [ref=e125]: 
+          - generic [ref=e127]:
+            - img "Abdul Ajis" [ref=e129]
+            - generic [ref=e130]:
+              - heading "Abdul Ajis" [level=4] [ref=e131]:
+                - link "Abdul Ajis" [ref=e132] [cursor=pointer]:
+                  - /url: https://hris.wit.arkamaya.net/employee/id/2327
+              - paragraph [ref=e133]: Operator
+        - generic [ref=e135]:
+          - link "" [ref=e137] [cursor=pointer]:
+            - /url: "#"
+            - heading "" [level=3] [ref=e138]:
+              - generic [ref=e139]: 
+          - generic [ref=e141]:
+            - img "Abdul Rohman" [ref=e143]
+            - generic [ref=e144]:
+              - heading "Abdul Rohman" [level=4] [ref=e145]:
+                - link "Abdul Rohman" [ref=e146] [cursor=pointer]:
+                  - /url: https://hris.wit.arkamaya.net/employee/id/2311
+              - paragraph [ref=e147]: Operator
+        - generic [ref=e149]:
+          - link "" [ref=e151] [cursor=pointer]:
+            - /url: "#"
+            - heading "" [level=3] [ref=e152]:
+              - generic [ref=e153]: 
+          - generic [ref=e155]:
+            - img "ABDULLAH HASAN" [ref=e157]
+            - generic [ref=e158]:
+              - heading "ABDULLAH HASAN" [level=4] [ref=e159]:
+                - link "ABDULLAH HASAN" [ref=e160] [cursor=pointer]:
+                  - /url: https://hris.wit.arkamaya.net/employee/id/1979
+              - paragraph [ref=e161]: Driver
+        - generic [ref=e163]:
+          - link "" [ref=e165] [cursor=pointer]:
+            - /url: "#"
+            - heading "" [level=3] [ref=e166]:
+              - generic [ref=e167]: 
+          - generic [ref=e169]:
+            - img "ACEP HENDRA" [ref=e171]
+            - generic [ref=e172]:
+              - heading "ACEP HENDRA" [level=4] [ref=e173]:
+                - link "ACEP HENDRA" [ref=e174] [cursor=pointer]:
+                  - /url: https://hris.wit.arkamaya.net/employee/id/2479
+              - paragraph [ref=e175]: Salesman
+        - generic [ref=e177]:
+          - link "" [ref=e179] [cursor=pointer]:
+            - /url: "#"
+            - heading "" [level=3] [ref=e180]:
+              - generic [ref=e181]: 
+          - generic [ref=e183]:
+            - img "ACH. FIRDAUS" [ref=e185]
+            - generic [ref=e186]:
+              - heading "ACH. FIRDAUS" [level=4] [ref=e187]:
+                - link "ACH. FIRDAUS" [ref=e188] [cursor=pointer]:
+                  - /url: https://hris.wit.arkamaya.net/employee/id/1982
+              - paragraph [ref=e189]: Driver
+        - generic [ref=e191]:
+          - link "" [ref=e193] [cursor=pointer]:
+            - /url: "#"
+            - heading "" [level=3] [ref=e194]:
+              - generic [ref=e195]: 
+          - generic [ref=e197]:
+            - img "ACHMAD ISTONI" [ref=e199]
+            - generic [ref=e200]:
+              - heading "ACHMAD ISTONI" [level=4] [ref=e201]:
+                - link "ACHMAD ISTONI" [ref=e202] [cursor=pointer]:
+                  - /url: https://hris.wit.arkamaya.net/employee/id/2052
+              - paragraph [ref=e203]: Area Sales Supervisor
+        - generic [ref=e205]:
+          - link "" [ref=e207] [cursor=pointer]:
+            - /url: "#"
+            - heading "" [level=3] [ref=e208]:
+              - generic [ref=e209]: 
+          - generic [ref=e211]:
+            - img "ACHMAD YOAN GIOFANSYAH" [ref=e213]
+            - generic [ref=e214]:
+              - heading "ACHMAD YOAN GIOFANSYAH" [level=4] [ref=e215]:
+                - link "ACHMAD YOAN GIOFANSYAH" [ref=e216] [cursor=pointer]:
+                  - /url: https://hris.wit.arkamaya.net/employee/id/2437
+              - paragraph [ref=e217]: Driver
+        - generic [ref=e219]:
+          - link "" [ref=e221] [cursor=pointer]:
+            - /url: "#"
+            - heading "" [level=3] [ref=e222]:
+              - generic [ref=e223]: 
+          - generic [ref=e225]:
+            - img "ADE" [ref=e227]
+            - generic [ref=e228]:
+              - heading "ADE" [level=4] [ref=e229]:
+                - link "ADE" [ref=e230] [cursor=pointer]:
+                  - /url: https://hris.wit.arkamaya.net/employee/id/2434
+              - paragraph [ref=e231]: Operator
+        - generic [ref=e233]:
+          - link "" [ref=e235] [cursor=pointer]:
+            - /url: "#"
+            - heading "" [level=3] [ref=e236]:
+              - generic [ref=e237]: 
+          - generic [ref=e239]:
+            - img "ADE KURNIA" [ref=e241]
+            - generic [ref=e242]:
+              - heading "ADE KURNIA" [level=4] [ref=e243]:
+                - link "ADE KURNIA" [ref=e244] [cursor=pointer]:
+                  - /url: https://hris.wit.arkamaya.net/employee/id/2125
+              - paragraph [ref=e245]: Salesman
+        - generic [ref=e247]:
+          - link "" [ref=e249] [cursor=pointer]:
+            - /url: "#"
+            - heading "" [level=3] [ref=e250]:
+              - generic [ref=e251]: 
+          - generic [ref=e253]:
+            - img "ADE NURJAMAN" [ref=e255]
+            - generic [ref=e256]:
+              - heading "ADE NURJAMAN" [level=4] [ref=e257]:
+                - link "ADE NURJAMAN" [ref=e258] [cursor=pointer]:
+                  - /url: https://hris.wit.arkamaya.net/employee/id/2073
+              - paragraph [ref=e259]: Salesman
+        - generic [ref=e261]:
+          - link "" [ref=e263] [cursor=pointer]:
+            - /url: "#"
+            - heading "" [level=3] [ref=e264]:
+              - generic [ref=e265]: 
+          - generic [ref=e267]:
+            - img "ADE SOPYAN" [ref=e269]
+            - generic [ref=e270]:
+              - heading "ADE SOPYAN" [level=4] [ref=e271]:
+                - link "ADE SOPYAN" [ref=e272] [cursor=pointer]:
+                  - /url: https://hris.wit.arkamaya.net/employee/id/2006
+              - paragraph [ref=e273]: Driver Distributor
+        - generic [ref=e275]:
+          - link "" [ref=e277] [cursor=pointer]:
+            - /url: "#"
+            - heading "" [level=3] [ref=e278]:
+              - generic [ref=e279]: 
+          - generic [ref=e281]:
+            - img "ADE SUPIAN" [ref=e283]
+            - generic [ref=e284]:
+              - heading "ADE SUPIAN" [level=4] [ref=e285]:
+                - link "ADE SUPIAN" [ref=e286] [cursor=pointer]:
+                  - /url: https://hris.wit.arkamaya.net/employee/id/1892
+              - paragraph [ref=e287]: IT Supervisor
+        - generic [ref=e289]:
+          - link "" [ref=e291] [cursor=pointer]:
+            - /url: "#"
+            - heading "" [level=3] [ref=e292]:
+              - generic [ref=e293]: 
+          - generic [ref=e295]:
+            - img "ADI HARMONO" [ref=e297]
+            - generic [ref=e298]:
+              - heading "ADI HARMONO" [level=4] [ref=e299]:
+                - link "ADI HARMONO" [ref=e300] [cursor=pointer]:
+                  - /url: https://hris.wit.arkamaya.net/employee/id/2177
+              - paragraph [ref=e301]: Area Sales Manager
+        - generic [ref=e303]:
+          - link "" [ref=e305] [cursor=pointer]:
+            - /url: "#"
+            - heading "" [level=3] [ref=e306]:
+              - generic [ref=e307]: 
+          - generic [ref=e309]:
+            - img "ADIE WIRAHADI" [ref=e311]
+            - generic [ref=e312]:
+              - heading "ADIE WIRAHADI" [level=4] [ref=e313]:
+                - link "ADIE WIRAHADI" [ref=e314] [cursor=pointer]:
+                  - /url: https://hris.wit.arkamaya.net/employee/id/2034
+              - paragraph [ref=e315]: Salesman
+      - separator [ref=e316]
+      - generic [ref=e317]:
+        - generic [ref=e318]:
+          - generic [ref=e319] [cursor=pointer]: "1"
+          - link "2" [ref=e321] [cursor=pointer]:
+            - /url: https://hris.wit.arkamaya.net/employee/get_employees/16
+          - link "3" [ref=e323] [cursor=pointer]:
+            - /url: https://hris.wit.arkamaya.net/employee/get_employees/32
+          - link "4" [ref=e325] [cursor=pointer]:
+            - /url: https://hris.wit.arkamaya.net/employee/get_employees/48
+          - link "5" [ref=e327] [cursor=pointer]:
+            - /url: https://hris.wit.arkamaya.net/employee/get_employees/64
+          - link "6" [ref=e329] [cursor=pointer]:
+            - /url: https://hris.wit.arkamaya.net/employee/get_employees/80
+          - link "" [ref=e330] [cursor=pointer]:
+            - /url: https://hris.wit.arkamaya.net/employee/get_employees/16
+            - button "" [ref=e331]:
+              - generic [ref=e332]: 
+          - link "" [ref=e333] [cursor=pointer]:
+            - /url: https://hris.wit.arkamaya.net/employee/get_employees/624
+            - button "" [ref=e334]:
+              - generic [ref=e335]: 
+        - generic [ref=e336]:
+          - checkbox "Tampilkan Pegawai Tidak Aktif " [checked] [ref=e337] [cursor=pointer]
+          - generic [ref=e338] [cursor=pointer]: Tampilkan Pegawai Tidak Aktif 
+        - generic [ref=e339]:
+          - text: Menampilkan
+          - strong [ref=e340]: 1-16
+          - text: dari
+          - strong [ref=e341]: "629"
+          - text: Total Pegawai
+    - generic: 

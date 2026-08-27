@@ -1,0 +1,2 @@
+[     996ms] [ERROR] Error: <path> attribute d: Expected number, "M,0,0". @ https://hris.dlhk.arkamaya.net/zrcs/plugins/raphael/raphael-min.js:9
+[     997ms] [ERROR] Error: <path> attribute d: Expected moveto path command ('M' or 'm'), "Z". @ https://hris.dlhk.arkamaya.net/zrcs/plugins/raphael/raphael-min.js:9

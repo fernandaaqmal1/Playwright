@@ -1,0 +1,162 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link [ref=e5] [cursor=pointer]:
+      - /url: https://hris.dlhk.arkamaya.net/dashboard
+    - navigation [ref=e7]:
+      - generic [ref=e8]:
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - button "" [ref=e11] [cursor=pointer]:
+              - generic [ref=e12]: 
+          - listitem [ref=e13]:
+            - link "UPT Pengelolaan Sampah Kota Bandung" [ref=e14] [cursor=pointer]:
+              - /url: https://hris.dlhk.arkamaya.net/
+        - list [ref=e15]:
+          - listitem [ref=e16]:
+            - link "ARK 1423123" [ref=e17] [cursor=pointer]:
+              - /url: javascript:;
+              - text: ARK
+              - superscript [ref=e18]: "1423123"
+          - listitem [ref=e19]:
+            - link "profile-image" [expanded] [ref=e20] [cursor=pointer]:
+              - /url: javascript:;
+              - img "profile-image" [ref=e21]
+            - text:   
+  - list [ref=e26]:
+    - listitem: Navigasi
+    - listitem [ref=e27]:
+      - link " Personalia " [ref=e28] [cursor=pointer]:
+        - /url: javascript:void(0);
+        - generic [ref=e29]: 
+        - text: Personalia
+        - generic [ref=e30]: 
+      - list [ref=e31]:
+        - listitem [ref=e32]:
+          - link "Dasbor Personalia" [ref=e33] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/dashboard
+        - listitem [ref=e34]:
+          - link "Dasbor KPI" [ref=e35] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/dashboard_kpi
+        - listitem [ref=e36]:
+          - link "Dasbor Kubikasi" [ref=e37] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/waste_volume
+        - listitem [ref=e38]:
+          - link "Data Pegawai" [ref=e39] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/employee
+        - listitem [ref=e40]:
+          - link "Jabatan" [ref=e41] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/position
+        - listitem [ref=e42]:
+          - link "Golongan" [ref=e43] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/role
+        - listitem [ref=e44]:
+          - link "Area Kerja" [ref=e45] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/work_unit
+        - listitem [ref=e46]:
+          - link "Penggajian" [ref=e47] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/payroll
+        - listitem [ref=e48]:
+          - link "Berita" [ref=e49] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/announce
+        - listitem [ref=e50]:
+          - link "Warning Letter" [ref=e51] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/warningletter
+        - listitem [ref=e52]:
+          - link "Kegiatan Perusahaan" [ref=e53] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/activity
+        - listitem [ref=e54]:
+          - link "Unit Kerja" [ref=e55] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/bagian
+        - listitem [ref=e56]:
+          - link "Tunjangan" [ref=e57] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/allowance
+        - listitem [ref=e58]:
+          - link "Surat Perintah Lembur" [ref=e59] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/spl
+    - listitem [ref=e60]:
+      - link " Layanan Mandiri " [ref=e61] [cursor=pointer]:
+        - /url: javascript:void(0);
+        - generic [ref=e62]: 
+        - text: Layanan Mandiri
+        - generic [ref=e63]: 
+    - listitem [ref=e64]:
+      - link " Proyek & Tugas " [ref=e65] [cursor=pointer]:
+        - /url: javascript:void(0);
+        - generic [ref=e66]: 
+        - text: Proyek & Tugas
+        - generic [ref=e67]: 
+    - listitem [ref=e68]:
+      - link " Pengaturan " [ref=e69] [cursor=pointer]:
+        - /url: javascript:void(0);
+        - generic [ref=e70]: 
+        - text: Pengaturan
+        - generic [ref=e71]: 
+    - listitem [ref=e72]:
+      - link " Laporan " [ref=e73] [cursor=pointer]:
+        - /url: javascript:void(0);
+        - generic [ref=e74]: 
+        - text: Laporan
+        - generic [ref=e75]: 
+  - generic [ref=e77]:
+    - generic [ref=e79]:
+      - generic [ref=e82]:
+        - heading "Buat Area Kerja" [level=4] [ref=e83]
+        - list [ref=e84]:
+          - listitem [ref=e85]: Personalia
+          - listitem [ref=e86]:
+            - text: /
+            - link "Area Kerja" [ref=e87] [cursor=pointer]:
+              - /url: https://hris.dlhk.arkamaya.net/work_unit
+          - listitem [ref=e88]: / Buat Area Kerja
+      - generic [ref=e92]:
+        - generic [ref=e94]:
+          - generic [ref=e95]:
+            - generic [ref=e96]:
+              - generic [ref=e97]: Nama Area Kerja *
+              - textbox [ref=e99]
+            - generic [ref=e100]:
+              - generic [ref=e101]: Deskripsi
+              - textbox [ref=e103]
+            - generic [ref=e104]:
+              - generic [ref=e105]: Induk
+              - generic [ref=e106]:
+                - combobox [ref=e107]
+                - combobox "Tidak Ada" [ref=e110] [cursor=pointer]:
+                  - generic "Tidak Ada" [ref=e111]
+            - generic [ref=e112]:
+              - generic [ref=e113]: Lokasi (lat/long) *
+              - generic [ref=e115]:
+                - textbox [ref=e117]
+                - textbox [ref=e119]
+            - generic [ref=e120]:
+              - generic [ref=e121]: Radius *
+              - generic [ref=e123]:
+                - spinbutton [ref=e125]
+                - generic [ref=e127]: meter
+            - generic [ref=e128]:
+              - generic [ref=e129]: Kepala Zona
+              - generic [ref=e130]:
+                - combobox [ref=e131]
+                - combobox "Tidak Ada" [ref=e134] [cursor=pointer]:
+                  - generic "Tidak Ada" [ref=e135]
+            - generic [ref=e136]:
+              - generic [ref=e137]: Unit Kerja
+              - generic [ref=e138]:
+                - combobox [ref=e139]
+                - combobox "Tidak Ada" [ref=e142] [cursor=pointer]:
+                  - generic "Tidak Ada" [ref=e143]
+          - generic [ref=e146]:
+            - region "Map" [ref=e147]
+            - generic [ref=e148]:
+              - dialog [ref=e192]:
+                - button "Close" [ref=e195] [cursor=pointer]
+                - generic [ref=e197]: Klik peta untuk memilih lokasi kerja
+              - iframe [ref=e199]:
+                
+        - generic [ref=e201]:
+          - button "Kembali" [ref=e202] [cursor=pointer]
+          - button "Buat Area Kerja" [ref=e203] [cursor=pointer]
+    - contentinfo [ref=e204]:
+      - text: © 2017
+      - link "Personalia.id" [ref=e205] [cursor=pointer]:
+        - /url: https://www.personalia.id

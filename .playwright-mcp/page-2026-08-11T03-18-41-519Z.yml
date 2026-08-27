@@ -1,0 +1,216 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link [ref=e5] [cursor=pointer]:
+      - /url: https://hris.dlhk.arkamaya.net/dashboard
+    - navigation [ref=e7]:
+      - generic [ref=e8]:
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - button "" [ref=e11] [cursor=pointer]:
+              - generic [ref=e12]: 
+          - listitem [ref=e13]:
+            - link "UPT Pengelolaan Sampah Kota Bandung" [ref=e14] [cursor=pointer]:
+              - /url: https://hris.dlhk.arkamaya.net/
+        - list [ref=e15]:
+          - listitem [ref=e16]:
+            - link "ARK 1423123" [ref=e17] [cursor=pointer]:
+              - /url: javascript:;
+              - text: ARK
+              - superscript [ref=e18]: "1423123"
+          - listitem [ref=e19]:
+            - link "profile-image" [expanded] [ref=e20] [cursor=pointer]:
+              - /url: javascript:;
+              - img "profile-image" [ref=e21]
+            - text:   
+  - list [ref=e26]:
+    - listitem: Navigasi
+    - listitem [ref=e27]:
+      - link " Personalia " [ref=e28] [cursor=pointer]:
+        - /url: javascript:void(0);
+        - generic [ref=e29]: 
+        - text: Personalia
+        - generic [ref=e30]: 
+      - list [ref=e31]:
+        - listitem [ref=e32]:
+          - link "Dasbor Personalia" [ref=e33] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/dashboard
+        - listitem [ref=e34]:
+          - link "Dasbor KPI" [ref=e35] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/dashboard_kpi
+        - listitem [ref=e36]:
+          - link "Dasbor Kubikasi" [ref=e37] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/waste_volume
+        - listitem [ref=e38]:
+          - link "Data Pegawai" [ref=e39] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/employee
+        - listitem [ref=e40]:
+          - link "Jabatan" [ref=e41] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/position
+        - listitem [ref=e42]:
+          - link "Golongan" [ref=e43] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/role
+        - listitem [ref=e44]:
+          - link "Area Kerja" [ref=e45] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/work_unit
+        - listitem [ref=e46]:
+          - link "Penggajian" [ref=e47] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/payroll
+        - listitem [ref=e48]:
+          - link "Berita" [ref=e49] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/announce
+        - listitem [ref=e50]:
+          - link "Warning Letter" [ref=e51] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/warningletter
+        - listitem [ref=e52]:
+          - link "Kegiatan Perusahaan" [ref=e53] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/activity
+        - listitem [ref=e54]:
+          - link "Unit Kerja" [ref=e55] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/bagian
+        - listitem [ref=e56]:
+          - link "Tunjangan" [ref=e57] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/allowance
+        - listitem [ref=e58]:
+          - link "Surat Perintah Lembur" [ref=e59] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/spl
+    - listitem [ref=e60]:
+      - link " Layanan Mandiri " [ref=e61] [cursor=pointer]:
+        - /url: javascript:void(0);
+        - generic [ref=e62]: 
+        - text: Layanan Mandiri
+        - generic [ref=e63]: 
+    - listitem [ref=e64]:
+      - link " Proyek & Tugas " [ref=e65] [cursor=pointer]:
+        - /url: javascript:void(0);
+        - generic [ref=e66]: 
+        - text: Proyek & Tugas
+        - generic [ref=e67]: 
+    - listitem [ref=e68]:
+      - link " Pengaturan " [ref=e69] [cursor=pointer]:
+        - /url: javascript:void(0);
+        - generic [ref=e70]: 
+        - text: Pengaturan
+        - generic [ref=e71]: 
+    - listitem [ref=e72]:
+      - link " Laporan " [ref=e73] [cursor=pointer]:
+        - /url: javascript:void(0);
+        - generic [ref=e74]: 
+        - text: Laporan
+        - generic [ref=e75]: 
+  - generic [ref=e76]:
+    - generic [ref=e78]:
+      - generic [ref=e81]:
+        - heading "TGLG 01" [level=4] [ref=e82]
+        - list [ref=e83]:
+          - listitem [ref=e84]: Personalia
+          - listitem [ref=e85]:
+            - text: /
+            - link "Area Kerja" [ref=e86] [cursor=pointer]:
+              - /url: https://hris.dlhk.arkamaya.net/work_unit
+          - listitem [ref=e87]: / Detil
+      - generic [ref=e89]:
+        - generic [ref=e91]:
+          - generic [ref=e94]:
+            - generic [ref=e95]:
+              - generic [ref=e96]: Nama Area Kerja
+              - generic [ref=e97]: TGLG 01
+            - generic [ref=e98]:
+              - generic [ref=e99]: Deskripsi
+              - generic [ref=e100]: test
+            - generic [ref=e101]:
+              - generic [ref=e102]: Induk
+              - generic [ref=e103]: SWK Kordoba dan SWK Karees
+            - generic [ref=e104]:
+              - generic [ref=e105]: Lat
+              - generic [ref=e106]: "-"
+            - generic [ref=e107]:
+              - generic [ref=e108]: Long
+              - generic [ref=e109]: "-"
+            - generic [ref=e110]:
+              - generic [ref=e111]: Radius
+              - generic [ref=e112]: 100 m
+            - generic [ref=e113]:
+              - generic [ref=e114]: Jumlah Pegawai
+              - generic [ref=e115]: "2"
+            - generic [ref=e116]:
+              - generic [ref=e117]: Kepala Zona
+              - generic [ref=e118]: "-"
+            - generic [ref=e119]:
+              - generic [ref=e120]: Unit Kerja
+              - generic [ref=e121]: "-"
+          - generic [ref=e125]:
+            - button "Kembali" [ref=e126] [cursor=pointer]
+            - button "Ubah" [ref=e127] [cursor=pointer]
+            - button "Hapus" [disabled] [ref=e128]
+        - generic [ref=e131]:
+          - list [ref=e132]:
+            - listitem [ref=e133]:
+              - link "Data Pegawai" [ref=e134] [cursor=pointer]:
+                - /url: "#tab-pegawai"
+                - text:  Data Pegawai
+            - listitem [ref=e135]:
+              - link "Lokasi Penugasan" [expanded] [active] [ref=e136]:
+                - /url: "#tab-lokasi"
+                - text:  Lokasi Penugasan
+          - generic [ref=e165]:
+            - button "Tambah" [ref=e168] [cursor=pointer]
+            - generic [ref=e170]:
+              - generic [ref=e171]:
+                - generic [ref=e174]:
+                  - text: Per
+                  - combobox "Per Baris" [ref=e175]:
+                    - option "10" [selected]
+                    - option "25"
+                    - option "50"
+                    - option "100"
+                    - option "200"
+                    - option "All"
+                  - text: Baris
+                - generic [ref=e178]:
+                  - text: Cari
+                  - searchbox "Cari" [ref=e179]
+              - grid [ref=e182]:
+                - rowgroup [ref=e183]:
+                  - row "Pilih... Simpan Hapus" [ref=e184]:
+                    - gridcell "Pilih..." [ref=e185]:
+                      - combobox [ref=e186]
+                      - combobox "Pilih..." [ref=e189] [cursor=pointer]:
+                        - generic [ref=e190]: Pilih...
+                    - gridcell [ref=e191]:
+                      - textbox [ref=e192]
+                    - gridcell [ref=e193]:
+                      - textbox [ref=e194]
+                    - gridcell [ref=e195]:
+                      - spinbutton [ref=e196]
+                    - gridcell "Simpan Hapus" [ref=e197]:
+                      - button "Simpan" [ref=e198] [cursor=pointer]
+                      - button "Hapus" [ref=e199] [cursor=pointer]
+                - rowgroup [ref=e200]:
+                  - 'row "Nama Gaspul: activate to sort column descending Jalan/Jalur Utama: activate to sort column ascending Lokasi/Titik Penugasan: activate to sort column ascending Jarak Sapuan (meter): activate to sort column ascending Aksi" [ref=e201]':
+                    - 'columnheader "Nama Gaspul: activate to sort column descending" [ref=e202] [cursor=pointer]': Nama Gaspul 
+                    - 'columnheader "Jalan/Jalur Utama: activate to sort column ascending" [ref=e203] [cursor=pointer]': Jalan/Jalur Utama 
+                    - 'columnheader "Lokasi/Titik Penugasan: activate to sort column ascending" [ref=e204] [cursor=pointer]': Lokasi/Titik Penugasan 
+                    - 'columnheader "Jarak Sapuan (meter): activate to sort column ascending" [ref=e205] [cursor=pointer]': Jarak Sapuan (meter) 
+                    - columnheader "Aksi" [ref=e206]
+              - generic [ref=e207]:
+                - status [ref=e209]: Menampilkan 1 - 1 dari 1 baris
+                - list [ref=e212]:
+                  - listitem:
+                    - link "Awal" [ref=e213]:
+                      - /url: "#"
+                  - listitem:
+                    - link "Mundur" [ref=e214]:
+                      - /url: "#"
+                  - listitem:
+                    - link "1" [ref=e215]:
+                      - /url: "#"
+                  - listitem:
+                    - link "Maju" [ref=e216]:
+                      - /url: "#"
+                  - listitem:
+                    - link "Akhir" [ref=e217]:
+                      - /url: "#"
+    - contentinfo [ref=e163]:
+      - text: © 2017
+      - link "Personalia.id" [ref=e164] [cursor=pointer]:
+        - /url: https://www.personalia.id

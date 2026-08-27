@@ -1,0 +1,221 @@
+- generic [ref=e2]:
+  - text:      
+  - generic [ref=e3]:
+    - link [ref=e5] [cursor=pointer]:
+      - /url: https://hris.wit.arkamaya.net/dashboard
+    - navigation [ref=e7]:
+      - generic [ref=e8]:
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - button "" [ref=e11] [cursor=pointer]:
+              - generic [ref=e12]: 
+          - listitem [ref=e13]:
+            - link "LAHANS" [ref=e14] [cursor=pointer]:
+              - /url: https://hris.wit.arkamaya.net/
+            - generic [ref=e15]: "Status : AKTIF"
+        - list [ref=e16]:
+          - listitem [ref=e17]:
+            - generic [ref=e18]:
+              - heading [level=4]
+          - listitem [ref=e19]:
+            - link " 0" [ref=e20] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e21]: 
+              - generic [ref=e22]: "0"
+          - listitem [ref=e23]:
+            - link "AGUSTINA ANGGRAENI Personal Assistant Staff" [ref=e24] [cursor=pointer]:
+              - /url: javascript:;
+              - text: AGUSTINA ANGGRAENI
+              - superscript [ref=e25]: Personal Assistant Staff
+          - listitem [ref=e26]:
+            - link "profile-image" [expanded] [ref=e27] [cursor=pointer]:
+              - /url: javascript:;
+              - img "profile-image" [ref=e28]
+            - text:  
+  - list [ref=e33]:
+    - listitem: Navigasi
+    - listitem [ref=e34]:
+      - link " Personalia " [ref=e35] [cursor=pointer]:
+        - /url: javascript:void(0);
+        - generic [ref=e36]: 
+        - text: Personalia
+        - generic [ref=e37]: 
+    - listitem [ref=e38]:
+      - link " Layanan Mandiri " [ref=e39] [cursor=pointer]:
+        - /url: javascript:void(0);
+        - generic [ref=e40]: 
+        - text: Layanan Mandiri
+        - generic [ref=e41]: 
+      - list [ref=e42]:
+        - listitem [ref=e43]:
+          - link "Presensi" [ref=e44] [cursor=pointer]:
+            - /url: https://hris.wit.arkamaya.net/presence
+        - listitem [ref=e45]:
+          - link "Perjalanan Dinas" [ref=e46] [cursor=pointer]:
+            - /url: https://hris.wit.arkamaya.net/official_travel
+        - listitem [ref=e47]:
+          - link "Petty Cash" [ref=e48] [cursor=pointer]:
+            - /url: https://hris.wit.arkamaya.net/petty_cash
+        - listitem [ref=e49]:
+          - link "Reimbursement" [ref=e50] [cursor=pointer]:
+            - /url: https://hris.wit.arkamaya.net/reimburse
+        - listitem [ref=e51]:
+          - link "Pengajuan Cuti" [ref=e52] [cursor=pointer]:
+            - /url: https://hris.wit.arkamaya.net/leave
+        - listitem [ref=e53]:
+          - link "Pengajuan Lembur" [ref=e54] [cursor=pointer]:
+            - /url: https://hris.wit.arkamaya.net/overtime
+        - listitem [ref=e55]:
+          - link "Kalendar Kerja" [ref=e56] [cursor=pointer]:
+            - /url: https://hris.wit.arkamaya.net/calendar
+        - listitem [ref=e57]:
+          - link "Download Slip" [ref=e58] [cursor=pointer]:
+            - /url: https://hris.wit.arkamaya.net/payroll_slip
+  - generic [ref=e61]:
+    - generic [ref=e64]:
+      - heading "Buat Petty Cash" [level=4] [ref=e65]
+      - list [ref=e66]:
+        - listitem [ref=e67]: Layanan Mandiri
+        - listitem [ref=e68]:
+          - text: /
+          - link "Petty Cash" [ref=e69] [cursor=pointer]:
+            - /url: https://hris.wit.arkamaya.net/petty_cash
+        - listitem [ref=e70]: / Buat Petty Cash
+    - generic [ref=e72]:
+      - form [ref=e74]:
+        - generic [ref=e76]:
+          - generic [ref=e78]:
+            - generic [ref=e79]:
+              - generic [ref=e80]: Diajukan Oleh
+              - link "AGUSTINA ANGGRAENI" [ref=e82] [cursor=pointer]:
+                - /url: https://hris.wit.arkamaya.net/profile/id/1939
+            - generic [ref=e83]:
+              - generic [ref=e84]: Penempatan Kerja *
+              - generic [ref=e85]:
+                - listbox [ref=e86]:
+                  - option [ref=e87]: CV Tintin
+                  - option [ref=e88]: CV TINTIN (HO)
+                  - option [ref=e89]: PT LMI
+                  - option [selected] [ref=e90]: PT LMN - Bandung
+                  - option [ref=e91]: PT LMN - Banyuwangi
+                  - option [ref=e92]: PT LMN - Garut
+                  - option [ref=e93]: PT LMN - Jember
+                  - option [ref=e94]: PT LMN - Jombang
+                  - option [ref=e95]: PT LMN - Malang
+                  - option [ref=e96]: PT LMN - Probolinggo
+                  - option [ref=e97]: PT LMN - Purwakarta
+                  - option [ref=e98]: PT LMN - Semarang
+                  - option [ref=e99]: PT LMN - Sidoarjo
+                  - option [ref=e100]: PT LMN - Solo
+                  - option [ref=e101]: PT LMN - Subang
+                  - option [ref=e102]: PT LMN - SUKABUMI
+                  - option [ref=e103]: PT LMN - Tangerang
+                  - option [ref=e104]: PT LMN - Tasik
+                  - option [ref=e105]: PT LMN - Tegal
+                  - option [ref=e106]: PT LMN - Wangon
+                  - option [ref=e107]: PT LMN - Wonosobo
+                  - option [ref=e108]: PT LMN HO
+                  - option [ref=e109]: PT. LMN - Cirebon
+                  - option [ref=e110]: Test Area
+                - combobox [ref=e113]:
+                  - list [ref=e114]:
+                    - listitem "PT LMN - Bandung" [ref=e237]: × PT LMN - Bandung
+                    - listitem [ref=e115]:
+                      - textbox [ref=e238]
+            - generic [ref=e117]:
+              - generic [ref=e118]: Tanggal Keberangkatan *
+              - textbox [ref=e120]: 25/07/2026
+              - generic [ref=e121]: Tanggal Kembali
+              - textbox [ref=e123]: 25/07/2026
+            - generic [ref=e124]:
+              - generic [ref=e125]: Lokasi Tujuan *
+              - textbox [ref=e127]: Bandung City Office
+            - generic [ref=e128]:
+              - generic [ref=e129]: Keperluan Perjalanan *
+              - textbox [ref=e131]: Meeting koordinasi bulanan dengan tim sales
+            - generic [ref=e132]:
+              - generic [ref=e133]: Jenis Petty Cash *
+              - generic [ref=e134]:
+                - combobox [ref=e135]
+                - combobox "Belanja ATK" [ref=e400] [cursor=pointer]:
+                  - generic "Belanja ATK" [ref=e401]
+          - generic [ref=e140]:
+            - generic [ref=e141]:
+              - heading "Transfer Cost Petty Cash" [level=5] [ref=e142]
+              - generic [ref=e143]:
+                - generic [ref=e144]: Status Pengajuan *
+                - generic [ref=e145]:
+                  - generic [ref=e146]:
+                    - radio "Terencana" [checked] [ref=e147]
+                    - text: Terencana
+                  - generic [ref=e148]:
+                    - radio "Mendadak" [ref=e149]
+                    - text: Mendadak
+              - generic [ref=e150]:
+                - generic [ref=e151]: Biaya diperlukan pada tanggal
+                - textbox [ref=e153]: 24/07/2026
+              - generic [ref=e154]:
+                - generic [ref=e155]: Payment Method *
+                - generic [ref=e157]:
+                  - radio "Transfer" [checked] [ref=e158]
+                  - text: Transfer
+            - generic [ref=e159]:
+              - generic [ref=e160]: Penerima
+              - textbox [ref=e162]: AGUSTINA ANGGRAENI
+            - generic [ref=e163]:
+              - generic [ref=e164]: Bank
+              - textbox [ref=e166]: Bank BCA
+            - generic [ref=e167]:
+              - generic [ref=e168]: No Rekening
+              - textbox [ref=e170]: "4460556142"
+        - generic [ref=e171]:
+          - heading "Member Petty Cash" [level=4] [ref=e173]
+          - table [ref=e177]:
+            - rowgroup [ref=e178]:
+              - row "Nama" [ref=e179]:
+                - columnheader "Nama" [ref=e180]
+            - rowgroup [ref=e181]:
+              - row " Tambah" [ref=e182]:
+                - cell [ref=e183]:
+                  - textbox "Nama Pegawai" [ref=e184]
+                - cell " Tambah" [ref=e185]:
+                  - button " Tambah" [ref=e186] [cursor=pointer]:
+                    - generic [ref=e187]: 
+                    - text: Tambah
+        - generic [ref=e188]:
+          - heading "Biaya Petty Cash" [level=4] [ref=e190]
+          - table [ref=e194]:
+            - rowgroup [ref=e195]:
+              - row "Jenis Pengeluaran Jumlah Biaya Keterangan Aksi" [ref=e196]:
+                - columnheader "Jenis Pengeluaran" [ref=e197]
+                - columnheader "Jumlah Biaya" [ref=e198]
+                - columnheader "Keterangan" [ref=e199]
+                - columnheader "Aksi" [ref=e200]
+            - rowgroup [ref=e201]:
+              - row "Transportasi (BBM,Toll,Parkir,Tiket Kereta/Pesawat/Bis/Grab) 150.000 Tiket transport pulang pergi  Hapus" [ref=e424]:
+                - cell "Transportasi (BBM,Toll,Parkir,Tiket Kereta/Pesawat/Bis/Grab)" [ref=e416]:
+                  - combobox [disabled] [ref=e404]:
+                    - option "-- Pilih --"
+                    - option "Transportasi (BBM,Toll,Parkir,Tiket Kereta/Pesawat/Bis/Grab)" [selected]
+                - cell "150.000" [ref=e422]:
+                  - textbox "0" [ref=e410]: "150.000"
+                - cell "Tiket transport pulang pergi" [ref=e423]:
+                  - textbox "Keterangan" [ref=e412]: Tiket transport pulang pergi
+                - cell " Hapus" [ref=e425]:
+                  - button " Hapus" [ref=e426] [cursor=pointer]:
+                    - generic [ref=e427]: 
+                    - text: Hapus
+              - row "-- Pilih -- Tambah" [ref=e428]:
+                - cell "-- Pilih --" [ref=e429]:
+                  - combobox [ref=e430]
+                  - combobox "-- Pilih --" [ref=e433] [cursor=pointer]:
+                    - generic [ref=e434]: "-- Pilih --"
+                - cell [ref=e435]:
+                  - textbox "0" [ref=e436]
+                - cell [ref=e437]:
+                  - textbox "Keterangan" [ref=e438]
+                - cell "Tambah" [ref=e439]:
+                  - button "Tambah" [ref=e440] [cursor=pointer]
+      - generic [ref=e206]:
+        - button "Batal" [ref=e207] [cursor=pointer]
+        - button "Buat Petty Cash" [active] [ref=e208] [cursor=pointer]

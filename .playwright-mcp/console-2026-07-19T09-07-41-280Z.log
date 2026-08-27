@@ -1,0 +1,6 @@
+[  -12357ms] [ERROR] Loading the script 'https://www.googletagmanager.com/gtag/js?id=G-FFH1158H9W' violates the following Content Security Policy directive: "script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.tawk.to cdn.jsdelivr.net maps.googleapis.com cloudfront.net *.midtrans.com *.veritrans.co.id *.mixpanel.com *.google-analytics.com". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The action has been blocked. @ https://hris.wit.arkamaya.net/petty_cash/create:0
+[  -12308ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://embed.tawk.to/5754f89a8e99d8cc69804773/1h7uidgpd:0
+[  -11779ms] [LOG] [] @ https://hris.wit.arkamaya.net/jsapp/petty_cash_member_table.js?v=20260719155945:6
+[  -11776ms] [LOG] [] @ https://hris.wit.arkamaya.net/jsapp/petty_cash_member_table.js?v=20260719155945:51
+[       9ms] ReferenceError: submit_petty_cash is not defined
+    at HTMLButtonElement.onclick (https://hris.wit.arkamaya.net/petty_cash/create:657:157)

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Inventory System</title>
+ <style>
+ body { font-family: sans-serif; margin: 20px; }
+ .form-group { margin-bottom: 10px; }
+ table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+ th, td { border: 1px solid #ddd; padding: 8px; }
+ .error { color: red; font-size: 12px; }
+ </style>
+</head>
+<body>
+ <div>
+ <h2>Inventory Manager</h2>
+ <div class="form-group">
+ <input type="text" id="itemName" placeholder="Product Name">
+ <input type="number" id="itemPrice" placeholder="Price">
+ <input type="number" id="itemQty" placeholder="Quantity">
+ <button onclick="addItem()">Add Item</button>
+ </div>
+ <div id="errorLog" class="error"></div>
+ <table>
+ <thead>
+ <tr><th>Name</th><th>Price</th><th>Qty</th><th>Subtotal</
+th><th>Action</th></tr>
+ </thead>
+ <tbody id="inventoryBody"></tbody>
+ </table>
+ <div style="margin-top: 20px;">
+ <strong>Total (Inc. Tax 11%): </strong> <span id="grandTotal">0</span>
+ </div>
+ </div>
+ <script>
+ let inventory = [];
+ function addItem() {
+ const name = document.getElementById('itemName').value;
+ const price = parseFloat(document.getElementById('itemPrice').value);
+ const qty = parseInt(document.getElementById('itemQty').value);
+ const errorLog = document.getElementById('errorLog');
+ errorLog.innerText = "";
+ if (name == "" || price == "") {
+ errorLog.innerText = "Fields cannot be empty";
+ return;
+ }
+ const item = { id: Date.now(), name, price, qty, subtotal: price * qty };
+ inventory.push(item);
+ renderTable();
+ }
+ function removeItem(id) {
+ inventory = inventory.filter(i => i.id !== id);
+ renderTable();
+ }
+ function renderTable() {
+ const tbody = document.getElementById('inventoryBody');
+ tbody.innerHTML = "";
+ let total = 0;
+ inventory.forEach(item => {
+ total += item.subtotal;
+ tbody.innerHTML += `<tr><td>${item.name}</td><td>${item.price}</
+td><td>${item.qty}</td><td>${item.subtotal}</td><td><button onclick="removeItem($
+{item.id})">Delete</button></td></tr>`;
+ });
+ document.getElementById('grandTotal').innerText = (total + (total *
+0.11)).toFixed(2);
+ }
+ </script>
+</body>
+</html>

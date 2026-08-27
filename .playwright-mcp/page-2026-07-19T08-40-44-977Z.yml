@@ -1,0 +1,255 @@
+- generic [ref=e2]:
+  - text:      
+  - generic [ref=e3]:
+    - link [ref=e5] [cursor=pointer]:
+      - /url: https://hris.wit.arkamaya.net/dashboard
+    - navigation [ref=e7]:
+      - generic [ref=e8]:
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - button "" [ref=e11] [cursor=pointer]:
+              - generic [ref=e12]: 
+          - listitem [ref=e13]:
+            - link "LAHANS" [ref=e14] [cursor=pointer]:
+              - /url: https://hris.wit.arkamaya.net/
+            - generic [ref=e15]: "Status : AKTIF"
+        - list [ref=e16]:
+          - listitem [ref=e17]:
+            - generic [ref=e18]:
+              - heading [level=4]
+          - listitem [ref=e19]:
+            - link " 0" [ref=e20] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e21]: 
+              - generic [ref=e22]: "0"
+          - listitem [ref=e23]:
+            - link "AGUSTINA ANGGRAENI Personal Assistant Staff" [ref=e24] [cursor=pointer]:
+              - /url: javascript:;
+              - text: AGUSTINA ANGGRAENI
+              - superscript [ref=e25]: Personal Assistant Staff
+          - listitem [ref=e26]:
+            - link "profile-image" [expanded] [ref=e27] [cursor=pointer]:
+              - /url: javascript:;
+              - img "profile-image" [ref=e28]
+            - text:  
+  - list [ref=e33]:
+    - listitem: Navigasi
+    - listitem [ref=e34]:
+      - link " Personalia " [ref=e35] [cursor=pointer]:
+        - /url: javascript:void(0);
+        - generic [ref=e36]: 
+        - text: Personalia
+        - generic [ref=e37]: 
+      - list [ref=e38]:
+        - listitem [ref=e39]:
+          - link "Dasbor Personalia" [ref=e40] [cursor=pointer]:
+            - /url: https://hris.wit.arkamaya.net/dashboard
+    - listitem [ref=e41]:
+      - link " Layanan Mandiri " [ref=e42] [cursor=pointer]:
+        - /url: javascript:void(0);
+        - generic [ref=e43]: 
+        - text: Layanan Mandiri
+        - generic [ref=e44]: 
+  - generic [ref=e47]:
+    - heading "Dasbor Personalia" [level=4] [ref=e51]
+    - generic [ref=e53]:
+      - generic [ref=e54]:
+        - generic [ref=e56]:
+          - generic [ref=e57]: 
+          - generic [ref=e58]:
+            - paragraph [ref=e59]: Pengajuan Reimbursement
+            - heading "Rp. 3,221,233.00" [level=2] [ref=e60]
+            - paragraph [ref=e61]:
+              - link "Lihat pengajuan Reimbursement" [ref=e62] [cursor=pointer]:
+                - /url: https://hris.wit.arkamaya.net/reimburse
+        - generic [ref=e64]:
+          - generic [ref=e65]: 
+          - generic [ref=e66]:
+            - paragraph [ref=e67]: Pengajuan Cuti 2026
+            - heading "4 Hari" [level=2] [ref=e68]
+            - paragraph [ref=e69]:
+              - link "Lihat pengajuan cuti" [ref=e70] [cursor=pointer]:
+                - /url: https://hris.wit.arkamaya.net/leave
+        - generic [ref=e72]:
+          - generic [ref=e73]: 
+          - generic [ref=e74]:
+            - paragraph [ref=e75]: Pengajuan Lembur 2026
+            - heading "0 Jam" [level=2] [ref=e76]
+            - paragraph [ref=e77]:
+              - link "Lihat pengajuan lembur" [ref=e78] [cursor=pointer]:
+                - /url: https://hris.wit.arkamaya.net/overtime
+        - text: 
+      - generic [ref=e79]:
+        - generic [ref=e81]:
+          - heading "Ringkasan Golongan" [level=4] [ref=e83]
+          - generic [ref=e84]:
+            - img [ref=e87] [cursor=pointer]:
+              - generic [ref=e100]: Non Staff
+              - generic [ref=e101]: "208"
+            - generic [ref=e102]:
+              - heading "Golongan Pegawai (6 )" [level=3] [ref=e103]
+              - list [ref=e104]:
+                - listitem [ref=e105]:
+                  - text: 1. Non Staff
+                  - strong [ref=e106]: "208"
+                - listitem [ref=e107]:
+                  - text: 2. Operator
+                  - strong [ref=e108]: "127"
+                - listitem [ref=e109]:
+                  - text: 3. Staff
+                  - strong [ref=e110]: "89"
+                - listitem [ref=e111]:
+                  - text: 4. Supervisor
+                  - strong [ref=e112]: "33"
+                - listitem [ref=e113]:
+                  - text: 5. Manager
+                  - strong [ref=e114]: "9"
+                - listitem [ref=e115]:
+                  - text: 6. Direksi
+                  - strong [ref=e116]: "6"
+        - generic [ref=e118]:
+          - heading "Ringkasan Jabatan" [level=4] [ref=e120]
+          - generic [ref=e121]:
+            - img [ref=e124] [cursor=pointer]:
+              - generic [ref=e145]: Operator
+              - generic [ref=e146]: "126"
+            - generic [ref=e147]:
+              - heading "10 Jabatan dengan Pegawai terbanyak" [level=3] [ref=e148]
+              - list [ref=e149]:
+                - listitem [ref=e150]:
+                  - text: 1. Operator
+                  - strong [ref=e151]: "126"
+                - listitem [ref=e152]:
+                  - text: 2. Salesman
+                  - strong [ref=e153]: "59"
+                - listitem [ref=e154]:
+                  - text: 3. Driver
+                  - strong [ref=e155]: "59"
+                - listitem [ref=e156]:
+                  - text: 4. SP-GT
+                  - strong [ref=e157]: "26"
+                - listitem [ref=e158]:
+                  - text: 5. Helper
+                  - strong [ref=e159]: "26"
+                - listitem [ref=e160]:
+                  - text: 6. Administration Staff
+                  - strong [ref=e161]: "18"
+                - listitem [ref=e162]:
+                  - text: 7. Area Sales Supervisor
+                  - strong [ref=e163]: "17"
+                - listitem [ref=e164]:
+                  - text: 8. SP-MT
+                  - strong [ref=e165]: "11"
+                - listitem [ref=e166]:
+                  - text: 9. Helper Gudang
+                  - strong [ref=e167]: "6"
+                - listitem [ref=e168]:
+                  - text: 10. IT Staff
+                  - strong [ref=e169]: "4"
+      - separator [ref=e170]
+      - generic [ref=e173]:
+        - heading "Jumlah Pegawai Per Kategori Usia" [level=4] [ref=e174]
+        - paragraph [ref=e175]: Klik pada area chart yang disorot untuk melihat detail data
+        - img [ref=e177] [cursor=pointer]:
+          - generic [ref=e181]:
+            - generic [ref=e183]: < 20 Tahun
+            - generic [ref=e185]: 20 - 30 Tahun
+            - generic [ref=e187]: 31 - 40 Tahun
+            - generic [ref=e189]: 41 - 50 Tahun
+            - generic [ref=e191]: "> 50 Tahun"
+      - generic [ref=e192]:
+        - generic [ref=e194]:
+          - heading "Tidak Akan Masuk" [level=4] [ref=e195]
+          - generic [ref=e197]:
+            - text: Hore, Sepertinya bakal masuk semua. :)
+            - link "Saya berencana tidak masuk" [ref=e198] [cursor=pointer]:
+              - /url: https://hris.wit.arkamaya.net/leave/create
+        - generic [ref=e200]:
+          - heading "Ulang Tahun" [level=4] [ref=e201]
+          - generic [ref=e203]:
+            - generic [ref=e204]:
+              - img "Abdul Rohman" [ref=e206]
+              - paragraph [ref=e207]:
+                - link "Abdul Rohman" [ref=e208] [cursor=pointer]:
+                  - /url: https://hris.wit.arkamaya.net/profile/id/2311
+              - paragraph [ref=e209]: Operator
+              - paragraph [ref=e210]: 20 July
+            - generic [ref=e211]:
+              - img "GATOT SUDARTO" [ref=e213]
+              - paragraph [ref=e214]:
+                - link "GATOT SUDARTO" [ref=e215] [cursor=pointer]:
+                  - /url: https://hris.wit.arkamaya.net/profile/id/2058
+              - paragraph [ref=e216]: Area Sales Supervisor
+              - paragraph [ref=e217]: 20 July
+            - generic [ref=e218]:
+              - img "AAN AGUSTIAN" [ref=e220]
+              - paragraph [ref=e221]:
+                - link "AAN AGUSTIAN" [ref=e222] [cursor=pointer]:
+                  - /url: https://hris.wit.arkamaya.net/profile/id/2347
+              - paragraph [ref=e223]: Driver
+              - paragraph [ref=e224]: 20 July
+            - generic [ref=e225]:
+              - img "DINDA DEWI MAHARANI" [ref=e227]
+              - paragraph [ref=e228]:
+                - link "DINDA DEWI MAHARANI" [ref=e229] [cursor=pointer]:
+                  - /url: https://hris.wit.arkamaya.net/profile/id/2428
+              - paragraph [ref=e230]: SP-MT
+              - paragraph [ref=e231]: 20 July
+            - generic [ref=e232]:
+              - img "NADIA NUR AZIZAH SUBAGIO" [ref=e234]
+              - paragraph [ref=e235]:
+                - link "NADIA NUR AZIZAH SUBAGIO" [ref=e236] [cursor=pointer]:
+                  - /url: https://hris.wit.arkamaya.net/profile/id/2488
+              - paragraph [ref=e237]: Quality Control Intern
+              - paragraph [ref=e238]: 20 July
+            - generic [ref=e239]:
+              - img "MOCH REZA ZULFIKAR" [ref=e241]
+              - paragraph [ref=e242]:
+                - link "MOCH REZA ZULFIKAR" [ref=e243] [cursor=pointer]:
+                  - /url: https://hris.wit.arkamaya.net/profile/id/2105
+              - paragraph [ref=e244]: Salesman
+              - paragraph [ref=e245]: 22 July
+            - generic [ref=e246]:
+              - img "NAFISA RAHMA ZAPHIRA" [ref=e248]
+              - paragraph [ref=e249]:
+                - link "NAFISA RAHMA ZAPHIRA" [ref=e250] [cursor=pointer]:
+                  - /url: https://hris.wit.arkamaya.net/profile/id/2467
+              - paragraph [ref=e251]: QC Staff
+              - paragraph [ref=e252]: 22 July
+            - generic [ref=e253]:
+              - img "WIT Staff" [ref=e255]
+              - paragraph [ref=e256]:
+                - link "WIT Staff" [ref=e257] [cursor=pointer]:
+                  - /url: https://hris.wit.arkamaya.net/profile/id/1735
+              - paragraph [ref=e258]: Staff Operasional
+              - paragraph [ref=e259]: 22 July
+            - generic [ref=e260]:
+              - img "RIZKI ADITYA FIRMANSYAH" [ref=e262]
+              - paragraph [ref=e263]:
+                - link "RIZKI ADITYA FIRMANSYAH" [ref=e264] [cursor=pointer]:
+                  - /url: https://hris.wit.arkamaya.net/profile/id/1999
+              - paragraph [ref=e265]: Driver
+              - paragraph [ref=e266]: 22 July
+            - generic [ref=e267]:
+              - img "IHSAN TARDIANSYAH" [ref=e269]
+              - paragraph [ref=e270]:
+                - link "IHSAN TARDIANSYAH" [ref=e271] [cursor=pointer]:
+                  - /url: https://hris.wit.arkamaya.net/profile/id/2162
+              - paragraph [ref=e272]: Packing Team Leader
+              - paragraph [ref=e273]: 25 July
+        - generic [ref=e276]:
+          - heading "Top 10 Aktivitas Team" [level=4] [ref=e277]
+          - generic [ref=e280]: Tidak Ada Aktivitas
+        - generic [ref=e282]:
+          - heading "Event & Hari Libur Mendatang" [level=4] [ref=e283]
+          - generic [ref=e285]:
+            - generic [ref=e286]:
+              - paragraph [ref=e288]: Proklamasi Kemerdekaan RI
+              - paragraph [ref=e289]: 17 August 2026
+            - generic [ref=e290]:
+              - paragraph [ref=e292]: Maulid Nabi Muhammad SAW
+              - paragraph [ref=e293]: 25 August 2026
+            - generic [ref=e294]:
+              - paragraph [ref=e296]: Kelahiran Yesus Kristus
+              - paragraph [ref=e297]: 25 December 2026
+    - form

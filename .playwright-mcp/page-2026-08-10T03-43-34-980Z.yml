@@ -1,0 +1,795 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link [ref=e5] [cursor=pointer]:
+        - /url: https://hris.dlhk.arkamaya.net/dashboard
+      - navigation [ref=e7]:
+        - generic [ref=e8]:
+          - list [ref=e9]:
+            - listitem [ref=e10]:
+              - button "" [ref=e11] [cursor=pointer]:
+                - generic [ref=e12]: 
+            - listitem [ref=e13]:
+              - link "UPT Pengelolaan Sampah Kota Bandung" [ref=e14] [cursor=pointer]:
+                - /url: https://hris.dlhk.arkamaya.net/
+          - list [ref=e15]:
+            - listitem [ref=e16]:
+              - link "ARK 1423123" [ref=e17] [cursor=pointer]:
+                - /url: javascript:;
+                - text: ARK
+                - superscript [ref=e18]: "1423123"
+            - listitem [ref=e19]:
+              - link "profile-image" [expanded] [ref=e20] [cursor=pointer]:
+                - /url: javascript:;
+                - img "profile-image" [ref=e21]
+              - text:   
+    - list [ref=e26]:
+      - listitem: Navigasi
+      - listitem [ref=e27]:
+        - link " Personalia " [ref=e28] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - generic [ref=e29]: 
+          - text: Personalia
+          - generic [ref=e30]: 
+        - list [ref=e31]:
+          - listitem [ref=e32]:
+            - link "Dasbor Personalia" [ref=e33] [cursor=pointer]:
+              - /url: https://hris.dlhk.arkamaya.net/dashboard
+          - listitem [ref=e34]:
+            - link "Dasbor KPI" [ref=e35] [cursor=pointer]:
+              - /url: https://hris.dlhk.arkamaya.net/dashboard_kpi
+          - listitem [ref=e36]:
+            - link "Dasbor Kubikasi" [ref=e37] [cursor=pointer]:
+              - /url: https://hris.dlhk.arkamaya.net/waste_volume
+          - listitem [ref=e38]:
+            - link "Data Pegawai" [ref=e39] [cursor=pointer]:
+              - /url: https://hris.dlhk.arkamaya.net/employee
+          - listitem [ref=e40]:
+            - link "Jabatan" [ref=e41] [cursor=pointer]:
+              - /url: https://hris.dlhk.arkamaya.net/position
+          - listitem [ref=e42]:
+            - link "Golongan" [ref=e43] [cursor=pointer]:
+              - /url: https://hris.dlhk.arkamaya.net/role
+          - listitem [ref=e44]:
+            - link "Area Kerja" [ref=e45] [cursor=pointer]:
+              - /url: https://hris.dlhk.arkamaya.net/work_unit
+          - listitem [ref=e46]:
+            - link "Penggajian" [ref=e47] [cursor=pointer]:
+              - /url: https://hris.dlhk.arkamaya.net/payroll
+          - listitem [ref=e48]:
+            - link "Berita" [ref=e49] [cursor=pointer]:
+              - /url: https://hris.dlhk.arkamaya.net/announce
+          - listitem [ref=e50]:
+            - link "Warning Letter" [ref=e51] [cursor=pointer]:
+              - /url: https://hris.dlhk.arkamaya.net/warningletter
+          - listitem [ref=e52]:
+            - link "Kegiatan Perusahaan" [ref=e53] [cursor=pointer]:
+              - /url: https://hris.dlhk.arkamaya.net/activity
+          - listitem [ref=e54]:
+            - link "Unit Kerja" [ref=e55] [cursor=pointer]:
+              - /url: https://hris.dlhk.arkamaya.net/bagian
+          - listitem [ref=e56]:
+            - link "Tunjangan" [ref=e57] [cursor=pointer]:
+              - /url: https://hris.dlhk.arkamaya.net/allowance
+          - listitem [ref=e58]:
+            - link "Surat Perintah Lembur" [ref=e59] [cursor=pointer]:
+              - /url: https://hris.dlhk.arkamaya.net/spl
+      - listitem [ref=e60]:
+        - link " Layanan Mandiri " [ref=e61] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - generic [ref=e62]: 
+          - text: Layanan Mandiri
+          - generic [ref=e63]: 
+      - listitem [ref=e64]:
+        - link " Proyek & Tugas " [ref=e65] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - generic [ref=e66]: 
+          - text: Proyek & Tugas
+          - generic [ref=e67]: 
+      - listitem [ref=e68]:
+        - link " Pengaturan " [ref=e69] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - generic [ref=e70]: 
+          - text: Pengaturan
+          - generic [ref=e71]: 
+      - listitem [ref=e72]:
+        - link " Laporan " [ref=e73] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - generic [ref=e74]: 
+          - text: Laporan
+          - generic [ref=e75]: 
+    - generic [ref=e77]:
+      - generic [ref=e79]:
+        - generic [ref=e83]:
+          - generic [ref=e84]:
+            - heading "Dasbor KPI" [level=4] [ref=e85]
+            - paragraph [ref=e86]: "Periode: 01/08/2026 - 31/08/2026 | Semua Unit Kerja | Semua Area Kerja"
+          - generic [ref=e87]:
+            - button " Filter" [ref=e88] [cursor=pointer]:
+              - generic [ref=e89]: 
+              - text: Filter
+            - button " Setting" [ref=e90] [cursor=pointer]:
+              - generic [ref=e91]: 
+              - text: Setting
+        - generic [ref=e92]:
+          - generic [ref=e94]:
+            - heading "Rata-rata Nilai KPI" [level=4] [ref=e95]
+            - heading "0.00" [level=2] [ref=e96]
+          - generic [ref=e98]:
+            - heading "Pegawai Baik" [level=4] [ref=e99]
+            - heading "0" [level=2] [ref=e100]
+          - generic [ref=e102]:
+            - heading "Pegawai Buruk" [level=4] [ref=e103]
+            - heading "1699" [level=2] [ref=e104]
+          - generic [ref=e106]:
+            - heading "Persentase Baik" [level=4] [ref=e107]
+            - heading "0.00%" [level=2] [ref=e108]
+        - generic [ref=e109]:
+          - generic [ref=e111]:
+            - heading "Total Pegawai" [level=4] [ref=e112]
+            - heading "1699" [level=2] [ref=e113]
+          - generic [ref=e115]:
+            - heading "Total Terlambat" [level=4] [ref=e116]
+            - heading "0" [level=2] [ref=e117]
+          - generic [ref=e119]:
+            - heading "Total Luar Lokasi" [level=4] [ref=e120]
+            - heading "0" [level=2] [ref=e121]
+          - generic [ref=e123]:
+            - heading "Total Tidak Hadir" [level=4] [ref=e124]
+            - heading "0" [level=2] [ref=e125]
+        - generic [ref=e126]:
+          - generic [ref=e128]:
+            - heading "Status KPI" [level=4] [ref=e129]
+            - img [ref=e131]:
+              - generic [ref=e136]: Buruk
+              - generic [ref=e137]: 1,699
+          - generic [ref=e139]:
+            - heading "Rata-rata Komponen KPI" [level=4] [ref=e140]
+            - img [ref=e142]:
+              - generic [ref=e143]: "0"
+              - generic [ref=e144]: "0.25"
+              - generic [ref=e145]: "0.5"
+              - generic [ref=e146]: "0.75"
+              - generic [ref=e147]: "1"
+              - generic [ref=e148]: Luar Lokasi
+              - generic [ref=e149]: Keterlambatan
+              - generic [ref=e150]: Kehadiran
+          - generic [ref=e152]:
+            - heading "KPI per Unit Kerja Lihat selengkapnya" [level=4] [ref=e153]:
+              - text: KPI per Unit Kerja
+              - link "Lihat selengkapnya" [ref=e154] [cursor=pointer]:
+                - /url: javascript:void(0)
+            - img [ref=e156]:
+              - generic [ref=e157]: "0"
+              - generic [ref=e158]: "0.25"
+              - generic [ref=e159]: "0.5"
+              - generic [ref=e160]: "0.75"
+              - generic [ref=e161]: "1"
+              - generic [ref=e162]: "null"
+              - generic [ref=e163]: SWK Karees
+              - generic [ref=e164]: SWK Ubermanik
+              - generic [ref=e165]: Keuangan
+              - generic [ref=e166]: SWK Kordoba
+              - generic [ref=e167]: Logistik/Tim Taktis
+              - generic [ref=e168]: Perencanaan, Evaluasi & Pelaporan
+        - generic [ref=e169]:
+          - generic [ref=e171]:
+            - heading "Top 10 KPI Terbaik" [level=4] [ref=e172]
+            - table [ref=e173]:
+              - rowgroup [ref=e174]:
+                - row "No No Reg Nama Nilai" [ref=e175]:
+                  - columnheader "No" [ref=e176]
+                  - columnheader "No Reg" [ref=e177]
+                  - columnheader "Nama" [ref=e178]
+                  - columnheader "Nilai" [ref=e179]
+              - rowgroup [ref=e180]:
+                - row "1 1819 1 032020 07051998 A ZAENAL MUTAQIN 0.00" [ref=e181]:
+                  - cell "1" [ref=e182]
+                  - cell "1819 1 032020 07051998" [ref=e183]
+                  - cell "A ZAENAL MUTAQIN" [ref=e184]
+                  - cell "0.00" [ref=e185]:
+                    - strong [ref=e186]: "0.00"
+                - row "2 1234 1 102020 09121969 RAHAYU 0.00" [ref=e187]:
+                  - cell "2" [ref=e188]
+                  - cell "1234 1 102020 09121969" [ref=e189]
+                  - cell "RAHAYU" [ref=e190]
+                  - cell "0.00" [ref=e191]:
+                    - strong [ref=e192]: "0.00"
+                - row "3 0178 1 102021 03091989 RAHMAT SUPRIYADI 0.00" [ref=e193]:
+                  - cell "3" [ref=e194]
+                  - cell "0178 1 102021 03091989" [ref=e195]
+                  - cell "RAHMAT SUPRIYADI" [ref=e196]
+                  - cell "0.00" [ref=e197]:
+                    - strong [ref=e198]: "0.00"
+                - row "4 0336 1 102021 07071973 RAHMAT HIDAYAT 0.00" [ref=e199]:
+                  - cell "4" [ref=e200]
+                  - cell "0336 1 102021 07071973" [ref=e201]
+                  - cell "RAHMAT HIDAYAT" [ref=e202]
+                  - cell "0.00" [ref=e203]:
+                    - strong [ref=e204]: "0.00"
+                - row "5 1552 1 102020 10081984 RAHMAT HIDAYAT 0.00" [ref=e205]:
+                  - cell "5" [ref=e206]
+                  - cell "1552 1 102020 10081984" [ref=e207]
+                  - cell "RAHMAT HIDAYAT" [ref=e208]
+                  - cell "0.00" [ref=e209]:
+                    - strong [ref=e210]: "0.00"
+                - row "6 1553 1 102020 12051982 RAHMAT HIDAYAT 0.00" [ref=e211]:
+                  - cell "6" [ref=e212]
+                  - cell "1553 1 102020 12051982" [ref=e213]
+                  - cell "RAHMAT HIDAYAT" [ref=e214]
+                  - cell "0.00" [ref=e215]:
+                    - strong [ref=e216]: "0.00"
+                - row "7 0393 1 102020 04011980 RAHMAT 0.00" [ref=e217]:
+                  - cell "7" [ref=e218]
+                  - cell "0393 1 102020 04011980" [ref=e219]
+                  - cell "RAHMAT" [ref=e220]
+                  - cell "0.00" [ref=e221]:
+                    - strong [ref=e222]: "0.00"
+                - row "8 0760 1 102021 05031975 RAHMAT 0.00" [ref=e223]:
+                  - cell "8" [ref=e224]
+                  - cell "0760 1 102021 05031975" [ref=e225]
+                  - cell "RAHMAT" [ref=e226]
+                  - cell "0.00" [ref=e227]:
+                    - strong [ref=e228]: "0.00"
+                - row "9 0573 1 102021 05021975 RAHMAT 0.00" [ref=e229]:
+                  - cell "9" [ref=e230]
+                  - cell "0573 1 102021 05021975" [ref=e231]
+                  - cell "RAHMAT" [ref=e232]
+                  - cell "0.00" [ref=e233]:
+                    - strong [ref=e234]: "0.00"
+                - row "10 0177 1 102021 14041970 RAHMAT 0.00" [ref=e235]:
+                  - cell "10" [ref=e236]
+                  - cell "0177 1 102021 14041970" [ref=e237]
+                  - cell "RAHMAT" [ref=e238]
+                  - cell "0.00" [ref=e239]:
+                    - strong [ref=e240]: "0.00"
+          - generic [ref=e242]:
+            - heading "Bottom 10 KPI Terendah" [level=4] [ref=e243]
+            - table [ref=e244]:
+              - rowgroup [ref=e245]:
+                - row "No No Reg Nama Nilai" [ref=e246]:
+                  - columnheader "No" [ref=e247]
+                  - columnheader "No Reg" [ref=e248]
+                  - columnheader "Nama" [ref=e249]
+                  - columnheader "Nilai" [ref=e250]
+              - rowgroup [ref=e251]:
+                - row "1 1782 1 032020 27011990 ZAKA KUSNADI 0.00" [ref=e252]:
+                  - cell "1" [ref=e253]
+                  - cell "1782 1 032020 27011990" [ref=e254]
+                  - cell "ZAKA KUSNADI" [ref=e255]
+                  - cell "0.00" [ref=e256]:
+                    - strong [ref=e257]: "0.00"
+                - row "2 1472 1 102020 06021989 EKO HERDIANTO 0.00" [ref=e258]:
+                  - cell "2" [ref=e259]
+                  - cell "1472 1 102020 06021989" [ref=e260]
+                  - cell "EKO HERDIANTO" [ref=e261]
+                  - cell "0.00" [ref=e262]:
+                    - strong [ref=e263]: "0.00"
+                - row "3 0084 1 102020 10051969 ELAN RUSLAN 0.00" [ref=e264]:
+                  - cell "3" [ref=e265]
+                  - cell "0084 1 102020 10051969" [ref=e266]
+                  - cell "ELAN RUSLAN" [ref=e267]
+                  - cell "0.00" [ref=e268]:
+                    - strong [ref=e269]: "0.00"
+                - row "4 1918 1 072024 07081990 ELIP 0.00" [ref=e270]:
+                  - cell "4" [ref=e271]
+                  - cell "1918 1 072024 07081990" [ref=e272]
+                  - cell "ELIP" [ref=e273]
+                  - cell "0.00" [ref=e274]:
+                    - strong [ref=e275]: "0.00"
+                - row "5 0538 2 102021 11101969 ELIS 0.00" [ref=e276]:
+                  - cell "5" [ref=e277]
+                  - cell "0538 2 102021 11101969" [ref=e278]
+                  - cell "ELIS" [ref=e279]
+                  - cell "0.00" [ref=e280]:
+                    - strong [ref=e281]: "0.00"
+                - row "6 1833 2 112021 20091973 ELIS SOLIHAT, S.PT 0.00" [ref=e282]:
+                  - cell "6" [ref=e283]
+                  - cell "1833 2 112021 20091973" [ref=e284]
+                  - cell "ELIS SOLIHAT, S.PT" [ref=e285]
+                  - cell "0.00" [ref=e286]:
+                    - strong [ref=e287]: "0.00"
+                - row "7 0567 2 102021 10081978 ELLA GUSTINADEWI 0.00" [ref=e288]:
+                  - cell "7" [ref=e289]
+                  - cell "0567 2 102021 10081978" [ref=e290]
+                  - cell "ELLA GUSTINADEWI" [ref=e291]
+                  - cell "0.00" [ref=e292]:
+                    - strong [ref=e293]: "0.00"
+                - row "8 0492 2 102021 14091972 ELLY NURHAYATI 0.00" [ref=e294]:
+                  - cell "8" [ref=e295]
+                  - cell "0492 2 102021 14091972" [ref=e296]
+                  - cell "ELLY NURHAYATI" [ref=e297]
+                  - cell "0.00" [ref=e298]:
+                    - strong [ref=e299]: "0.00"
+                - row "9 0614 1 102021 06051972 EMAN 0.00" [ref=e300]:
+                  - cell "9" [ref=e301]
+                  - cell "0614 1 102021 06051972" [ref=e302]
+                  - cell "EMAN" [ref=e303]
+                  - cell "0.00" [ref=e304]:
+                    - strong [ref=e305]: "0.00"
+                - row "10 0274 1 102021 08061981 EMAN SUHERMAN 0.00" [ref=e306]:
+                  - cell "10" [ref=e307]
+                  - cell "0274 1 102021 08061981" [ref=e308]
+                  - cell "EMAN SUHERMAN" [ref=e309]
+                  - cell "0.00" [ref=e310]:
+                    - strong [ref=e311]: "0.00"
+        - generic [ref=e314]:
+          - heading "Detail KPI Pegawai" [level=4] [ref=e315]
+          - generic [ref=e316]:
+            - generic [ref=e317]:
+              - generic [ref=e320]:
+                - text: Per
+                - combobox "Per Baris" [ref=e321]:
+                  - option "10"
+                  - option "25" [selected]
+                  - option "50"
+                  - option "100"
+                  - option "All"
+                - text: Baris
+              - generic [ref=e324]:
+                - text: Cari
+                - searchbox "Cari" [ref=e325]
+            - grid [ref=e328]:
+              - rowgroup [ref=e329]:
+                - row "1 1819 1 032020 07051998 A ZAENAL MUTAQIN SWK Kordoba Gaspul KO4A Buruk 0 0 0 0 0 0.00 0.00 0.00 0.00" [ref=e330]:
+                  - gridcell "1" [ref=e331]
+                  - gridcell "1819 1 032020 07051998" [ref=e332]
+                  - gridcell "A ZAENAL MUTAQIN" [ref=e333]
+                  - gridcell "SWK Kordoba Gaspul" [ref=e334]
+                  - gridcell "KO4A" [ref=e335]
+                  - gridcell "Buruk" [ref=e336]
+                  - gridcell "0" [ref=e337]
+                  - gridcell "0" [ref=e338]
+                  - gridcell "0" [ref=e339]
+                  - gridcell "0" [ref=e340]
+                  - gridcell "0" [ref=e341]
+                  - gridcell "0.00" [ref=e342]
+                  - gridcell "0.00" [ref=e343]
+                  - gridcell "0.00" [ref=e344]
+                  - gridcell "0.00" [ref=e345]
+                - row "2 1234 1 102020 09121969 RAHAYU SWK Bojonegara Gaspul BJ2A Buruk 0 0 0 0 0 0.00 0.00 0.00 0.00" [ref=e346]:
+                  - gridcell "2" [ref=e347]
+                  - gridcell "1234 1 102020 09121969" [ref=e348]
+                  - gridcell "RAHAYU" [ref=e349]
+                  - gridcell "SWK Bojonegara Gaspul" [ref=e350]
+                  - gridcell "BJ2A" [ref=e351]
+                  - gridcell "Buruk" [ref=e352]
+                  - gridcell "0" [ref=e353]
+                  - gridcell "0" [ref=e354]
+                  - gridcell "0" [ref=e355]
+                  - gridcell "0" [ref=e356]
+                  - gridcell "0" [ref=e357]
+                  - gridcell "0.00" [ref=e358]
+                  - gridcell "0.00" [ref=e359]
+                  - gridcell "0.00" [ref=e360]
+                  - gridcell "0.00" [ref=e361]
+                - row "3 0178 1 102021 03091989 RAHMAT SUPRIYADI Pengelolaan Logistik / RTP Kantor Pusat Buruk 0 0 0 0 0 0.00 0.00 0.00 0.00" [ref=e362]:
+                  - gridcell "3" [ref=e363]
+                  - gridcell "0178 1 102021 03091989" [ref=e364]
+                  - gridcell "RAHMAT SUPRIYADI" [ref=e365]
+                  - gridcell "Pengelolaan Logistik / RTP" [ref=e366]
+                  - gridcell "Kantor Pusat" [ref=e367]
+                  - gridcell "Buruk" [ref=e368]
+                  - gridcell "0" [ref=e369]
+                  - gridcell "0" [ref=e370]
+                  - gridcell "0" [ref=e371]
+                  - gridcell "0" [ref=e372]
+                  - gridcell "0" [ref=e373]
+                  - gridcell "0.00" [ref=e374]
+                  - gridcell "0.00" [ref=e375]
+                  - gridcell "0.00" [ref=e376]
+                  - gridcell "0.00" [ref=e377]
+                - row "4 0336 1 102021 07071973 RAHMAT HIDAYAT SWK Tegallega SWK Tegalega - Caringin Buruk 0 0 0 0 0 0.00 0.00 0.00 0.00" [ref=e378]:
+                  - gridcell "4" [ref=e379]
+                  - gridcell "0336 1 102021 07071973" [ref=e380]
+                  - gridcell "RAHMAT HIDAYAT" [ref=e381]
+                  - gridcell "SWK Tegallega" [ref=e382]
+                  - gridcell "SWK Tegalega - Caringin" [ref=e383]
+                  - gridcell "Buruk" [ref=e384]
+                  - gridcell "0" [ref=e385]
+                  - gridcell "0" [ref=e386]
+                  - gridcell "0" [ref=e387]
+                  - gridcell "0" [ref=e388]
+                  - gridcell "0" [ref=e389]
+                  - gridcell "0.00" [ref=e390]
+                  - gridcell "0.00" [ref=e391]
+                  - gridcell "0.00" [ref=e392]
+                  - gridcell "0.00" [ref=e393]
+                - row "5 1552 1 102020 10081984 RAHMAT HIDAYAT SWK Tegallega Gaspul TG4A Buruk 0 0 0 0 0 0.00 0.00 0.00 0.00" [ref=e394]:
+                  - gridcell "5" [ref=e395]
+                  - gridcell "1552 1 102020 10081984" [ref=e396]
+                  - gridcell "RAHMAT HIDAYAT" [ref=e397]
+                  - gridcell "SWK Tegallega Gaspul" [ref=e398]
+                  - gridcell "TG4A" [ref=e399]
+                  - gridcell "Buruk" [ref=e400]
+                  - gridcell "0" [ref=e401]
+                  - gridcell "0" [ref=e402]
+                  - gridcell "0" [ref=e403]
+                  - gridcell "0" [ref=e404]
+                  - gridcell "0" [ref=e405]
+                  - gridcell "0.00" [ref=e406]
+                  - gridcell "0.00" [ref=e407]
+                  - gridcell "0.00" [ref=e408]
+                  - gridcell "0.00" [ref=e409]
+                - row "6 1553 1 102020 12051982 RAHMAT HIDAYAT SWK Bojonegara Gaspul BJ1A Buruk 0 0 0 0 0 0.00 0.00 0.00 0.00" [ref=e410]:
+                  - gridcell "6" [ref=e411]
+                  - gridcell "1553 1 102020 12051982" [ref=e412]
+                  - gridcell "RAHMAT HIDAYAT" [ref=e413]
+                  - gridcell "SWK Bojonegara Gaspul" [ref=e414]
+                  - gridcell "BJ1A" [ref=e415]
+                  - gridcell "Buruk" [ref=e416]
+                  - gridcell "0" [ref=e417]
+                  - gridcell "0" [ref=e418]
+                  - gridcell "0" [ref=e419]
+                  - gridcell "0" [ref=e420]
+                  - gridcell "0" [ref=e421]
+                  - gridcell "0.00" [ref=e422]
+                  - gridcell "0.00" [ref=e423]
+                  - gridcell "0.00" [ref=e424]
+                  - gridcell "0.00" [ref=e425]
+                - row "7 0393 1 102020 04011980 RAHMAT SWK Cibeunying Gaspul CB8A Buruk 0 0 0 0 0 0.00 0.00 0.00 0.00" [ref=e426]:
+                  - gridcell "7" [ref=e427]
+                  - gridcell "0393 1 102020 04011980" [ref=e428]
+                  - gridcell "RAHMAT" [ref=e429]
+                  - gridcell "SWK Cibeunying Gaspul" [ref=e430]
+                  - gridcell "CB8A" [ref=e431]
+                  - gridcell "Buruk" [ref=e432]
+                  - gridcell "0" [ref=e433]
+                  - gridcell "0" [ref=e434]
+                  - gridcell "0" [ref=e435]
+                  - gridcell "0" [ref=e436]
+                  - gridcell "0" [ref=e437]
+                  - gridcell "0.00" [ref=e438]
+                  - gridcell "0.00" [ref=e439]
+                  - gridcell "0.00" [ref=e440]
+                  - gridcell "0.00" [ref=e441]
+                - row "8 0760 1 102021 05031975 RAHMAT SWK Bojonegara SWK Tegalega - Caringin Buruk 0 0 0 0 0 0.00 0.00 0.00 0.00" [ref=e442]:
+                  - gridcell "8" [ref=e443]
+                  - gridcell "0760 1 102021 05031975" [ref=e444]
+                  - gridcell "RAHMAT" [ref=e445]
+                  - gridcell "SWK Bojonegara" [ref=e446]
+                  - gridcell "SWK Tegalega - Caringin" [ref=e447]
+                  - gridcell "Buruk" [ref=e448]
+                  - gridcell "0" [ref=e449]
+                  - gridcell "0" [ref=e450]
+                  - gridcell "0" [ref=e451]
+                  - gridcell "0" [ref=e452]
+                  - gridcell "0" [ref=e453]
+                  - gridcell "0.00" [ref=e454]
+                  - gridcell "0.00" [ref=e455]
+                  - gridcell "0.00" [ref=e456]
+                  - gridcell "0.00" [ref=e457]
+                - row "9 0573 1 102021 05021975 RAHMAT Pengelolaan Logistik / RTP TD Suci Buruk 0 0 0 0 0 0.00 0.00 0.00 0.00" [ref=e458]:
+                  - gridcell "9" [ref=e459]
+                  - gridcell "0573 1 102021 05021975" [ref=e460]
+                  - gridcell "RAHMAT" [ref=e461]
+                  - gridcell "Pengelolaan Logistik / RTP" [ref=e462]
+                  - gridcell "TD Suci" [ref=e463]
+                  - gridcell "Buruk" [ref=e464]
+                  - gridcell "0" [ref=e465]
+                  - gridcell "0" [ref=e466]
+                  - gridcell "0" [ref=e467]
+                  - gridcell "0" [ref=e468]
+                  - gridcell "0" [ref=e469]
+                  - gridcell "0.00" [ref=e470]
+                  - gridcell "0.00" [ref=e471]
+                  - gridcell "0.00" [ref=e472]
+                  - gridcell "0.00" [ref=e473]
+                - row "10 0177 1 102021 14041970 RAHMAT Pengelolaan Pelanggan Kantor Pusat Buruk 0 0 0 0 0 0.00 0.00 0.00 0.00" [ref=e474]:
+                  - gridcell "10" [ref=e475]
+                  - gridcell "0177 1 102021 14041970" [ref=e476]
+                  - gridcell "RAHMAT" [ref=e477]
+                  - gridcell "Pengelolaan Pelanggan" [ref=e478]
+                  - gridcell "Kantor Pusat" [ref=e479]
+                  - gridcell "Buruk" [ref=e480]
+                  - gridcell "0" [ref=e481]
+                  - gridcell "0" [ref=e482]
+                  - gridcell "0" [ref=e483]
+                  - gridcell "0" [ref=e484]
+                  - gridcell "0" [ref=e485]
+                  - gridcell "0.00" [ref=e486]
+                  - gridcell "0.00" [ref=e487]
+                  - gridcell "0.00" [ref=e488]
+                  - gridcell "0.00" [ref=e489]
+                - row "11 1235 1 102020 07021976 RAHMAT SWK Karees Gaspul KA3A Buruk 0 0 0 0 0 0.00 0.00 0.00 0.00" [ref=e490]:
+                  - gridcell "11" [ref=e491]
+                  - gridcell "1235 1 102020 07021976" [ref=e492]
+                  - gridcell "RAHMAT" [ref=e493]
+                  - gridcell "SWK Karees Gaspul" [ref=e494]
+                  - gridcell "KA3A" [ref=e495]
+                  - gridcell "Buruk" [ref=e496]
+                  - gridcell "0" [ref=e497]
+                  - gridcell "0" [ref=e498]
+                  - gridcell "0" [ref=e499]
+                  - gridcell "0" [ref=e500]
+                  - gridcell "0" [ref=e501]
+                  - gridcell "0.00" [ref=e502]
+                  - gridcell "0.00" [ref=e503]
+                  - gridcell "0.00" [ref=e504]
+                  - gridcell "0.00" [ref=e505]
+                - row "12 1551 1 102020 10051997 RAHMAN TRIYANA SWK Bojonegara Gaspul BJ4A Buruk 0 0 0 0 0 0.00 0.00 0.00 0.00" [ref=e506]:
+                  - gridcell "12" [ref=e507]
+                  - gridcell "1551 1 102020 10051997" [ref=e508]
+                  - gridcell "RAHMAN TRIYANA" [ref=e509]
+                  - gridcell "SWK Bojonegara Gaspul" [ref=e510]
+                  - gridcell "BJ4A" [ref=e511]
+                  - gridcell "Buruk" [ref=e512]
+                  - gridcell "0" [ref=e513]
+                  - gridcell "0" [ref=e514]
+                  - gridcell "0" [ref=e515]
+                  - gridcell "0" [ref=e516]
+                  - gridcell "0" [ref=e517]
+                  - gridcell "0.00" [ref=e518]
+                  - gridcell "0.00" [ref=e519]
+                  - gridcell "0.00" [ref=e520]
+                  - gridcell "0.00" [ref=e521]
+                - row "13 0864 1 102021 19101998 RADIAN SWK Cibeunying SWK Cibeunying - Sadang Serang Buruk 0 0 0 0 0 0.00 0.00 0.00 0.00" [ref=e522]:
+                  - gridcell "13" [ref=e523]
+                  - gridcell "0864 1 102021 19101998" [ref=e524]
+                  - gridcell "RADIAN" [ref=e525]
+                  - gridcell "SWK Cibeunying" [ref=e526]
+                  - gridcell "SWK Cibeunying - Sadang Serang" [ref=e527]
+                  - gridcell "Buruk" [ref=e528]
+                  - gridcell "0" [ref=e529]
+                  - gridcell "0" [ref=e530]
+                  - gridcell "0" [ref=e531]
+                  - gridcell "0" [ref=e532]
+                  - gridcell "0" [ref=e533]
+                  - gridcell "0.00" [ref=e534]
+                  - gridcell "0.00" [ref=e535]
+                  - gridcell "0.00" [ref=e536]
+                  - gridcell "0.00" [ref=e537]
+                - row "14 0957 1 102020 17051987 RAIS SETIAWAN SWK Tegallega Gaspul TG7B Buruk 0 0 0 0 0 0.00 0.00 0.00 0.00" [ref=e538]:
+                  - gridcell "14" [ref=e539]
+                  - gridcell "0957 1 102020 17051987" [ref=e540]
+                  - gridcell "RAIS SETIAWAN" [ref=e541]
+                  - gridcell "SWK Tegallega Gaspul" [ref=e542]
+                  - gridcell "TG7B" [ref=e543]
+                  - gridcell "Buruk" [ref=e544]
+                  - gridcell "0" [ref=e545]
+                  - gridcell "0" [ref=e546]
+                  - gridcell "0" [ref=e547]
+                  - gridcell "0" [ref=e548]
+                  - gridcell "0" [ref=e549]
+                  - gridcell "0.00" [ref=e550]
+                  - gridcell "0.00" [ref=e551]
+                  - gridcell "0.00" [ref=e552]
+                  - gridcell "0.00" [ref=e553]
+                - row "15 0591 1 102021 08121978 RADEN YUKE DARMAWAN, S.M Pengolahan Sampah TPS Cibatu Buruk 0 0 0 0 0 0.00 0.00 0.00 0.00" [ref=e554]:
+                  - gridcell "15" [ref=e555]
+                  - gridcell "0591 1 102021 08121978" [ref=e556]
+                  - gridcell "RADEN YUKE DARMAWAN, S.M" [ref=e557]
+                  - gridcell "Pengolahan Sampah" [ref=e558]
+                  - gridcell "TPS Cibatu" [ref=e559]
+                  - gridcell "Buruk" [ref=e560]
+                  - gridcell "0" [ref=e561]
+                  - gridcell "0" [ref=e562]
+                  - gridcell "0" [ref=e563]
+                  - gridcell "0" [ref=e564]
+                  - gridcell "0" [ref=e565]
+                  - gridcell "0.00" [ref=e566]
+                  - gridcell "0.00" [ref=e567]
+                  - gridcell "0.00" [ref=e568]
+                  - gridcell "0.00" [ref=e569]
+                - row "16 1550 1 102020 01011999 RADEN YANI SWK Cibeunying Gaspul CB3A Buruk 0 0 0 0 0 0.00 0.00 0.00 0.00" [ref=e570]:
+                  - gridcell "16" [ref=e571]
+                  - gridcell "1550 1 102020 01011999" [ref=e572]
+                  - gridcell "RADEN YANI" [ref=e573]
+                  - gridcell "SWK Cibeunying Gaspul" [ref=e574]
+                  - gridcell "CB3A" [ref=e575]
+                  - gridcell "Buruk" [ref=e576]
+                  - gridcell "0" [ref=e577]
+                  - gridcell "0" [ref=e578]
+                  - gridcell "0" [ref=e579]
+                  - gridcell "0" [ref=e580]
+                  - gridcell "0" [ref=e581]
+                  - gridcell "0.00" [ref=e582]
+                  - gridcell "0.00" [ref=e583]
+                  - gridcell "0.00" [ref=e584]
+                  - gridcell "0.00" [ref=e585]
+                - row "17 0459 1 102021 13021984 RADEN ALDIE BAYU SULAEMAN Pengolahan Sampah (BSI) TPS SADANG SERANG Buruk 0 0 0 0 0 0.00 0.00 0.00 0.00" [ref=e586]:
+                  - gridcell "17" [ref=e587]
+                  - gridcell "0459 1 102021 13021984" [ref=e588]
+                  - gridcell "RADEN ALDIE BAYU SULAEMAN" [ref=e589]
+                  - gridcell "Pengolahan Sampah" [ref=e590]
+                  - gridcell "(BSI) TPS SADANG SERANG" [ref=e591]
+                  - gridcell "Buruk" [ref=e592]
+                  - gridcell "0" [ref=e593]
+                  - gridcell "0" [ref=e594]
+                  - gridcell "0" [ref=e595]
+                  - gridcell "0" [ref=e596]
+                  - gridcell "0" [ref=e597]
+                  - gridcell "0.00" [ref=e598]
+                  - gridcell "0.00" [ref=e599]
+                  - gridcell "0.00" [ref=e600]
+                  - gridcell "0.00" [ref=e601]
+                - row "18 0590 1 102021 27011988 RADEN ADITYA YOGA HERMANA Logistik/Kendaraan Kantor Pusat Buruk 0 0 0 0 0 0.00 0.00 0.00 0.00" [ref=e602]:
+                  - gridcell "18" [ref=e603]
+                  - gridcell "0590 1 102021 27011988" [ref=e604]
+                  - gridcell "RADEN ADITYA YOGA HERMANA" [ref=e605]
+                  - gridcell "Logistik/Kendaraan" [ref=e606]
+                  - gridcell "Kantor Pusat" [ref=e607]
+                  - gridcell "Buruk" [ref=e608]
+                  - gridcell "0" [ref=e609]
+                  - gridcell "0" [ref=e610]
+                  - gridcell "0" [ref=e611]
+                  - gridcell "0" [ref=e612]
+                  - gridcell "0" [ref=e613]
+                  - gridcell "0.00" [ref=e614]
+                  - gridcell "0.00" [ref=e615]
+                  - gridcell "0.00" [ref=e616]
+                  - gridcell "0.00" [ref=e617]
+                - row "19 0636 1 102021 29061978 RACHMAT SOLIHIN SWK Tegallega SWK Tegalega - Caringin Buruk 0 0 0 0 0 0.00 0.00 0.00 0.00" [ref=e618]:
+                  - gridcell "19" [ref=e619]
+                  - gridcell "0636 1 102021 29061978" [ref=e620]
+                  - gridcell "RACHMAT SOLIHIN" [ref=e621]
+                  - gridcell "SWK Tegallega" [ref=e622]
+                  - gridcell "SWK Tegalega - Caringin" [ref=e623]
+                  - gridcell "Buruk" [ref=e624]
+                  - gridcell "0" [ref=e625]
+                  - gridcell "0" [ref=e626]
+                  - gridcell "0" [ref=e627]
+                  - gridcell "0" [ref=e628]
+                  - gridcell "0" [ref=e629]
+                  - gridcell "0.00" [ref=e630]
+                  - gridcell "0.00" [ref=e631]
+                  - gridcell "0.00" [ref=e632]
+                  - gridcell "0.00" [ref=e633]
+                - row "20 1887 1 112022 10091998 RACHMAT SIDIK SWK Cibeunying Gaspul CB11A Buruk 0 0 0 0 0 0.00 0.00 0.00 0.00" [ref=e634]:
+                  - gridcell "20" [ref=e635]
+                  - gridcell "1887 1 112022 10091998" [ref=e636]
+                  - gridcell "RACHMAT SIDIK" [ref=e637]
+                  - gridcell "SWK Cibeunying Gaspul" [ref=e638]
+                  - gridcell "CB11A" [ref=e639]
+                  - gridcell "Buruk" [ref=e640]
+                  - gridcell "0" [ref=e641]
+                  - gridcell "0" [ref=e642]
+                  - gridcell "0" [ref=e643]
+                  - gridcell "0" [ref=e644]
+                  - gridcell "0" [ref=e645]
+                  - gridcell "0.00" [ref=e646]
+                  - gridcell "0.00" [ref=e647]
+                  - gridcell "0.00" [ref=e648]
+                  - gridcell "0.00" [ref=e649]
+                - row "21 0521 1 102021 21081978 R.RISKA UDAYA DANUSUBRATA Humas & Sistem Informasi Kantor Pusat Buruk 0 0 0 0 0 0.00 0.00 0.00 0.00" [ref=e650]:
+                  - gridcell "21" [ref=e651]
+                  - gridcell "0521 1 102021 21081978" [ref=e652]
+                  - gridcell "R.RISKA UDAYA DANUSUBRATA" [ref=e653]
+                  - gridcell "Humas & Sistem Informasi" [ref=e654]
+                  - gridcell "Kantor Pusat" [ref=e655]
+                  - gridcell "Buruk" [ref=e656]
+                  - gridcell "0" [ref=e657]
+                  - gridcell "0" [ref=e658]
+                  - gridcell "0" [ref=e659]
+                  - gridcell "0" [ref=e660]
+                  - gridcell "0" [ref=e661]
+                  - gridcell "0.00" [ref=e662]
+                  - gridcell "0.00" [ref=e663]
+                  - gridcell "0.00" [ref=e664]
+                  - gridcell "0.00" [ref=e665]
+                - row "22 198107252006041010 R. RAMDANI, ST., M.Si., M.Sc Sub Bagian Tata Usaha Kantor Pusat Buruk 0 0 0 0 0 0.00 0.00 0.00 0.00" [ref=e666]:
+                  - gridcell "22" [ref=e667]
+                  - gridcell "198107252006041010" [ref=e668]
+                  - gridcell "R. RAMDANI, ST., M.Si., M.Sc" [ref=e669]
+                  - gridcell "Sub Bagian Tata Usaha" [ref=e670]
+                  - gridcell "Kantor Pusat" [ref=e671]
+                  - gridcell "Buruk" [ref=e672]
+                  - gridcell "0" [ref=e673]
+                  - gridcell "0" [ref=e674]
+                  - gridcell "0" [ref=e675]
+                  - gridcell "0" [ref=e676]
+                  - gridcell "0" [ref=e677]
+                  - gridcell "0.00" [ref=e678]
+                  - gridcell "0.00" [ref=e679]
+                  - gridcell "0.00" [ref=e680]
+                  - gridcell "0.00" [ref=e681]
+                - row "23 1658 2 032020 16021983 PUTRI HUSIPA Pengelolaan Komersial & Kemitraan Kantor Pusat Buruk 0 0 0 0 0 0.00 0.00 0.00 0.00" [ref=e682]:
+                  - gridcell "23" [ref=e683]
+                  - gridcell "1658 2 032020 16021983" [ref=e684]
+                  - gridcell "PUTRI HUSIPA" [ref=e685]
+                  - gridcell "Pengelolaan Komersial & Kemitraan" [ref=e686]
+                  - gridcell "Kantor Pusat" [ref=e687]
+                  - gridcell "Buruk" [ref=e688]
+                  - gridcell "0" [ref=e689]
+                  - gridcell "0" [ref=e690]
+                  - gridcell "0" [ref=e691]
+                  - gridcell "0" [ref=e692]
+                  - gridcell "0" [ref=e693]
+                  - gridcell "0.00" [ref=e694]
+                  - gridcell "0.00" [ref=e695]
+                  - gridcell "0.00" [ref=e696]
+                  - gridcell "0.00" [ref=e697]
+                - row "24 1549 1 102020 11121996 PURNAMA ALAMSYAH SWK Tegallega Gaspul TG3A Buruk 0 0 0 0 0 0.00 0.00 0.00 0.00" [ref=e698]:
+                  - gridcell "24" [ref=e699]
+                  - gridcell "1549 1 102020 11121996" [ref=e700]
+                  - gridcell "PURNAMA ALAMSYAH" [ref=e701]
+                  - gridcell "SWK Tegallega Gaspul" [ref=e702]
+                  - gridcell "TG3A" [ref=e703]
+                  - gridcell "Buruk" [ref=e704]
+                  - gridcell "0" [ref=e705]
+                  - gridcell "0" [ref=e706]
+                  - gridcell "0" [ref=e707]
+                  - gridcell "0" [ref=e708]
+                  - gridcell "0" [ref=e709]
+                  - gridcell "0.00" [ref=e710]
+                  - gridcell "0.00" [ref=e711]
+                  - gridcell "0.00" [ref=e712]
+                  - gridcell "0.00" [ref=e713]
+                - row "25 1915 1 072024 06122003 RAIHAN ABDUL ZABAR SWK Cibeunying Gaspul CB5A Buruk 0 0 0 0 0 0.00 0.00 0.00 0.00" [ref=e714]:
+                  - gridcell "25" [ref=e715]
+                  - gridcell "1915 1 072024 06122003" [ref=e716]
+                  - gridcell "RAIHAN ABDUL ZABAR" [ref=e717]
+                  - gridcell "SWK Cibeunying Gaspul" [ref=e718]
+                  - gridcell "CB5A" [ref=e719]
+                  - gridcell "Buruk" [ref=e720]
+                  - gridcell "0" [ref=e721]
+                  - gridcell "0" [ref=e722]
+                  - gridcell "0" [ref=e723]
+                  - gridcell "0" [ref=e724]
+                  - gridcell "0" [ref=e725]
+                  - gridcell "0.00" [ref=e726]
+                  - gridcell "0.00" [ref=e727]
+                  - gridcell "0.00" [ref=e728]
+                  - gridcell "0.00" [ref=e729]
+              - rowgroup [ref=e730]:
+                - row "No No Reg Nama Pegawai Unit Kerja / Bagian Area Kerja / Work Unit Status KPI Total Hari Hadir Tidak Hadir Terlambat Luar Lokasi Skor Kehadiran Skor Keterlambatan Skor Luar Lokasi Nilai KPI" [ref=e731]:
+                  - columnheader "No" [ref=e732]
+                  - columnheader "No Reg" [ref=e733]
+                  - columnheader "Nama Pegawai" [ref=e734]
+                  - columnheader "Unit Kerja / Bagian" [ref=e735]
+                  - columnheader "Area Kerja / Work Unit" [ref=e736]
+                  - columnheader "Status KPI" [ref=e737]
+                  - columnheader "Total Hari" [ref=e738]
+                  - columnheader "Hadir" [ref=e739]
+                  - columnheader "Tidak Hadir" [ref=e740]
+                  - columnheader "Terlambat" [ref=e741]
+                  - columnheader "Luar Lokasi" [ref=e742]
+                  - columnheader "Skor Kehadiran" [ref=e743]
+                  - columnheader "Skor Keterlambatan" [ref=e744]
+                  - columnheader "Skor Luar Lokasi" [ref=e745]
+                  - columnheader "Nilai KPI" [ref=e746]
+            - generic [ref=e747]:
+              - status [ref=e749]: Menampilkan 1 - 25 dari 1,699 baris
+              - list [ref=e752]:
+                - listitem:
+                  - link "" [ref=e753]:
+                    - /url: "#"
+                    - generic [ref=e754]: 
+                - listitem:
+                  - link "" [ref=e755]:
+                    - /url: "#"
+                    - generic [ref=e756]: 
+                - listitem:
+                  - link "1" [ref=e757]:
+                    - /url: "#"
+                - listitem:
+                  - link "2" [ref=e758] [cursor=pointer]:
+                    - /url: "#"
+                - listitem:
+                  - link "3" [ref=e759] [cursor=pointer]:
+                    - /url: "#"
+                - listitem:
+                  - link "4" [ref=e760] [cursor=pointer]:
+                    - /url: "#"
+                - listitem:
+                  - link "5" [ref=e761] [cursor=pointer]:
+                    - /url: "#"
+                - listitem:
+                  - link "…" [ref=e762]:
+                    - /url: "#"
+                - listitem:
+                  - link "68" [ref=e763] [cursor=pointer]:
+                    - /url: "#"
+                - listitem:
+                  - link "" [ref=e764] [cursor=pointer]:
+                    - /url: "#"
+                    - generic [ref=e765]: 
+                - listitem:
+                  - link "" [ref=e766] [cursor=pointer]:
+                    - /url: "#"
+                    - generic [ref=e767]: 
+      - contentinfo [ref=e768]:
+        - text: © 2017
+        - link "Personalia.id" [ref=e769] [cursor=pointer]:
+          - /url: https://www.personalia.id
+  - text:    

@@ -1,0 +1,175 @@
+- generic [ref=e2]:
+  - text:      
+  - generic [ref=e3]:
+    - link [ref=e5] [cursor=pointer]:
+      - /url: https://hris.wit.arkamaya.net/dashboard
+    - navigation [ref=e7]:
+      - generic [ref=e8]:
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - button "" [ref=e11] [cursor=pointer]:
+              - generic [ref=e12]: 
+          - listitem [ref=e13]:
+            - link "LAHANS" [ref=e14] [cursor=pointer]:
+              - /url: https://hris.wit.arkamaya.net/
+            - generic [ref=e15]: "Status : AKTIF"
+        - list [ref=e16]:
+          - listitem [ref=e17]:
+            - generic [ref=e18]:
+              - heading [level=4]
+          - listitem [ref=e19]:
+            - link " 0" [ref=e20] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e21]: 
+              - generic [ref=e22]: "0"
+          - listitem [ref=e23]:
+            - link "AGUSTINA ANGGRAENI Personal Assistant Staff" [ref=e24] [cursor=pointer]:
+              - /url: javascript:;
+              - text: AGUSTINA ANGGRAENI
+              - superscript [ref=e25]: Personal Assistant Staff
+          - listitem [ref=e26]:
+            - link "profile-image" [expanded] [ref=e27] [cursor=pointer]:
+              - /url: javascript:;
+              - img "profile-image" [ref=e28]
+            - text:  
+  - list [ref=e33]:
+    - listitem: Navigasi
+    - listitem [ref=e34]:
+      - link " Personalia " [ref=e35] [cursor=pointer]:
+        - /url: javascript:void(0);
+        - generic [ref=e36]: 
+        - text: Personalia
+        - generic [ref=e37]: 
+      - list [ref=e38]:
+        - listitem [ref=e39]:
+          - link "Dasbor Personalia" [ref=e40] [cursor=pointer]:
+            - /url: https://hris.wit.arkamaya.net/dashboard
+    - listitem [ref=e41]:
+      - link " Layanan Mandiri " [ref=e42] [cursor=pointer]:
+        - /url: javascript:void(0);
+        - generic [ref=e43]: 
+        - text: Layanan Mandiri
+        - generic [ref=e44]: 
+  - generic [ref=e47]:
+    - heading "Dasbor Personalia" [level=4] [ref=e51]
+    - generic [ref=e53]:
+      - generic [ref=e54]:
+        - generic [ref=e56]:
+          - generic [ref=e57]: 
+          - generic [ref=e58]:
+            - paragraph [ref=e59]: Pengajuan Reimbursement
+            - heading "Rp. 3,271,233.00" [level=2] [ref=e60]
+            - paragraph [ref=e61]:
+              - link "Lihat pengajuan Reimbursement" [ref=e62] [cursor=pointer]:
+                - /url: https://hris.wit.arkamaya.net/reimburse
+        - generic [ref=e64]:
+          - generic [ref=e65]: 
+          - generic [ref=e66]:
+            - paragraph [ref=e67]: Pengajuan Cuti 2026
+            - heading "11 Hari" [level=2] [ref=e68]
+            - paragraph [ref=e69]:
+              - link "Lihat pengajuan cuti" [ref=e70] [cursor=pointer]:
+                - /url: https://hris.wit.arkamaya.net/leave
+        - generic [ref=e72]:
+          - generic [ref=e73]: 
+          - generic [ref=e74]:
+            - paragraph [ref=e75]: Pengajuan Lembur 2026
+            - heading "0 Jam" [level=2] [ref=e76]
+            - paragraph [ref=e77]:
+              - link "Lihat pengajuan lembur" [ref=e78] [cursor=pointer]:
+                - /url: https://hris.wit.arkamaya.net/overtime
+        - text: 
+      - separator [ref=e79]
+      - generic [ref=e80]:
+        - generic [ref=e82]:
+          - heading "Tidak Akan Masuk" [level=4] [ref=e83]
+          - generic [ref=e85]:
+            - text: Hore, Sepertinya bakal masuk semua. :)
+            - link "Saya berencana tidak masuk" [ref=e86] [cursor=pointer]:
+              - /url: https://hris.wit.arkamaya.net/leave/create
+        - generic [ref=e88]:
+          - heading "Ulang Tahun" [level=4] [ref=e89]
+          - generic [ref=e91]:
+            - generic [ref=e92]:
+              - img "Erni Sri Utami" [ref=e94]
+              - paragraph [ref=e95]:
+                - link "Erni Sri Utami" [ref=e96] [cursor=pointer]:
+                  - /url: https://hris.wit.arkamaya.net/profile/id/2266
+              - paragraph [ref=e97]: Operator
+              - paragraph [ref=e98]: 09 August
+            - generic [ref=e99]:
+              - img "AGUS SUPRIYANTO" [ref=e101]
+              - paragraph [ref=e102]:
+                - link "AGUS SUPRIYANTO" [ref=e103] [cursor=pointer]:
+                  - /url: https://hris.wit.arkamaya.net/profile/id/1965
+              - paragraph [ref=e104]: Driver
+              - paragraph [ref=e105]: 10 August
+            - generic [ref=e106]:
+              - img "DANI MUSTIAWAN" [ref=e108]
+              - paragraph [ref=e109]:
+                - link "DANI MUSTIAWAN" [ref=e110] [cursor=pointer]:
+                  - /url: https://hris.wit.arkamaya.net/profile/id/2480
+              - paragraph [ref=e111]: Area Sales Supervisor
+              - paragraph [ref=e112]: 11 August
+            - generic [ref=e113]:
+              - img "IRMAN HIDAYAT" [ref=e115]
+              - paragraph [ref=e116]:
+                - link "IRMAN HIDAYAT" [ref=e117] [cursor=pointer]:
+                  - /url: https://hris.wit.arkamaya.net/profile/id/2109
+              - paragraph [ref=e118]: Salesman
+              - paragraph [ref=e119]: 12 August
+            - generic [ref=e120]:
+              - img "ANNIDA NURUL QURANI" [ref=e122]
+              - paragraph [ref=e123]:
+                - link "ANNIDA NURUL QURANI" [ref=e124] [cursor=pointer]:
+                  - /url: https://hris.wit.arkamaya.net/profile/id/1907
+              - paragraph [ref=e125]: Administration Staff
+              - paragraph [ref=e126]: 12 August
+            - generic [ref=e127]:
+              - img "AGUSTINA" [ref=e129]
+              - paragraph [ref=e130]:
+                - link "AGUSTINA" [ref=e131] [cursor=pointer]:
+                  - /url: https://hris.wit.arkamaya.net/profile/id/2453
+              - paragraph [ref=e132]: Area Sales Supervisor
+              - paragraph [ref=e133]: 12 August
+            - generic [ref=e134]:
+              - img "Yanti Yulianti" [ref=e136]
+              - paragraph [ref=e137]:
+                - link "Yanti Yulianti" [ref=e138] [cursor=pointer]:
+                  - /url: https://hris.wit.arkamaya.net/profile/id/2213
+              - paragraph [ref=e139]: Operator
+              - paragraph [ref=e140]: 12 August
+            - generic [ref=e141]:
+              - img "WIJAYANTI" [ref=e143]
+              - paragraph [ref=e144]:
+                - link "WIJAYANTI" [ref=e145] [cursor=pointer]:
+                  - /url: https://hris.wit.arkamaya.net/profile/id/2496
+              - paragraph [ref=e146]: SP-GT
+              - paragraph [ref=e147]: 12 August
+            - generic [ref=e148]:
+              - img "Hendri" [ref=e150]
+              - paragraph [ref=e151]:
+                - link "Hendri" [ref=e152] [cursor=pointer]:
+                  - /url: https://hris.wit.arkamaya.net/profile/id/2309
+              - paragraph [ref=e153]: Operator
+              - paragraph [ref=e154]: 13 August
+            - generic [ref=e155]:
+              - img "Jajang Supardi" [ref=e157]
+              - paragraph [ref=e158]:
+                - link "Jajang Supardi" [ref=e159] [cursor=pointer]:
+                  - /url: https://hris.wit.arkamaya.net/profile/id/2281
+              - paragraph [ref=e160]: Operator
+              - paragraph [ref=e161]: 14 August
+        - generic [ref=e164]:
+          - heading "Event & Hari Libur Mendatang" [level=4] [ref=e165]
+          - generic [ref=e167]:
+            - generic [ref=e168]:
+              - paragraph [ref=e170]: Proklamasi Kemerdekaan RI
+              - paragraph [ref=e171]: 17 August 2026
+            - generic [ref=e172]:
+              - paragraph [ref=e174]: Maulid Nabi Muhammad SAW
+              - paragraph [ref=e175]: 25 August 2026
+            - generic [ref=e176]:
+              - paragraph [ref=e178]: Kelahiran Yesus Kristus
+              - paragraph [ref=e179]: 25 December 2026
+    - form

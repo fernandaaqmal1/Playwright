@@ -1,0 +1,97 @@
+- generic [ref=e2]:
+  - text:      
+  - generic [ref=e3]:
+    - link [ref=e5] [cursor=pointer]:
+      - /url: https://hris.wit.arkamaya.net/dashboard
+    - navigation [ref=e7]:
+      - generic [ref=e8]:
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - button "" [ref=e11] [cursor=pointer]:
+              - generic [ref=e12]: 
+          - listitem [ref=e13]:
+            - link "LAHANS" [ref=e14] [cursor=pointer]:
+              - /url: https://hris.wit.arkamaya.net/
+            - generic [ref=e15]: "Status : AKTIF"
+        - list [ref=e16]:
+          - listitem [ref=e17]:
+            - generic [ref=e18]:
+              - heading [level=4]
+          - listitem [ref=e19]:
+            - link " 0" [ref=e20] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e21]: 
+              - generic [ref=e22]: "0"
+          - listitem [ref=e23]:
+            - link "AGUSTINA ANGGRAENI Personal Assistant Staff" [ref=e24] [cursor=pointer]:
+              - /url: javascript:;
+              - text: AGUSTINA ANGGRAENI
+              - superscript [ref=e25]: Personal Assistant Staff
+          - listitem [ref=e26]:
+            - link "profile-image" [expanded] [ref=e27] [cursor=pointer]:
+              - /url: javascript:;
+              - img "profile-image" [ref=e28]
+            - text:  
+  - list [ref=e32]:
+    - listitem: Navigasi
+    - listitem [ref=e33]:
+      - link " Personalia " [ref=e34] [cursor=pointer]:
+        - /url: javascript:void(0);
+        - generic [ref=e35]: 
+        - text: Personalia
+        - generic [ref=e36]: 
+    - listitem [ref=e37]:
+      - link " Layanan Mandiri " [ref=e38] [cursor=pointer]:
+        - /url: javascript:void(0);
+        - generic [ref=e39]: 
+        - text: Layanan Mandiri
+        - generic [ref=e40]: 
+  - generic [ref=e43]:
+    - generic [ref=e46]:
+      - heading "Petty Cash" [level=4] [ref=e47]
+      - list [ref=e48]:
+        - listitem [ref=e49]: Layanan Mandiri
+        - listitem [ref=e50]: / Petty Cash
+    - button " Buat Petty Cash" [ref=e54] [cursor=pointer]:
+      - generic [ref=e55]: 
+      - text: Buat Petty Cash
+    - generic [ref=e56]:
+      - form [ref=e57]:
+        - generic [ref=e58]:
+          - generic [ref=e60]:
+            - generic [ref=e61]: Jenis Laporan
+            - combobox [ref=e63]:
+              - option "Harian" [selected]
+              - option "Bulanan"
+          - generic [ref=e65]:
+            - generic [ref=e66]: Periode
+            - generic [ref=e68]:
+              - textbox "Dari Tanggal" [ref=e70]: 22/06/2026
+              - textbox "Sampai Tanggal" [ref=e72]: 21/07/2026
+          - generic [ref=e74]:
+            - generic [ref=e75]: Tipe Petty Cash
+            - combobox [ref=e77]:
+              - option "Semua Tipe" [selected]
+              - option "Plan"
+              - option "Realization"
+          - generic [ref=e79]:
+            - generic [ref=e80]: Status
+            - combobox [ref=e82]:
+              - option "Semua Status" [selected]
+              - option "Menunggu"
+              - option "Disetujui"
+              - option "Ditolak"
+          - generic [ref=e83]:
+            - button "Filter" [ref=e84] [cursor=pointer]
+            - button "Download" [ref=e85] [cursor=pointer]
+      - separator [ref=e86]
+      - table [ref=e89]:
+        - rowgroup [ref=e90]:
+          - row "Diajukan Oleh Tanggal Dibuat Tanggal Lama Jenis / Keperluan Perjalanan Tipe Petty Cash Persetujuan" [ref=e91]:
+            - columnheader "Diajukan Oleh" [ref=e92]
+            - columnheader "Tanggal Dibuat" [ref=e93]
+            - columnheader "Tanggal" [ref=e94]
+            - columnheader "Lama" [ref=e95]
+            - columnheader "Jenis / Keperluan Perjalanan" [ref=e96]
+            - columnheader "Tipe Petty Cash" [ref=e97]
+            - columnheader "Persetujuan" [ref=e98]

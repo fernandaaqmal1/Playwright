@@ -1,0 +1,235 @@
+- generic [ref=e2]:
+  - text:      
+  - generic [ref=e3]:
+    - link [ref=e5] [cursor=pointer]:
+      - /url: https://hris.wit.arkamaya.net/dashboard
+    - navigation [ref=e7]:
+      - generic [ref=e8]:
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - button "" [ref=e11] [cursor=pointer]:
+              - generic [ref=e12]: 
+          - listitem [ref=e13]:
+            - link "LAHANS" [ref=e14] [cursor=pointer]:
+              - /url: https://hris.wit.arkamaya.net/
+            - generic [ref=e15]: "Status : AKTIF"
+        - list [ref=e16]:
+          - listitem [ref=e17]:
+            - generic [ref=e18]:
+              - heading [level=4]
+          - listitem [ref=e19]:
+            - link " 0" [ref=e20] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e21]: 
+              - generic [ref=e22]: "0"
+          - listitem [ref=e23]:
+            - link "ASRI DWI ANDINI Compensation & Benefit Supervisor" [ref=e24] [cursor=pointer]:
+              - /url: javascript:;
+              - text: ASRI DWI ANDINI
+              - superscript [ref=e25]: Compensation & Benefit Supervisor
+          - listitem [ref=e26]:
+            - link "profile-image" [expanded] [ref=e27] [cursor=pointer]:
+              - /url: javascript:;
+              - img "profile-image" [ref=e28]
+            - text:   
+  - list [ref=e33]:
+    - listitem: Navigasi
+    - listitem [ref=e34]:
+      - link " Personalia " [ref=e35] [cursor=pointer]:
+        - /url: javascript:void(0);
+        - generic [ref=e36]: 
+        - text: Personalia
+        - generic [ref=e37]: 
+      - list [ref=e38]:
+        - listitem [ref=e39]:
+          - link "Dasbor Personalia" [ref=e40] [cursor=pointer]:
+            - /url: https://hris.wit.arkamaya.net/dashboard
+        - listitem [ref=e41]:
+          - link "Data Pegawai" [ref=e42] [cursor=pointer]:
+            - /url: https://hris.wit.arkamaya.net/employee
+        - listitem [ref=e43]:
+          - link "Jabatan" [ref=e44] [cursor=pointer]:
+            - /url: https://hris.wit.arkamaya.net/position
+        - listitem [ref=e45]:
+          - link "Golongan" [ref=e46] [cursor=pointer]:
+            - /url: https://hris.wit.arkamaya.net/role
+        - listitem [ref=e47]:
+          - link "Area Kerja" [ref=e48] [cursor=pointer]:
+            - /url: https://hris.wit.arkamaya.net/work_unit
+        - listitem [ref=e49]:
+          - link "Penggajian" [ref=e50] [cursor=pointer]:
+            - /url: https://hris.wit.arkamaya.net/payroll
+        - listitem [ref=e51]:
+          - link "THR" [ref=e52] [cursor=pointer]:
+            - /url: https://hris.wit.arkamaya.net/thr
+    - listitem [ref=e53]:
+      - link " Layanan Mandiri " [ref=e54] [cursor=pointer]:
+        - /url: javascript:void(0);
+        - generic [ref=e55]: 
+        - text: Layanan Mandiri
+        - generic [ref=e56]: 
+    - listitem [ref=e57]:
+      - link " Laporan " [ref=e58] [cursor=pointer]:
+        - /url: javascript:void(0);
+        - generic [ref=e59]: 
+        - text: Laporan
+        - generic [ref=e60]: 
+    - listitem [ref=e61]:
+      - link " Pengaturan " [ref=e62] [cursor=pointer]:
+        - /url: javascript:void(0);
+        - generic [ref=e63]: 
+        - text: Pengaturan
+        - generic [ref=e64]: 
+  - generic [ref=e67]:
+    - generic [ref=e70]:
+      - heading "AAN AGUSTIAN" [level=4] [ref=e71]
+      - list [ref=e72]:
+        - listitem [ref=e73]: Personalia
+        - listitem [ref=e74]:
+          - text: /
+          - link "Data Pegawai" [ref=e75] [cursor=pointer]:
+            - /url: https://hris.wit.arkamaya.net/employee
+        - listitem [ref=e76]: / Profil
+    - form [ref=e78]:
+      - generic [ref=e79]:
+        - generic [ref=e82]:
+          - img "AAN AGUSTIAN" [ref=e84]
+          - button "Ubah" [ref=e85] [cursor=pointer]
+          - button "Non-Aktifkan" [ref=e86] [cursor=pointer]
+          - generic [ref=e87]:
+            - paragraph [ref=e88]: Status Pegawai
+            - paragraph [ref=e89]: Aktif
+        - generic [ref=e91]:
+          - generic [ref=e92]:
+            - generic [ref=e93]:
+              - generic [ref=e95]: No. Induk
+              - generic [ref=e96]: "20250055"
+            - generic [ref=e97]:
+              - generic [ref=e99]: Nama Lengkap
+              - generic [ref=e100]: AAN AGUSTIAN
+            - generic [ref=e101]:
+              - generic [ref=e103]: Kelahiran
+              - generic [ref=e104]: Banyumas, 20 July 1997 (29 Tahun)
+            - generic [ref=e105]:
+              - generic [ref=e107]: Alamat Tinggal (Domisili)
+              - generic [ref=e108]: Grumbul Pecikalan RT 04 RW 06 Desa Wangon, Kec. Wangon, Kab. Banyumas
+            - generic [ref=e109]:
+              - generic [ref=e111]: Alamat Tetap (KTP)
+              - generic [ref=e112]: Grumbul Pecikalan RT 04 RW 06 Desa Wangon, Kec. Wangon, Kab. Banyumas Kec. WANGON, Kel. WANGON KABUPATEN BANYUMAS JAWA TENGAH 53176
+            - generic [ref=e113]:
+              - generic [ref=e115]: Latitude / Longitude
+              - generic [ref=e116]: "- /"
+          - generic [ref=e117]:
+            - generic [ref=e118]:
+              - generic [ref=e120]: Atasan 1
+              - generic [ref=e121]: "-"
+            - generic [ref=e122]:
+              - generic [ref=e124]: Atasan 2
+              - generic [ref=e125]: "-"
+            - generic [ref=e126]:
+              - generic [ref=e128]: No. KTP / SIM
+              - generic [ref=e129]: "3301082007980001"
+            - generic [ref=e130]:
+              - generic [ref=e132]: Agama
+              - generic [ref=e133]: Islam
+            - generic [ref=e134]:
+              - generic [ref=e136]: Jenis Kelamin
+              - generic [ref=e137]: Pria
+            - generic [ref=e138]:
+              - generic [ref=e140]: Status Perkawinan
+              - generic [ref=e141]: Menikah
+            - generic [ref=e142]:
+              - generic [ref=e144]: No. Telepon
+              - generic [ref=e145]: "0895378232048"
+            - generic [ref=e146]:
+              - generic [ref=e148]: Bank
+              - generic [ref=e149]: Bank BCA
+            - generic [ref=e150]:
+              - generic [ref=e152]: No. Rekening
+              - generic [ref=e153]: "4240832424"
+            - generic [ref=e154]:
+              - generic [ref=e156]: No. Telp Darurat
+              - generic [ref=e157]: "-"
+            - generic [ref=e158]:
+              - generic [ref=e160]: Kontak Darurat
+              - generic [ref=e161]: "-"
+      - generic [ref=e164]:
+        - list [ref=e165]:
+          - listitem [ref=e166]:
+            - link "Pekerjaan" [ref=e167]:
+              - /url: "#misc-b1"
+              - text:  Pekerjaan
+          - listitem [ref=e168]:
+            - link "Gaji" [ref=e169] [cursor=pointer]:
+              - /url: "#salary-b1"
+              - text:  Gaji
+          - listitem [ref=e170]:
+            - link "Biografi" [ref=e171] [cursor=pointer]:
+              - /url: "#biografi-b1"
+              - text:  Biografi
+          - listitem [ref=e172]:
+            - link "Kompetensi" [expanded] [ref=e173] [cursor=pointer]:
+              - /url: "#works-b1"
+              - text:  Kompetensi
+          - listitem [ref=e174]:
+            - link "Kontrak" [ref=e175] [cursor=pointer]:
+              - /url: "#contract-b1"
+          - listitem [ref=e176]:
+            - link "Dokumen" [expanded] [ref=e177] [cursor=pointer]:
+              - /url: "#docs-b1"
+              - text:  Dokumen
+          - listitem [ref=e178]:
+            - link "Hak Akses" [expanded] [ref=e179] [cursor=pointer]:
+              - /url: "#user-b1"
+              - text:  Hak Akses
+          - listitem [ref=e180]:
+            - link "Face Recognition" [expanded] [ref=e181] [cursor=pointer]:
+              - /url: "#facerecognition"
+              - text:  Face Recognition
+        - generic [ref=e182]:
+          - generic [ref=e184]:
+            - generic [ref=e185]:
+              - generic [ref=e186]:
+                - generic [ref=e188]: Status
+                - generic [ref=e189]: Kontrak
+              - generic [ref=e190]:
+                - generic [ref=e192]: Masuk Kerja
+                - generic [ref=e193]: 07 April 2025 (1 tahun 3 bulan)
+              - generic [ref=e194]:
+                - generic [ref=e196]: Tanggal Promosi
+                - generic [ref=e197]: "-"
+              - generic [ref=e198]:
+                - generic [ref=e200]: Area Kerja
+                - link "PT LMN - Wangon" [ref=e202] [cursor=pointer]:
+                  - /url: https://hris.wit.arkamaya.net/work_unit/id/762
+              - generic [ref=e203]:
+                - generic [ref=e205]: Divisi
+                - generic [ref=e206]: Sales & Marketing
+              - generic [ref=e209]: Departemen
+              - generic [ref=e211]:
+                - generic [ref=e213]: Atasan
+                - link "R BUDI SATIYA NUGROHO" [ref=e215] [cursor=pointer]:
+                  - /url: https://hris.wit.arkamaya.net/employee/id/2061
+              - generic [ref=e216]:
+                - generic [ref=e218]: Boleh Cuti
+                - generic [ref=e219]: Ya
+            - generic [ref=e220]:
+              - generic [ref=e221]:
+                - generic [ref=e223]: No. BPJS Kesehatan
+                - generic [ref=e224]: "-"
+              - generic [ref=e225]:
+                - generic [ref=e227]: No. BPJS Ketenagakerjaan
+                - generic [ref=e228]: "-"
+              - generic [ref=e229]:
+                - generic [ref=e231]:
+                  - text: No. Mesin Absensi
+                  - generic "ID Mesin absensi. Digunakan untuk Sinkronisasi data kehadiran" [ref=e232]: 
+                - generic [ref=e233]: "0"
+              - generic [ref=e234]:
+                - generic [ref=e236]: No. NPWP
+                - generic [ref=e237]: "-"
+              - generic [ref=e238]:
+                - generic [ref=e240]: Status PTKP
+                - generic [ref=e241]: K0
+          - text:    
+    - button "Kembali" [ref=e245] [cursor=pointer]

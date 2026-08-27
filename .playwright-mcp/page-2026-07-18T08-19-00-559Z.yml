@@ -1,0 +1,307 @@
+- generic [ref=e2]:
+  - text:      
+  - generic [ref=e3]:
+    - link [ref=e5] [cursor=pointer]:
+      - /url: https://hris.wit.arkamaya.net/dashboard
+    - navigation [ref=e7]:
+      - generic [ref=e8]:
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - button "" [ref=e11] [cursor=pointer]:
+              - generic [ref=e12]: 
+          - listitem [ref=e13]:
+            - link "LAHANS" [ref=e14] [cursor=pointer]:
+              - /url: https://hris.wit.arkamaya.net/
+            - generic [ref=e15]: "Status : AKTIF"
+        - list [ref=e16]:
+          - listitem [ref=e17]:
+            - generic [ref=e18]:
+              - heading [level=4]
+          - listitem [ref=e19]:
+            - link " 0" [ref=e20] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e21]: 
+              - generic [ref=e22]: "0"
+          - listitem [ref=e23]:
+            - link "AGUSTINA ANGGRAENI Personal Assistant Staff" [ref=e24] [cursor=pointer]:
+              - /url: javascript:;
+              - text: AGUSTINA ANGGRAENI
+              - superscript [ref=e25]: Personal Assistant Staff
+          - listitem [ref=e26]:
+            - link "profile-image" [expanded] [ref=e27] [cursor=pointer]:
+              - /url: javascript:;
+              - img "profile-image" [ref=e28]
+            - text:  
+  - list [ref=e33]:
+    - listitem: Navigasi
+    - listitem [ref=e34]:
+      - link " Personalia " [ref=e35] [cursor=pointer]:
+        - /url: javascript:void(0);
+        - generic [ref=e36]: 
+        - text: Personalia
+        - generic [ref=e37]: 
+    - listitem [ref=e38]:
+      - link " Layanan Mandiri " [ref=e39] [cursor=pointer]:
+        - /url: javascript:void(0);
+        - generic [ref=e40]: 
+        - text: Layanan Mandiri
+        - generic [ref=e41]: 
+      - list [ref=e42]:
+        - listitem [ref=e43]:
+          - link "Presensi" [ref=e44] [cursor=pointer]:
+            - /url: https://hris.wit.arkamaya.net/presence
+        - listitem [ref=e45]:
+          - link "Perjalanan Dinas" [ref=e46] [cursor=pointer]:
+            - /url: https://hris.wit.arkamaya.net/official_travel
+        - listitem [ref=e47]:
+          - link "Petty Cash" [ref=e48] [cursor=pointer]:
+            - /url: https://hris.wit.arkamaya.net/petty_cash
+        - listitem [ref=e49]:
+          - link "Reimbursement" [ref=e50] [cursor=pointer]:
+            - /url: https://hris.wit.arkamaya.net/reimburse
+        - listitem [ref=e51]:
+          - link "Pengajuan Cuti" [ref=e52] [cursor=pointer]:
+            - /url: https://hris.wit.arkamaya.net/leave
+        - listitem [ref=e53]:
+          - link "Pengajuan Lembur" [ref=e54] [cursor=pointer]:
+            - /url: https://hris.wit.arkamaya.net/overtime
+        - listitem [ref=e55]:
+          - link "Kalendar Kerja" [ref=e56] [cursor=pointer]:
+            - /url: https://hris.wit.arkamaya.net/calendar
+        - listitem [ref=e57]:
+          - link "Download Slip" [ref=e58] [cursor=pointer]:
+            - /url: https://hris.wit.arkamaya.net/payroll_slip
+  - generic [ref=e61]:
+    - generic [ref=e64]:
+      - heading "Petty Cash" [level=4] [ref=e65]
+      - list [ref=e66]:
+        - listitem [ref=e67]: Layanan Mandiri
+        - listitem [ref=e68]: / Petty Cash
+    - button " Buat Petty Cash" [ref=e72] [cursor=pointer]:
+      - generic [ref=e73]: 
+      - text: Buat Petty Cash
+    - generic [ref=e74]:
+      - form [ref=e75]:
+        - generic [ref=e76]:
+          - generic [ref=e78]:
+            - generic [ref=e79]: Jenis Laporan
+            - generic [ref=e80]:
+              - combobox [ref=e81]
+              - combobox "Harian" [ref=e84] [cursor=pointer]:
+                - generic "Harian" [ref=e85]
+          - generic [ref=e87]:
+            - generic [ref=e88]: Periode
+            - generic [ref=e90]:
+              - textbox "Dari Tanggal" [ref=e92]: 22/06/2026
+              - textbox "Sampai Tanggal" [ref=e94]: 21/07/2026
+          - generic [ref=e96]:
+            - generic [ref=e97]: Tipe Petty Cash
+            - generic [ref=e98]:
+              - combobox [ref=e99]
+              - combobox "Semua Tipe" [ref=e102] [cursor=pointer]:
+                - generic "Semua Tipe" [ref=e103]
+          - generic [ref=e105]:
+            - generic [ref=e106]: Status
+            - generic [ref=e107]:
+              - combobox [ref=e108]
+              - combobox "Semua Status" [ref=e111] [cursor=pointer]:
+                - generic "Semua Status" [ref=e112]
+          - generic [ref=e113]:
+            - button "Filter" [ref=e114] [cursor=pointer]
+            - button "Download" [ref=e115] [cursor=pointer]
+      - separator [ref=e116]
+      - generic [ref=e119]:
+        - generic [ref=e120]:
+          - generic [ref=e123]:
+            - text: Per
+            - combobox "Per Baris" [ref=e124]:
+              - option "10" [selected]
+              - option "25"
+              - option "50"
+              - option "100"
+              - option "200"
+              - option "All"
+            - text: Baris
+          - generic [ref=e127]:
+            - text: Cari
+            - searchbox "Cari" [ref=e128]
+        - grid [ref=e131]:
+          - rowgroup [ref=e132]:
+            - row "AGUSTINA ANGGRAENI 02 Jul 2026 21 sd 22 Jul 2026 2 Hari OPERASIONAL ASM Meeting with team 2 PLAN  Disetujui" [ref=e133]:
+              - gridcell "AGUSTINA ANGGRAENI" [ref=e134]
+              - gridcell "02 Jul 2026" [ref=e135]
+              - gridcell "21 sd 22 Jul 2026" [ref=e136]
+              - gridcell "2 Hari" [ref=e137]
+              - gridcell "OPERASIONAL ASM Meeting with team 2" [ref=e138]:
+                - mark [ref=e139]: OPERASIONAL ASM
+                - link "Meeting with team 2" [ref=e140] [cursor=pointer]:
+                  - /url: https://hris.wit.arkamaya.net/petty_cash/id/25
+              - gridcell "PLAN" [ref=e141]
+              - gridcell " Disetujui" [ref=e142]:
+                - generic [ref=e143]:
+                  - generic "Disetujui" [ref=e144]: 
+                  - text: Disetujui
+            - row "AGUSTINA ANGGRAENI 02 Jul 2026 21 sd 22 Jul 2026 2 Hari OPERASIONAL ASM Meeting with team 2 REALIZATION  Disetujui" [ref=e145]:
+              - gridcell "AGUSTINA ANGGRAENI" [ref=e146]
+              - gridcell "02 Jul 2026" [ref=e147]
+              - gridcell "21 sd 22 Jul 2026" [ref=e148]
+              - gridcell "2 Hari" [ref=e149]
+              - gridcell "OPERASIONAL ASM Meeting with team 2" [ref=e150]:
+                - mark [ref=e151]: OPERASIONAL ASM
+                - link "Meeting with team 2" [ref=e152] [cursor=pointer]:
+                  - /url: https://hris.wit.arkamaya.net/petty_cash/realization_id/26
+              - gridcell "REALIZATION" [ref=e153]
+              - gridcell " Disetujui" [ref=e154]:
+                - generic [ref=e155]:
+                  - generic "Disetujui" [ref=e156]: 
+                  - text: Disetujui
+            - row "AGUSTINA ANGGRAENI 06 Jul 2026 19 sd 22 Jul 2026 4 Hari OPERASIONAL ASM TEST GARUT PETTY CASH PLAN  Disetujui" [ref=e157]:
+              - gridcell "AGUSTINA ANGGRAENI" [ref=e158]
+              - gridcell "06 Jul 2026" [ref=e159]
+              - gridcell "19 sd 22 Jul 2026" [ref=e160]
+              - gridcell "4 Hari" [ref=e161]
+              - gridcell "OPERASIONAL ASM TEST GARUT PETTY CASH" [ref=e162]:
+                - mark [ref=e163]: OPERASIONAL ASM
+                - link "TEST GARUT PETTY CASH" [ref=e164] [cursor=pointer]:
+                  - /url: https://hris.wit.arkamaya.net/petty_cash/id/52
+              - gridcell "PLAN" [ref=e165]
+              - gridcell " Disetujui" [ref=e166]:
+                - generic [ref=e167]:
+                  - generic "Disetujui" [ref=e168]: 
+                  - text: Disetujui
+            - row "AGUSTINA ANGGRAENI 06 Jul 2026 19 sd 22 Jul 2026 4 Hari OPERASIONAL ASM TEST GARUT PETTY CASH REALIZATION  Ditolak" [ref=e169]:
+              - gridcell "AGUSTINA ANGGRAENI" [ref=e170]
+              - gridcell "06 Jul 2026" [ref=e171]
+              - gridcell "19 sd 22 Jul 2026" [ref=e172]
+              - gridcell "4 Hari" [ref=e173]
+              - gridcell "OPERASIONAL ASM TEST GARUT PETTY CASH" [ref=e174]:
+                - mark [ref=e175]: OPERASIONAL ASM
+                - link "TEST GARUT PETTY CASH" [ref=e176] [cursor=pointer]:
+                  - /url: https://hris.wit.arkamaya.net/petty_cash/realization_id/53
+              - gridcell "REALIZATION" [ref=e177]
+              - gridcell " Ditolak" [ref=e178]:
+                - generic [ref=e179]:
+                  - generic "Ditolak" [ref=e180]: 
+                  - text: Ditolak
+            - row "AGUSTINA ANGGRAENI 17 Jul 2026 17 Jul 2026 1 Hari OPERASIONAL ASM issue-082 edited by asri PLAN  Disetujui" [ref=e181]:
+              - gridcell "AGUSTINA ANGGRAENI" [ref=e182]
+              - gridcell "17 Jul 2026" [ref=e183]
+              - gridcell "17 Jul 2026" [ref=e184]
+              - gridcell "1 Hari" [ref=e185]
+              - gridcell "OPERASIONAL ASM issue-082 edited by asri" [ref=e186]:
+                - mark [ref=e187]: OPERASIONAL ASM
+                - link "issue-082 edited by asri" [ref=e188] [cursor=pointer]:
+                  - /url: https://hris.wit.arkamaya.net/petty_cash/id/95
+              - gridcell "PLAN" [ref=e189]
+              - gridcell " Disetujui" [ref=e190]:
+                - generic [ref=e191]:
+                  - generic "Disetujui" [ref=e192]: 
+                  - text: Disetujui
+            - row "AGUSTINA ANGGRAENI 17 Jul 2026 17 Jul 2026 1 Hari OPERASIONAL ASM repro issue 074 PLAN  Menunggu profile-image" [ref=e193]:
+              - gridcell "AGUSTINA ANGGRAENI" [ref=e194]
+              - gridcell "17 Jul 2026" [ref=e195]
+              - gridcell "17 Jul 2026" [ref=e196]
+              - gridcell "1 Hari" [ref=e197]
+              - gridcell "OPERASIONAL ASM repro issue 074" [ref=e198]:
+                - mark [ref=e199]: OPERASIONAL ASM
+                - link "repro issue 074" [ref=e200] [cursor=pointer]:
+                  - /url: https://hris.wit.arkamaya.net/petty_cash/id/96
+              - gridcell "PLAN" [ref=e201]
+              - gridcell " Menunggu profile-image" [ref=e202]:
+                - generic [ref=e203]:
+                  - generic "Menunggu" [ref=e204]: 
+                  - text: Menunggu
+                - img "profile-image" [ref=e205]
+            - row "AGUSTINA ANGGRAENI 17 Jul 2026 17 Jul 2026 1 Hari OPERASIONAL ASM issue-74 edit reivewer asri PLAN  Disetujui" [ref=e206]:
+              - gridcell "AGUSTINA ANGGRAENI" [ref=e207]
+              - gridcell "17 Jul 2026" [ref=e208]
+              - gridcell "17 Jul 2026" [ref=e209]
+              - gridcell "1 Hari" [ref=e210]
+              - gridcell "OPERASIONAL ASM issue-74 edit reivewer asri" [ref=e211]:
+                - mark [ref=e212]: OPERASIONAL ASM
+                - link "issue-74 edit reivewer asri" [ref=e213] [cursor=pointer]:
+                  - /url: https://hris.wit.arkamaya.net/petty_cash/id/97
+              - gridcell "PLAN" [ref=e214]
+              - gridcell " Disetujui" [ref=e215]:
+                - generic [ref=e216]:
+                  - generic "Disetujui" [ref=e217]: 
+                  - text: Disetujui
+            - row "AGUSTINA ANGGRAENI 17 Jul 2026 17 Jul 2026 1 Hari OPERASIONAL ASM issue-74 edit reivewer asri REALIZATION  Menunggu profile-image" [ref=e218]:
+              - gridcell "AGUSTINA ANGGRAENI" [ref=e219]
+              - gridcell "17 Jul 2026" [ref=e220]
+              - gridcell "17 Jul 2026" [ref=e221]
+              - gridcell "1 Hari" [ref=e222]
+              - gridcell "OPERASIONAL ASM issue-74 edit reivewer asri" [ref=e223]:
+                - mark [ref=e224]: OPERASIONAL ASM
+                - link "issue-74 edit reivewer asri" [ref=e225] [cursor=pointer]:
+                  - /url: https://hris.wit.arkamaya.net/petty_cash/realization_id/98
+              - gridcell "REALIZATION" [ref=e226]
+              - gridcell " Menunggu profile-image" [ref=e227]:
+                - generic [ref=e228]:
+                  - generic "Menunggu" [ref=e229]: 
+                  - text: Menunggu
+                - img "profile-image" [ref=e230]
+            - row "AGUSTINA ANGGRAENI 16 Jul 2026 16 Jul 2026 1 Hari OPERASIONAL ASM Test aja 17 PLAN  Ditolak" [ref=e231]:
+              - gridcell "AGUSTINA ANGGRAENI" [ref=e232]
+              - gridcell "16 Jul 2026" [ref=e233]
+              - gridcell "16 Jul 2026" [ref=e234]
+              - gridcell "1 Hari" [ref=e235]
+              - gridcell "OPERASIONAL ASM Test aja 17" [ref=e236]:
+                - mark [ref=e237]: OPERASIONAL ASM
+                - link "Test aja 17" [ref=e238] [cursor=pointer]:
+                  - /url: https://hris.wit.arkamaya.net/petty_cash/id/85
+              - gridcell "PLAN" [ref=e239]
+              - gridcell " Ditolak" [ref=e240]:
+                - generic [ref=e241]:
+                  - generic "Ditolak" [ref=e242]: 
+                  - text: Ditolak
+            - row "AGUSTINA ANGGRAENI 16 Jul 2026 16 Jul 2026 1 Hari OPERASIONAL ASM test lagi 17 PLAN  Disetujui" [ref=e243]:
+              - gridcell "AGUSTINA ANGGRAENI" [ref=e244]
+              - gridcell "16 Jul 2026" [ref=e245]
+              - gridcell "16 Jul 2026" [ref=e246]
+              - gridcell "1 Hari" [ref=e247]
+              - gridcell "OPERASIONAL ASM test lagi 17" [ref=e248]:
+                - mark [ref=e249]: OPERASIONAL ASM
+                - link "test lagi 17" [ref=e250] [cursor=pointer]:
+                  - /url: https://hris.wit.arkamaya.net/petty_cash/id/86
+              - gridcell "PLAN" [ref=e251]
+              - gridcell " Disetujui" [ref=e252]:
+                - generic [ref=e253]:
+                  - generic "Disetujui" [ref=e254]: 
+                  - text: Disetujui
+          - rowgroup [ref=e255]:
+            - row "Diajukan Oleh Tanggal Dibuat Tanggal Lama Jenis / Keperluan Perjalanan Tipe Petty Cash Persetujuan" [ref=e256]:
+              - columnheader "Diajukan Oleh" [ref=e257]
+              - columnheader "Tanggal Dibuat" [ref=e258]
+              - columnheader "Tanggal" [ref=e259]
+              - columnheader "Lama" [ref=e260]
+              - columnheader "Jenis / Keperluan Perjalanan" [ref=e261]
+              - columnheader "Tipe Petty Cash" [ref=e262]
+              - columnheader "Persetujuan" [ref=e263]
+        - generic [ref=e264]:
+          - status [ref=e266]: Menampilkan 1 - 10 dari 32 baris
+          - list [ref=e269]:
+            - listitem:
+              - link "Awal" [ref=e270]:
+                - /url: "#"
+            - listitem:
+              - link "Mundur" [ref=e271]:
+                - /url: "#"
+            - listitem:
+              - link "1" [ref=e272]:
+                - /url: "#"
+            - listitem:
+              - link "2" [ref=e273] [cursor=pointer]:
+                - /url: "#"
+            - listitem:
+              - link "3" [ref=e274] [cursor=pointer]:
+                - /url: "#"
+            - listitem:
+              - link "4" [ref=e275] [cursor=pointer]:
+                - /url: "#"
+            - listitem:
+              - link "Maju" [ref=e276] [cursor=pointer]:
+                - /url: "#"
+            - listitem:
+              - link "Akhir" [ref=e277] [cursor=pointer]:
+                - /url: "#"

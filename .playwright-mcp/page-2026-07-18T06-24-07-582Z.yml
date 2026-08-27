@@ -1,0 +1,28 @@
+- generic [ref=e7]:
+  - generic [ref=e8]:
+    - link [ref=e9] [cursor=pointer]:
+      - /url: https://dev-hr-tintin.wit.id
+    - heading [level=5]
+  - generic [ref=e11]:
+    - alert [ref=e12]:
+      - button [ref=e13] [cursor=pointer]: ×
+      - strong [ref=e14]: Login Gagal.
+      - text: Email atau Kata Sandi salah.
+    - generic [ref=e15]:
+      - textbox "Email / Nomor Induk Karyawan" [ref=e18]
+      - generic [ref=e20]:
+        - textbox "Kata Sandi" [ref=e21]
+        - generic [ref=e23] [cursor=pointer]: 
+      - button "Masuk" [ref=e26] [cursor=pointer]
+      - link " Lupa Kata Sandi" [ref=e29] [cursor=pointer]:
+        - /url: https://hris.wit.arkamaya.net/forgot_password
+        - generic [ref=e30]: 
+        - text: Lupa Kata Sandi
+    - paragraph [ref=e33]: © 2017 - 2026
+    - generic [ref=e34]:
+      - link "Play Store" [ref=e36] [cursor=pointer]:
+        - /url: https://play.google.com/store/apps/details?id=com.personalia_cli
+        - img "Play Store" [ref=e37]
+      - link "App Store" [ref=e39] [cursor=pointer]:
+        - /url: https://apps.apple.com/id/app/personalia/id1608832823?l=id
+        - img "App Store" [ref=e40]

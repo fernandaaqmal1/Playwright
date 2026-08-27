@@ -1,0 +1,531 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link [ref=e5] [cursor=pointer]:
+      - /url: https://hris.dlhk.arkamaya.net/dashboard
+    - navigation [ref=e7]:
+      - generic [ref=e8]:
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - button "" [ref=e11] [cursor=pointer]:
+              - generic [ref=e12]: 
+          - listitem [ref=e13]:
+            - link "UPT Pengelolaan Sampah Kota Bandung" [ref=e14] [cursor=pointer]:
+              - /url: https://hris.dlhk.arkamaya.net/
+        - list [ref=e15]:
+          - listitem [ref=e16]:
+            - link "ARK 1423123" [ref=e17] [cursor=pointer]:
+              - /url: javascript:;
+              - text: ARK
+              - superscript [ref=e18]: "1423123"
+          - listitem [ref=e19]:
+            - link "profile-image" [expanded] [ref=e20] [cursor=pointer]:
+              - /url: javascript:;
+              - img "profile-image" [ref=e21]
+            - text:   
+  - list [ref=e26]:
+    - listitem: Navigasi
+    - listitem [ref=e27]:
+      - link " Personalia " [ref=e28] [cursor=pointer]:
+        - /url: javascript:void(0);
+        - generic [ref=e29]: 
+        - text: Personalia
+        - generic [ref=e30]: 
+      - list [ref=e31]:
+        - listitem [ref=e32]:
+          - link "Dasbor Personalia" [ref=e33] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/dashboard
+        - listitem [ref=e34]:
+          - link "Dasbor KPI" [ref=e35] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/dashboard_kpi
+        - listitem [ref=e36]:
+          - link "Dasbor Kubikasi" [ref=e37] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/waste_volume
+        - listitem [ref=e38]:
+          - link "Data Pegawai" [ref=e39] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/employee
+        - listitem [ref=e40]:
+          - link "Jabatan" [ref=e41] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/position
+        - listitem [ref=e42]:
+          - link "Golongan" [ref=e43] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/role
+        - listitem [ref=e44]:
+          - link "Area Kerja" [ref=e45] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/work_unit
+        - listitem [ref=e46]:
+          - link "Penggajian" [ref=e47] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/payroll
+        - listitem [ref=e48]:
+          - link "Berita" [ref=e49] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/announce
+        - listitem [ref=e50]:
+          - link "Warning Letter" [ref=e51] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/warningletter
+        - listitem [ref=e52]:
+          - link "Kegiatan Perusahaan" [ref=e53] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/activity
+        - listitem [ref=e54]:
+          - link "Unit Kerja" [ref=e55] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/bagian
+        - listitem [ref=e56]:
+          - link "Tunjangan" [ref=e57] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/allowance
+        - listitem [ref=e58]:
+          - link "Surat Perintah Lembur" [ref=e59] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/spl
+    - listitem [ref=e60]:
+      - link " Layanan Mandiri " [ref=e61] [cursor=pointer]:
+        - /url: javascript:void(0);
+        - generic [ref=e62]: 
+        - text: Layanan Mandiri
+        - generic [ref=e63]: 
+    - listitem [ref=e64]:
+      - link " Proyek & Tugas " [ref=e65] [cursor=pointer]:
+        - /url: javascript:void(0);
+        - generic [ref=e66]: 
+        - text: Proyek & Tugas
+        - generic [ref=e67]: 
+    - listitem [ref=e68]:
+      - link " Pengaturan " [ref=e69] [cursor=pointer]:
+        - /url: javascript:void(0);
+        - generic [ref=e70]: 
+        - text: Pengaturan
+        - generic [ref=e71]: 
+    - listitem [ref=e72]:
+      - link " Laporan " [ref=e73] [cursor=pointer]:
+        - /url: javascript:void(0);
+        - generic [ref=e74]: 
+        - text: Laporan
+        - generic [ref=e75]: 
+  - generic [ref=e76]:
+    - generic [ref=e78]:
+      - generic [ref=e81]:
+        - heading "Data Pegawai" [level=4] [ref=e82]
+        - list [ref=e83]:
+          - listitem [ref=e84]: Personalia
+          - listitem [ref=e85]: / Data Pegawai
+      - generic [ref=e87]:
+        - generic [ref=e88]:
+          - button " Buat Pegawai" [ref=e90] [cursor=pointer]:
+            - generic [ref=e91]: 
+            - text: Buat Pegawai
+          - link "Upload Pegawai" [ref=e93] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/employee/upload_employee
+        - generic [ref=e94]:
+          - textbox "Semua Nama/NIK Pegawai" [ref=e96]
+          - generic [ref=e97]:
+            - listbox [ref=e98]:
+              - option [ref=e99]: Kontrak
+              - option [ref=e100]: Permanen
+              - option [ref=e101]: Percobaan
+            - combobox [ref=e104]:
+              - list [ref=e105]:
+                - listitem [ref=e106]:
+                  - textbox "Semua Status" [ref=e107]
+        - generic [ref=e108]:
+          - generic [ref=e109]:
+            - listbox [ref=e110]:
+              - option [ref=e111]: Sub Bagian Tata Usaha
+              - option [ref=e112]: Kepegawaian
+              - option [ref=e113]: Humas & Sistem Informasi
+              - option [ref=e114]: Ketatausahaan & Arsip
+              - option [ref=e115]: Perencanaan, Evaluasi & Pelaporan
+              - option [ref=e116]: SWK Cibeunying
+              - option [ref=e117]: SWK Karees
+              - option [ref=e118]: SWK Bojonegara
+              - option [ref=e119]: SWK Ubermanik
+              - option [ref=e120]: SWK Kordoba
+              - option [ref=e121]: SWK Tegallega
+              - option [ref=e122]: Pengelolaan Logistik / RTP
+              - option [ref=e123]: Pengelolaan Pelanggan
+              - option [ref=e124]: Pengelolaan Komersial & Kemitraan
+              - option [ref=e125]: Pengolahan Sampah
+              - option [ref=e126]: Keuangan
+              - option [ref=e127]: Logistik/Tim Taktis
+              - option [ref=e128]: Logistik/Kendaraan
+              - option [ref=e129]: SWK Bojonegara Gaspul
+              - option [ref=e130]: SWK Cibeunying Gaspul
+              - option [ref=e131]: SWK Karees Gaspul
+              - option [ref=e132]: SWK Kordoba Gaspul
+              - option [ref=e133]: SWK Tegallega Gaspul
+              - option [ref=e134]: SWK Ubermanik Gaspul
+              - option [ref=e135]: Pengelolaan Logistik Pengadaan
+              - option [ref=e136]: Tidak Ada
+            - combobox [ref=e139]:
+              - list [ref=e140]:
+                - listitem [ref=e141]:
+                  - textbox "Semua Bagian" [ref=e142]
+          - generic [ref=e143]:
+            - listbox [ref=e144]:
+              - option [ref=e145]: Asisten Administrasi
+              - option [ref=e146]: Bendahara Pengeluaran
+              - option [ref=e147]: KASUBAG TU
+              - option [ref=e148]: Kepala Seksi
+              - option [ref=e149]: Kepala Seksi Pengawasan TPS
+              - option [ref=e150]: KEPALA UPT PS
+              - option [ref=e151]: Kepala Zona
+              - option [ref=e152]: Kepala Zona/Admin
+              - option [ref=e153]: Koordinator Pelayanan Komersil & Kemitraan
+              - option [ref=e154]: Koordinator Pengelolaan Logistik
+              - option [ref=e155]: Koordinator Pengelolaan Pelanggan
+              - option [ref=e156]: Koordinator Pengelolaan Sampah Wil. Bojonegara
+              - option [ref=e157]: Koordinator Pengelolaan Sampah Wil. Cibeunying
+              - option [ref=e158]: Koordinator Pengelolaan Sampah Wil. Karees
+              - option [ref=e159]: Koordinator Pengelolaan Sampah Wil. Kordoba
+              - option [ref=e160]: Koordinator Pengelolaan Sampah Wil. Tegallega
+              - option [ref=e161]: Koordinator Pengelolaan Sampah Wil. Ubermanik
+              - option [ref=e162]: Koordinator Pengolahan Sampah
+              - option [ref=e163]: Kru Truck/Mobil
+              - option [ref=e164]: Mekanik
+              - option [ref=e165]: Operator Alat Berat
+              - option [ref=e166]: Operator Mesin Press
+              - option [ref=e167]: Pelaksana
+              - option [ref=e168]: Pelaksana KDN
+              - option [ref=e169]: Pembuat Kompos
+              - option [ref=e170]: Penagih Jasa Layanan KNK
+              - option [ref=e171]: Penagih Jasa Layanan PSI
+              - option [ref=e172]: Penagih Jasa Layanan RT
+              - option [ref=e173]: Penagih Jasa Layanan/Marketing
+              - option [ref=e174]: Penagih Rumah Tinggal
+              - option [ref=e175]: Pengemudi Mobil Pengumpulan
+              - option [ref=e176]: Pengemudi Truck ke TPA
+              - option [ref=e177]: Pengemudi Truck Rute
+              - option [ref=e178]: Penjaga Keamanan Kantor
+              - option [ref=e179]: Penyelia Bank Sampah
+              - option [ref=e180]: Penyelia Humas & Sistem Informasi
+              - option [ref=e181]: Penyelia Kepegawaian
+              - option [ref=e182]: Penyelia Ketatausahaan & Arsip
+              - option [ref=e183]: Penyelia Marketing & Kemitraan
+              - option [ref=e184]: Penyelia Operasional Zona 1
+              - option [ref=e185]: Penyelia Operasional Zona 2
+              - option [ref=e186]: Penyelia Pengadaan
+              - option [ref=e187]: Penyelia Pengelola Gudang & Kerumahtanggaan
+              - option [ref=e188]: Penyelia Pengelola Kendaraan
+              - option [ref=e189]: Penyelia Pengelolaan Pelanggan Wilayah Bojonegara
+              - option [ref=e190]: Penyelia Pengelolaan Pelanggan Wilayah Cibeunying
+              - option [ref=e191]: Penyelia Pengelolaan Pelanggan Wilayah Karees
+              - option [ref=e192]: Penyelia Pengelolaan Pelanggan Wilayah Kordoba
+              - option [ref=e193]: Penyelia Pengelolaan Pelanggan Wilayah Tegallega
+              - option [ref=e194]: Penyelia Pengelolaan Pelanggan Wilayah Ubermanik
+              - option [ref=e195]: Penyelia Pengolah Sampah Wil. Cibeunying - Bojonegara
+              - option [ref=e196]: Penyelia Pengolah Sampah Wil. Karees - Tegallega
+              - option [ref=e197]: Penyelia Pengolah Sampah Wil. Ubermanik - Kordoba
+              - option [ref=e198]: Penyelia Pengumpulan Sampah Jalan Bojonegara
+              - option [ref=e199]: Penyelia Pengumpulan Sampah Jalan Cibeunying
+              - option [ref=e200]: Penyelia Pengumpulan Sampah Jalan Karees
+              - option [ref=e201]: Penyelia Pengumpulan Sampah Jalan Kordoba
+              - option [ref=e202]: Penyelia Pengumpulan Sampah Jalan Tegallega
+              - option [ref=e203]: Penyelia Pengumpulan Sampah Jalan Ubermanik
+              - option [ref=e204]: Penyelia Perencanaan, Evaluasi & Pelaporan
+              - option [ref=e205]: Penyelia Tim Taktis
+              - option [ref=e206]: Penyelia TPA
+              - option [ref=e207]: Penyelia TPS Bojonegara 1
+              - option [ref=e208]: Penyelia TPS Bojonegara 2
+              - option [ref=e209]: Penyelia TPS Cibeunying 1
+              - option [ref=e210]: Penyelia TPS Cibeunying 2
+              - option [ref=e211]: Penyelia TPS Karees 1
+              - option [ref=e212]: Penyelia TPS Karees 2
+              - option [ref=e213]: Penyelia TPS Kordoba
+              - option [ref=e214]: Penyelia TPS Tegallega 1
+              - option [ref=e215]: Penyelia TPS Tegallega 2
+              - option [ref=e216]: Penyelia TPS Ubermanik 1
+              - option [ref=e217]: Penyelia TPS Ubermanik 2
+              - option [ref=e218]: Petugas Pengumpul Sampah
+              - option [ref=e219]: Petugas Pengumpul Sampah/Taktis
+              - option [ref=e220]: Staf Administrasi
+              - option [ref=e221]: Staf Administrasi / Penjaga Keamanan
+              - option [ref=e222]: Staf Administrasi di TPA
+              - option [ref=e223]: Supir Mobil Kancil/Taktis
+              - option [ref=e224]: Supir Motor Sampah
+              - option [ref=e225]: Supir Motor Sampah/Taktis
+              - option [ref=e226]: Supir Sweeper/Taktis
+              - option [ref=e227]: Tenaga Operator Pengolahan Sampah
+              - option [ref=e228]: Tenaga Pengolah Sampah
+              - option [ref=e229]: Tidak Ada
+            - combobox [ref=e232]:
+              - list [ref=e233]:
+                - listitem [ref=e234]:
+                  - textbox "Semua Jabatan" [ref=e235]
+        - generic [ref=e236]:
+          - button "Filter" [ref=e238] [cursor=pointer]
+          - button " Download" [ref=e240] [cursor=pointer]:
+            - generic [ref=e241]: 
+            - text: Download
+      - separator [ref=e242]
+      - generic [ref=e244]:
+        - generic [ref=e246]:
+          - link "" [ref=e248] [cursor=pointer]:
+            - /url: "#"
+            - heading "" [level=3] [ref=e249]:
+              - generic [ref=e250]: 
+          - generic [ref=e252]:
+            - img "A ZAENAL MUTAQIN" [ref=e254]
+            - generic [ref=e255]:
+              - heading "A ZAENAL MUTAQIN" [level=4] [ref=e256]:
+                - link "A ZAENAL MUTAQIN" [ref=e257] [cursor=pointer]:
+                  - /url: https://hris.dlhk.arkamaya.net/employee/id/3423
+              - paragraph [ref=e258]:
+                - superscript [ref=e259]: (1819 1 032020 07051998)
+                - superscript [ref=e260]: 5 tahun 5 bulan
+                - text: Petugas Pengumpul Sampah
+        - generic [ref=e262]:
+          - link "" [ref=e264] [cursor=pointer]:
+            - /url: "#"
+            - heading "" [level=3] [ref=e265]:
+              - generic [ref=e266]: 
+          - generic [ref=e268]:
+            - img "A. DEDE" [ref=e270]
+            - generic [ref=e271]:
+              - heading "A. DEDE" [level=4] [ref=e272]:
+                - link "A. DEDE" [ref=e273] [cursor=pointer]:
+                  - /url: https://hris.dlhk.arkamaya.net/employee/id/2367
+              - paragraph [ref=e274]:
+                - superscript [ref=e275]: (0062 1 102020 12041986)
+                - superscript [ref=e276]: 5 tahun 10 bulan
+                - text: Kepala Zona
+        - generic [ref=e278]:
+          - link "" [ref=e280] [cursor=pointer]:
+            - /url: "#"
+            - heading "" [level=3] [ref=e281]:
+              - generic [ref=e282]: 
+          - generic [ref=e284]:
+            - img "A.I. HADIANTO" [ref=e286]
+            - generic [ref=e287]:
+              - heading "A.I. HADIANTO" [level=4] [ref=e288]:
+                - link "A.I. HADIANTO" [ref=e289] [cursor=pointer]:
+                  - /url: https://hris.dlhk.arkamaya.net/employee/id/241
+              - paragraph [ref=e290]:
+                - superscript [ref=e291]: (0522 1 102021 12011983)
+                - superscript [ref=e292]: 4 tahun 10 bulan
+                - text: Staf Administrasi
+        - generic [ref=e294]:
+          - link "" [ref=e296] [cursor=pointer]:
+            - /url: "#"
+            - heading "" [level=3] [ref=e297]:
+              - generic [ref=e298]: 
+          - generic [ref=e300]:
+            - img "AAN" [ref=e302]
+            - generic [ref=e303]:
+              - heading "AAN" [level=4] [ref=e304]:
+                - link "AAN" [ref=e305] [cursor=pointer]:
+                  - /url: https://hris.dlhk.arkamaya.net/employee/id/2583
+              - paragraph [ref=e306]:
+                - superscript [ref=e307]: (1002 1 102020 10021971)
+                - superscript [ref=e308]: 5 tahun 10 bulan
+                - text: Petugas Pengumpul Sampah
+        - generic [ref=e310]:
+          - link "" [ref=e312] [cursor=pointer]:
+            - /url: "#"
+            - heading "" [level=3] [ref=e313]:
+              - generic [ref=e314]: 
+          - generic [ref=e316]:
+            - img "AAN SETIAWAN" [ref=e318]
+            - generic [ref=e319]:
+              - heading "AAN SETIAWAN" [level=4] [ref=e320]:
+                - link "AAN SETIAWAN" [ref=e321] [cursor=pointer]:
+                  - /url: https://hris.dlhk.arkamaya.net/employee/id/42
+              - paragraph [ref=e322]:
+                - superscript [ref=e323]: (0160 1 102021 25051978)
+                - superscript [ref=e324]: 4 tahun 10 bulan
+                - text: Penagih Jasa Layanan/Mark
+        - generic [ref=e326]:
+          - link "" [ref=e328] [cursor=pointer]:
+            - /url: "#"
+            - heading "" [level=3] [ref=e329]:
+              - generic [ref=e330]: 
+          - generic [ref=e332]:
+            - img "AAN SUPIAN" [ref=e334]
+            - generic [ref=e335]:
+              - heading "AAN SUPIAN" [level=4] [ref=e336]:
+                - link "AAN SUPIAN" [ref=e337] [cursor=pointer]:
+                  - /url: https://hris.dlhk.arkamaya.net/employee/id/1013
+              - paragraph [ref=e338]:
+                - superscript [ref=e339]: (0228 1 102021 06071969)
+                - superscript [ref=e340]: 4 tahun 10 bulan
+                - text: Pengemudi Truck Rute
+        - generic [ref=e342]:
+          - link "" [ref=e344] [cursor=pointer]:
+            - /url: "#"
+            - heading "" [level=3] [ref=e345]:
+              - generic [ref=e346]: 
+          - generic [ref=e348]:
+            - img "AANG HERMAWAN" [ref=e350]
+            - generic [ref=e351]:
+              - heading "AANG HERMAWAN" [level=4] [ref=e352]:
+                - link "AANG HERMAWAN" [ref=e353] [cursor=pointer]:
+                  - /url: https://hris.dlhk.arkamaya.net/employee/id/4427
+              - paragraph [ref=e354]:
+                - superscript [ref=e355]: (1850 1 032022 18101988)
+                - superscript [ref=e356]: 4 tahun 4 bulan
+                - text: Petugas Pengumpul Sampah
+        - generic [ref=e358]:
+          - link "" [ref=e360] [cursor=pointer]:
+            - /url: "#"
+            - heading "" [level=3] [ref=e361]:
+              - generic [ref=e362]: 
+          - generic [ref=e364]:
+            - img "ABAR SURJAMIN" [ref=e366]
+            - generic [ref=e367]:
+              - heading "ABAR SURJAMIN" [level=4] [ref=e368]:
+                - link "ABAR SURJAMIN" [ref=e369] [cursor=pointer]:
+                  - /url: https://hris.dlhk.arkamaya.net/employee/id/2368
+              - paragraph [ref=e370]:
+                - superscript [ref=e371]: (0063 1 102020 25121975)
+                - superscript [ref=e372]: 5 tahun 10 bulan
+                - text: Kepala Zona
+        - generic [ref=e374]:
+          - link "" [ref=e376] [cursor=pointer]:
+            - /url: "#"
+            - heading "" [level=3] [ref=e377]:
+              - generic [ref=e378]: 
+          - generic [ref=e380]:
+            - img "ABDUL DAHLAN" [ref=e382]
+            - generic [ref=e383]:
+              - heading "ABDUL DAHLAN" [level=4] [ref=e384]:
+                - link "ABDUL DAHLAN" [ref=e385] [cursor=pointer]:
+                  - /url: https://hris.dlhk.arkamaya.net/employee/id/222
+              - paragraph [ref=e386]:
+                - superscript [ref=e387]: (0461 1 102021 27091981)
+                - superscript [ref=e388]: 4 tahun 10 bulan
+                - text: Pengemudi Mobil Pengumpul
+        - generic [ref=e390]:
+          - link "" [ref=e392] [cursor=pointer]:
+            - /url: "#"
+            - heading "" [level=3] [ref=e393]:
+              - generic [ref=e394]: 
+          - generic [ref=e396]:
+            - img "ABDUL GOFUR" [ref=e398]
+            - generic [ref=e399]:
+              - heading "ABDUL GOFUR" [level=4] [ref=e400]:
+                - link "ABDUL GOFUR" [ref=e401] [cursor=pointer]:
+                  - /url: https://hris.dlhk.arkamaya.net/employee/id/1377
+              - paragraph [ref=e402]:
+                - superscript [ref=e403]: (0320 1 102021 08071980)
+                - superscript [ref=e404]: 4 tahun 10 bulan
+                - text: Pengemudi Truck ke TPA
+        - generic [ref=e406]:
+          - link "" [ref=e408] [cursor=pointer]:
+            - /url: "#"
+            - heading "" [level=3] [ref=e409]:
+              - generic [ref=e410]: 
+          - generic [ref=e412]:
+            - img "ABDUL HOLIKIN" [ref=e414]
+            - generic [ref=e415]:
+              - heading "ABDUL HOLIKIN" [level=4] [ref=e416]:
+                - link "ABDUL HOLIKIN" [ref=e417] [cursor=pointer]:
+                  - /url: https://hris.dlhk.arkamaya.net/employee/id/33
+              - paragraph [ref=e418]:
+                - superscript [ref=e419]: (0718 1 102021 21071987)
+                - superscript [ref=e420]: 4 tahun 10 bulan
+                - text: Kru Truck/Mobil
+        - generic [ref=e422]:
+          - link "" [ref=e424] [cursor=pointer]:
+            - /url: "#"
+            - heading "" [level=3] [ref=e425]:
+              - generic [ref=e426]: 
+          - generic [ref=e428]:
+            - img "ABDUL RACHMAN" [ref=e430]
+            - generic [ref=e431]:
+              - heading "ABDUL RACHMAN" [level=4] [ref=e432]:
+                - link "ABDUL RACHMAN" [ref=e433] [cursor=pointer]:
+                  - /url: https://hris.dlhk.arkamaya.net/employee/id/2315
+              - paragraph [ref=e434]:
+                - superscript [ref=e435]: (0460 1 102021 27051993)
+                - superscript [ref=e436]: 4 tahun 10 bulan
+                - text: Pengemudi Mobil Pengumpul
+        - generic [ref=e438]:
+          - link "" [ref=e440] [cursor=pointer]:
+            - /url: "#"
+            - heading "" [level=3] [ref=e441]:
+              - generic [ref=e442]: 
+          - generic [ref=e444]:
+            - img "ABDUL RIDWAN ROCHMAN" [ref=e446]
+            - generic [ref=e447]:
+              - heading "ABDUL RIDWAN ROC..." [level=4] [ref=e448]:
+                - link "ABDUL RIDWAN ROC..." [ref=e449] [cursor=pointer]:
+                  - /url: https://hris.dlhk.arkamaya.net/employee/id/3216
+              - paragraph [ref=e450]:
+                - superscript [ref=e451]: (0122 1 032020 28071996)
+                - superscript [ref=e452]: 6 tahun 5 bulan
+                - text: Asisten Administrasi
+        - generic [ref=e454]:
+          - link "" [ref=e456] [cursor=pointer]:
+            - /url: "#"
+            - heading "" [level=3] [ref=e457]:
+              - generic [ref=e458]: 
+          - generic [ref=e460]:
+            - img "ABDUL ROHMAN, S.Sos" [ref=e462]
+            - generic [ref=e463]:
+              - heading "ABDUL ROHMAN, S...." [level=4] [ref=e464]:
+                - link "ABDUL ROHMAN, S...." [ref=e465] [cursor=pointer]:
+                  - /url: https://hris.dlhk.arkamaya.net/employee/id/94
+              - paragraph [ref=e466]:
+                - superscript [ref=e467]: (0186 1 102021 07071972)
+                - superscript [ref=e468]: 4 tahun 10 bulan
+                - text: Penagih Jasa Layanan PSI
+        - generic [ref=e470]:
+          - link "" [ref=e472] [cursor=pointer]:
+            - /url: "#"
+            - heading "" [level=3] [ref=e473]:
+              - generic [ref=e474]: 
+          - generic [ref=e476]:
+            - img "ACA SURYANA" [ref=e478]
+            - generic [ref=e479]:
+              - heading "ACA SURYANA" [level=4] [ref=e480]:
+                - link "ACA SURYANA" [ref=e481] [cursor=pointer]:
+                  - /url: https://hris.dlhk.arkamaya.net/employee/id/2369
+              - paragraph [ref=e482]:
+                - superscript [ref=e483]: (0064 1 102020 15011974)
+                - superscript [ref=e484]: 5 tahun 10 bulan
+                - text: Kepala Zona
+        - generic [ref=e486]:
+          - link "" [ref=e488] [cursor=pointer]:
+            - /url: "#"
+            - heading "" [level=3] [ref=e489]:
+              - generic [ref=e490]: 
+          - generic [ref=e492]:
+            - img "ACE SUMIRTA" [ref=e494]
+            - generic [ref=e495]:
+              - heading "ACE SUMIRTA" [level=4] [ref=e496]:
+                - link "ACE SUMIRTA" [ref=e497] [cursor=pointer]:
+                  - /url: https://hris.dlhk.arkamaya.net/employee/id/2585
+              - paragraph [ref=e498]:
+                - superscript [ref=e499]: (1004 1 102020 13031972)
+                - superscript [ref=e500]: 5 tahun 10 bulan
+                - text: Petugas Pengumpul Sampah
+      - separator [ref=e501]
+      - generic [ref=e502]:
+        - generic [ref=e503]:
+          - generic [ref=e504] [cursor=pointer]: "1"
+          - link "2" [ref=e506] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/employee/get_employees/16
+          - link "3" [ref=e508] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/employee/get_employees/32
+          - link "4" [ref=e510] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/employee/get_employees/48
+          - link "5" [ref=e512] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/employee/get_employees/64
+          - link "6" [ref=e514] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/employee/get_employees/80
+          - link "" [ref=e515] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/employee/get_employees/16
+            - button "" [ref=e516]:
+              - generic [ref=e517]: 
+          - link "" [ref=e518] [cursor=pointer]:
+            - /url: https://hris.dlhk.arkamaya.net/employee/get_employees/1696
+            - button "" [ref=e519]:
+              - generic [ref=e520]: 
+        - generic [ref=e521]:
+          - checkbox "Tampilkan Pegawai Tidak Aktif" [ref=e522] [cursor=pointer]
+          - generic [ref=e523] [cursor=pointer]: Tampilkan Pegawai Tidak Aktif
+          - text: "|"
+        - generic [ref=e524]:
+          - text: Menampilkan
+          - strong [ref=e525]: 1-16
+          - text: dari
+          - strong [ref=e526]: "1698"
+          - text: Total Pegawai
+    - contentinfo [ref=e527]:
+      - text: © 2017
+      - link "Personalia.id" [ref=e528] [cursor=pointer]:
+        - /url: https://www.personalia.id
