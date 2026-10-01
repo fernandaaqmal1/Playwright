@@ -46,6 +46,14 @@ export default defineConfig({
         baseURL: 'https://www.saucedemo.com/',
       },
     },
+    {
+      name: 'Personalia 2.0',
+      testDir: './tests/Personalia2.0',
+      use: {
+        ...devices['Desktop Chrome'],
+        baseURL: 'https://dev.personalia.arkamaya.net/',
+      },
+    },
   ],
 
   /* Test against mobile viewports. */
